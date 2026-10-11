@@ -1,0 +1,233 @@
+{
+  "layer7": {
+    "rank_fraction": {
+      "gate_proj": 0.7089789496527779,
+      "up_proj": 0.7291531032986112,
+      "down_proj": 0.6745198567708334
+    },
+    "overlap": {
+      "gate_proj": {
+        "mean_ratio_to_random": 1.0225660735377031,
+        "p99_ratio_to_random": 1.049260324472603,
+        "max_ratio_to_random": 1.070719533058482
+      },
+      "up_proj": {
+        "mean_ratio_to_random": 1.0220343992714593,
+        "p99_ratio_to_random": 1.0484409989237706,
+        "max_ratio_to_random": 1.069581836113299
+      },
+      "down_proj": {
+        "mean_ratio_to_random": 1.0646746023048455,
+        "p99_ratio_to_random": 1.1179525214760573,
+        "max_ratio_to_random": 1.299720808451948
+      },
+      "mean_over_projections_top": [
+        {
+          "pair": [
+            56,
+            84
+          ],
+          "ratio_to_random": 1.120363807946963
+        },
+        {
+          "pair": [
+            71,
+            84
+          ],
+          "ratio_to_random": 1.1124447439479503
+        },
+        {
+          "pair": [
+            30,
+            84
+          ],
+          "ratio_to_random": 1.0904772147816901
+        },
+        {
+          "pair": [
+            37,
+            84
+          ],
+          "ratio_to_random": 1.0782917268249925
+        },
+        {
+          "pair": [
+            44,
+            84
+          ],
+          "ratio_to_random": 1.0769534759074004
+        }
+      ]
+    },
+    "random": {
+      "observed_mean": 0.21553810865471018,
+      "null_mean": 0.23760516381467942,
+      "difference_mean": -0.022067055159969227,
+      "difference_min": -0.03327641994406236,
+      "relative_to_null": -0.09287279285386435,
+      "pairs_below_null_min": 32
+    },
+    "top_overlap": {
+      "observed_mean": 0.16393281159412335,
+      "null_mean": 0.19555715446792615,
+      "difference_mean": -0.03162434287380279,
+      "difference_min": -0.041610627987151205,
+      "relative_to_null": -0.16171406747989667,
+      "pairs_below_null_min": 5
+    }
+  },
+  "layer18": {
+    "rank_fraction": {
+      "gate_proj": 0.6780951605902779,
+      "up_proj": 0.7194444444444444,
+      "down_proj": 0.6779079861111111
+    },
+    "overlap": {
+      "gate_proj": {
+        "mean_ratio_to_random": 1.0163455997993307,
+        "p99_ratio_to_random": 1.0428477232549749,
+        "max_ratio_to_random": 1.1097775936153864
+      },
+      "up_proj": {
+        "mean_ratio_to_random": 1.013003993058383,
+        "p99_ratio_to_random": 1.0286459989642518,
+        "max_ratio_to_random": 1.0517002655053262
+      },
+      "down_proj": {
+        "mean_ratio_to_random": 1.078464614404573,
+        "p99_ratio_to_random": 1.1006355222754036,
+        "max_ratio_to_random": 1.1206597906272335
+      },
+      "mean_over_projections_top": [
+        {
+          "pair": [
+            21,
+            25
+          ],
+          "ratio_to_random": 1.08283245087138
+        },
+        {
+          "pair": [
+            60,
+            99
+          ],
+          "ratio_to_random": 1.0759338853515166
+        },
+        {
+          "pair": [
+            21,
+            82
+          ],
+          "ratio_to_random": 1.07290705398932
+        },
+        {
+          "pair": [
+            25,
+            99
+          ],
+          "ratio_to_random": 1.069309190398484
+        },
+        {
+          "pair": [
+            13,
+            108
+          ],
+          "ratio_to_random": 1.0687365621026779
+        }
+      ]
+    },
+    "random": {
+      "observed_mean": 0.21653646496496937,
+      "null_mean": 0.24052531654511095,
+      "difference_mean": -0.02398885158014162,
+      "difference_min": -0.03381781455779556,
+      "relative_to_null": -0.09973524585567885,
+      "pairs_below_null_min": 32
+    },
+    "top_overlap": {
+      "observed_mean": 0.24405792919960598,
+      "null_mean": 0.2832610942200873,
+      "difference_mean": -0.039203165020481316,
+      "difference_min": -0.04184223544714302,
+      "relative_to_null": -0.13839939836574017,
+      "pairs_below_null_min": 5
+    }
+  },
+  "layer29": {
+    "rank_fraction": {
+      "gate_proj": 0.7268500434027778,
+      "up_proj": 0.7444986979166667,
+      "down_proj": 0.7247124565972223
+    },
+    "overlap": {
+      "gate_proj": {
+        "mean_ratio_to_random": 1.0153674034778497,
+        "p99_ratio_to_random": 1.0307677318823845,
+        "max_ratio_to_random": 1.040484143523427
+      },
+      "up_proj": {
+        "mean_ratio_to_random": 1.0138051961080254,
+        "p99_ratio_to_random": 1.0269698253676844,
+        "max_ratio_to_random": 1.0358035775597956
+      },
+      "down_proj": {
+        "mean_ratio_to_random": 1.0408546573706563,
+        "p99_ratio_to_random": 1.0608503274622436,
+        "max_ratio_to_random": 1.0705477582743075
+      },
+      "mean_over_projections_top": [
+        {
+          "pair": [
+            34,
+            53
+          ],
+          "ratio_to_random": 1.0476513887175525
+        },
+        {
+          "pair": [
+            53,
+            127
+          ],
+          "ratio_to_random": 1.0469401988863487
+        },
+        {
+          "pair": [
+            25,
+            53
+          ],
+          "ratio_to_random": 1.0447217028519573
+        },
+        {
+          "pair": [
+            53,
+            69
+          ],
+          "ratio_to_random": 1.0447060725511002
+        },
+        {
+          "pair": [
+            18,
+            53
+          ],
+          "ratio_to_random": 1.0445112962521483
+        }
+      ]
+    },
+    "random": {
+      "observed_mean": 0.20629393558979942,
+      "null_mean": 0.2239612397723839,
+      "difference_mean": -0.017667304182584487,
+      "difference_min": -0.025614420996801945,
+      "relative_to_null": -0.07888554376882405,
+      "pairs_below_null_min": 32
+    },
+    "top_overlap": {
+      "observed_mean": 0.20737852084165306,
+      "null_mean": 0.23886277713862053,
+      "difference_mean": -0.03148425629696747,
+      "difference_min": -0.03246658057283783,
+      "relative_to_null": -0.13180896862258298,
+      "pairs_below_null_min": 5
+    }
+  }
+}

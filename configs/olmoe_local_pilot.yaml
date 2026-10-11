@@ -1,0 +1,29 @@
+seed: 17
+
+model:
+  id: allenai/OLMoE-1B-7B-0924
+  revision: 6d84c48581ece794365f2b8e9cfb043c68ade9c5
+  dtype: float16
+  layer: 8
+
+data:
+  dataset: Salesforce/wikitext
+  subset: wikitext-2-raw-v1
+  text_field: text
+  calibration_split: train
+  evaluation_split: validation
+  block_size: 256
+  calibration_blocks: 1
+  evaluation_blocks: 4
+
+experiment:
+  num_pairs: 8
+  calibration_tokens: 128
+  activation_chunk_tokens: 16
+  eval_batch_size: 1
+  reconstruction_errors: [0.01, 0.05, 0.10, 0.20]
+  merge_alpha: 0.5
+  primary_reconstruction_error: 0.10
+  bootstrap_samples: 500
+
+output_dir: results/olmoe_local_pilot

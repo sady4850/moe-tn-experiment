@@ -1,0 +1,62 @@
+{
+  "gate_proj": {
+    "method": "shared",
+    "shape": [
+      64,
+      1024,
+      2048
+    ],
+    "ranks": [
+      1588
+    ],
+    "whitening": "input",
+    "rank_policy": null,
+    "orientation": "input",
+    "original_parameters": 134217728,
+    "stored_parameters": 107323392,
+    "stored_bytes": 214646784,
+    "retained_fraction": 0.79962158203125,
+    "relative_frobenius_error": 0.40699973171086756,
+    "relative_input_weighted_error": 0.15797996046014962
+  },
+  "up_proj": {
+    "method": "shared",
+    "shape": [
+      64,
+      1024,
+      2048
+    ],
+    "ranks": [
+      1588
+    ],
+    "whitening": "input",
+    "rank_policy": null,
+    "orientation": "input",
+    "original_parameters": 134217728,
+    "stored_parameters": 107323392,
+    "stored_bytes": 214646784,
+    "retained_fraction": 0.79962158203125,
+    "relative_frobenius_error": 0.4269572183110243,
+    "relative_input_weighted_error": 0.19522153429787847
+  },
+  "down_proj": {
+    "method": "shared",
+    "shape": [
+      64,
+      2048,
+      1024
+    ],
+    "ranks": [
+      1588
+    ],
+    "whitening": "input",
+    "rank_policy": null,
+    "orientation": "output",
+    "original_parameters": 134217728,
+    "stored_parameters": 107323392,
+    "stored_bytes": 214646784,
+    "retained_fraction": 0.79962158203125,
+    "relative_frobenius_error": 0.3482784584381194,
+    "relative_input_weighted_error": 0.34373269662680916
+  }
+}

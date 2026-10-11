@@ -1,0 +1,104 @@
+{
+  "method": "svd_input",
+  "fraction": 0.8,
+  "retained_fraction": 0.7998046875,
+  "stored_bytes": 644087808,
+  "block_nll": [
+    2.298416764768836,
+    2.6369652794765166,
+    3.0178695648850296,
+    2.911591233106042,
+    2.4735028589774952,
+    2.903230013912671,
+    2.7322419944807974,
+    2.450516374143836,
+    2.371513232326321,
+    2.5523392589591487,
+    2.8772147042410716,
+    3.0147523525409734,
+    2.0507936720278863,
+    2.06543112081091,
+    2.18259855445817,
+    2.1006272646312376,
+    2.286552294826321,
+    2.755183807791096,
+    2.7618625588613015,
+    2.892827043328033,
+    2.5180647340539384,
+    2.976885472725049,
+    3.1358257973030823,
+    3.1684713643590996,
+    2.570887496560054,
+    2.3517755855552838,
+    2.362069624510763,
+    2.140843579913772,
+    2.769991103916952,
+    2.9034462049749266,
+    2.9554911574272262,
+    2.8696160064518104
+  ],
+  "delta_nll": 0.01311238357932136,
+  "seconds_this_attempt": 20.491240702,
+  "projections": {
+    "gate_proj": {
+      "method": "svd",
+      "shape": [
+        64,
+        1024,
+        2048
+      ],
+      "ranks": [
+        546
+      ],
+      "whitening": "input",
+      "rank_policy": null,
+      "orientation": null,
+      "original_parameters": 134217728,
+      "stored_parameters": 107347968,
+      "stored_bytes": 214695936,
+      "retained_fraction": 0.7998046875,
+      "relative_frobenius_error": 0.3845482191990055,
+      "relative_input_weighted_error": 0.2031756938387857
+    },
+    "up_proj": {
+      "method": "svd",
+      "shape": [
+        64,
+        1024,
+        2048
+      ],
+      "ranks": [
+        546
+      ],
+      "whitening": "input",
+      "rank_policy": null,
+      "orientation": null,
+      "original_parameters": 134217728,
+      "stored_parameters": 107347968,
+      "stored_bytes": 214695936,
+      "retained_fraction": 0.7998046875,
+      "relative_frobenius_error": 0.42098039230678436,
+      "relative_input_weighted_error": 0.2624414849005675
+    },
+    "down_proj": {
+      "method": "svd",
+      "shape": [
+        64,
+        2048,
+        1024
+      ],
+      "ranks": [
+        546
+      ],
+      "whitening": "input",
+      "rank_policy": null,
+      "orientation": null,
+      "original_parameters": 134217728,
+      "stored_parameters": 107347968,
+      "stored_bytes": 214695936,
+      "retained_fraction": 0.7998046875,
+      "relative_frobenius_error": 0.37931521043356314,
+      "relative_input_weighted_error": 0.350897207990715
+    }
+  }
+}

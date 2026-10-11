@@ -1,0 +1,369 @@
+{
+  "corpora": {
+    "wikitext": {
+      "hybrids": {
+        "tucker_gate": {
+          "variant": "tucker_gate",
+          "projection_sources": {
+            "gate_proj": "tucker_input_r48",
+            "up_proj": "svd_input",
+            "down_proj": "svd_input"
+          },
+          "projections": {
+            "gate_proj": {
+              "source_method": "tucker_input_r48",
+              "source_file": "results/compression_crosslayer_3/tucker_input_r48_0.4/gate_proj.pt",
+              "ranks": [
+                48,
+                720,
+                1440
+              ],
+              "stored_bytes": 106911744,
+              "stored_parameters": 53455872,
+              "original_parameters": 134217728
+            },
+            "up_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/up_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            },
+            "down_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/down_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            }
+          },
+          "stored_bytes": 321607680,
+          "retained_fraction": 0.39936065673828125,
+          "delta_nll": 0.029271986153261077,
+          "minus_svd": {
+            "mean": -0.023079060295090027,
+            "paired_95_ci": [
+              -0.036851294399940795,
+              -0.012059893953356918
+            ]
+          }
+        },
+        "tucker_up": {
+          "variant": "tucker_up",
+          "projection_sources": {
+            "gate_proj": "svd_input",
+            "up_proj": "tucker_input_r48",
+            "down_proj": "svd_input"
+          },
+          "projections": {
+            "gate_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/gate_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            },
+            "up_proj": {
+              "source_method": "tucker_input_r48",
+              "source_file": "results/compression_crosslayer_3/tucker_input_r48_0.4/up_proj.pt",
+              "ranks": [
+                48,
+                720,
+                1440
+              ],
+              "stored_bytes": 106911744,
+              "stored_parameters": 53455872,
+              "original_parameters": 134217728
+            },
+            "down_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/down_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            }
+          },
+          "stored_bytes": 321607680,
+          "retained_fraction": 0.39936065673828125,
+          "delta_nll": 0.020114827762611268,
+          "minus_svd": {
+            "mean": -0.03223621868573984,
+            "paired_95_ci": [
+              -0.04096118186084717,
+              -0.02481327355491202
+            ]
+          }
+        },
+        "tucker_down": {
+          "variant": "tucker_down",
+          "projection_sources": {
+            "gate_proj": "svd_input",
+            "up_proj": "svd_input",
+            "down_proj": "tucker_input_r48"
+          },
+          "projections": {
+            "gate_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/gate_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            },
+            "up_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/up_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            },
+            "down_proj": {
+              "source_method": "tucker_input_r48",
+              "source_file": "results/compression_crosslayer_3/tucker_input_r48_0.4/down_proj.pt",
+              "ranks": [
+                48,
+                1440,
+                720
+              ],
+              "stored_bytes": 106911744,
+              "stored_parameters": 53455872,
+              "original_parameters": 134217728
+            }
+          },
+          "stored_bytes": 321607680,
+          "retained_fraction": 0.39936065673828125,
+          "delta_nll": 0.0750685652641401,
+          "minus_svd": {
+            "mean": 0.02271751881578899,
+            "paired_95_ci": [
+              0.01914205625799071,
+              0.026353475212351013
+            ]
+          }
+        }
+      },
+      "full_tucker_minus_svd": {
+        "mean": -0.014030366961036857,
+        "paired_95_ci": [
+          -0.02665316755291067,
+          -0.003426781839120669
+        ]
+      },
+      "sum_single_projection_effects": {
+        "mean": -0.03259776016504087,
+        "paired_95_ci": [
+          -0.05459138586563133,
+          -0.014336682765684457
+        ]
+      },
+      "nonadditivity_residual": {
+        "mean": 0.018567393204004017,
+        "paired_95_ci": [
+          0.009323352003750588,
+          0.028762488729099835
+        ]
+      }
+    },
+    "c4": {
+      "hybrids": {
+        "tucker_gate": {
+          "variant": "tucker_gate",
+          "projection_sources": {
+            "gate_proj": "tucker_input_r48",
+            "up_proj": "svd_input",
+            "down_proj": "svd_input"
+          },
+          "projections": {
+            "gate_proj": {
+              "source_method": "tucker_input_r48",
+              "source_file": "results/compression_crosslayer_3/tucker_input_r48_0.4/gate_proj.pt",
+              "ranks": [
+                48,
+                720,
+                1440
+              ],
+              "stored_bytes": 106911744,
+              "stored_parameters": 53455872,
+              "original_parameters": 134217728
+            },
+            "up_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/up_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            },
+            "down_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/down_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            }
+          },
+          "stored_bytes": 321607680,
+          "retained_fraction": 0.39936065673828125,
+          "delta_nll": 0.050447880871841835,
+          "minus_svd": {
+            "mean": 0.02419625266424131,
+            "paired_95_ci": [
+              0.021431839571073804,
+              0.027393837730945194
+            ]
+          }
+        },
+        "tucker_up": {
+          "variant": "tucker_up",
+          "projection_sources": {
+            "gate_proj": "svd_input",
+            "up_proj": "tucker_input_r48",
+            "down_proj": "svd_input"
+          },
+          "projections": {
+            "gate_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/gate_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            },
+            "up_proj": {
+              "source_method": "tucker_input_r48",
+              "source_file": "results/compression_crosslayer_3/tucker_input_r48_0.4/up_proj.pt",
+              "ranks": [
+                48,
+                720,
+                1440
+              ],
+              "stored_bytes": 106911744,
+              "stored_parameters": 53455872,
+              "original_parameters": 134217728
+            },
+            "down_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/down_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            }
+          },
+          "stored_bytes": 321607680,
+          "retained_fraction": 0.39936065673828125,
+          "delta_nll": 0.044520034715387444,
+          "minus_svd": {
+            "mean": 0.01826840650778692,
+            "paired_95_ci": [
+              0.01417419871938671,
+              0.02294913536181886
+            ]
+          }
+        },
+        "tucker_down": {
+          "variant": "tucker_down",
+          "projection_sources": {
+            "gate_proj": "svd_input",
+            "up_proj": "svd_input",
+            "down_proj": "tucker_input_r48"
+          },
+          "projections": {
+            "gate_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/gate_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            },
+            "up_proj": {
+              "source_method": "svd_input",
+              "source_file": "results/compression_crosslayer_3/svd_input_0.4/up_proj.pt",
+              "ranks": [
+                273
+              ],
+              "stored_bytes": 107347968,
+              "stored_parameters": 53673984,
+              "original_parameters": 134217728
+            },
+            "down_proj": {
+              "source_method": "tucker_input_r48",
+              "source_file": "results/compression_crosslayer_3/tucker_input_r48_0.4/down_proj.pt",
+              "ranks": [
+                48,
+                1440,
+                720
+              ],
+              "stored_bytes": 106911744,
+              "stored_parameters": 53455872,
+              "original_parameters": 134217728
+            }
+          },
+          "stored_bytes": 321607680,
+          "retained_fraction": 0.39936065673828125,
+          "delta_nll": 0.03605151176452638,
+          "minus_svd": {
+            "mean": 0.009799883556925851,
+            "paired_95_ci": [
+              0.005968004406781571,
+              0.014187656713325215
+            ]
+          }
+        }
+      },
+      "full_tucker_minus_svd": {
+        "mean": 0.025802563314568504,
+        "paired_95_ci": [
+          0.021696989760240235,
+          0.030759516434193595
+        ]
+      },
+      "sum_single_projection_effects": {
+        "mean": 0.05226454272895408,
+        "paired_95_ci": [
+          0.04230223275327398,
+          0.06394097056757446
+        ]
+      },
+      "nonadditivity_residual": {
+        "mean": -0.026461979414385578,
+        "paired_95_ci": [
+          -0.03347792051542995,
+          -0.02022072241847526
+        ]
+      }
+    }
+  },
+  "candidates_negative_on_both": [],
+  "scope": "Diagnostic reuse of known evaluations, single layer/calibration/budget. Nonadditivity combines pairwise and higher-order interactions; it does not identify each interaction. New-data confirmation required after selection. Dense reconstruction, no runtime memory/speed claim.",
+  "checks": "Source SHA256 unchanged, exact original baselines, exact four full-method reconstruction controls, exact final original-model restoration checks. All six hybrids use declared saved projection factors."
+}

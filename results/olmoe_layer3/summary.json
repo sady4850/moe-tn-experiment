@@ -1,0 +1,334 @@
+{
+  "interpretation": "Predictors are oriented so lower means 'safer to merge'; positive Spearman therefore means the signal correctly tracks greater merge damage.",
+  "metrics": {
+    "activation_cosine": {
+      "selected_pairs": [
+        [
+          27,
+          32
+        ],
+        [
+          52,
+          59
+        ],
+        [
+          30,
+          59
+        ],
+        [
+          20,
+          57
+        ],
+        [
+          36,
+          41
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        -0.3762900808989179,
+        0.220760148409266
+      ],
+      "spearman_with_damage": -0.08282674772036473,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.0010529266178259888,
+      "top_k_worst_delta_nll": 0.0022798601661877527
+    },
+    "random_pair_reference": {
+      "best_observed_delta_nll": -0.05507954039452345,
+      "mean_delta_nll": 0.0013866900464561775,
+      "median_delta_nll": 0.0020489440738806763,
+      "worst_observed_delta_nll": 0.010871879741870316
+    },
+    "router_co_routing": {
+      "selected_pairs": [
+        [
+          29,
+          53
+        ],
+        [
+          53,
+          60
+        ],
+        [
+          19,
+          63
+        ],
+        [
+          40,
+          61
+        ],
+        [
+          36,
+          41
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        -0.4319317427171851,
+        0.11109168523894385
+      ],
+      "spearman_with_damage": -0.1662936899856732,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.0024446013389036736,
+      "top_k_worst_delta_nll": 0.005430732921145154
+    },
+    "router_probability_sum": {
+      "selected_pairs": [
+        [
+          27,
+          32
+        ],
+        [
+          21,
+          37
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          21,
+          53
+        ],
+        [
+          19,
+          21
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        0.055598835183772136,
+        0.5626818678052246
+      ],
+      "spearman_with_damage": 0.3233825445071646,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.0020474323787802893,
+      "top_k_worst_delta_nll": 0.0058458481282870345
+    },
+    "router_usage_sum": {
+      "selected_pairs": [
+        [
+          5,
+          10
+        ],
+        [
+          27,
+          32
+        ],
+        [
+          6,
+          46
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          21,
+          53
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        0.1465589385443285,
+        0.6238078891674528
+      ],
+      "spearman_with_damage": 0.41674359535380956,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.0006354658571010141,
+      "top_k_worst_delta_nll": 0.0013138160780221675
+    },
+    "tn_incremental_rank": {
+      "selected_pairs": [
+        [
+          29,
+          51
+        ],
+        [
+          36,
+          51
+        ],
+        [
+          5,
+          58
+        ],
+        [
+          28,
+          44
+        ],
+        [
+          33,
+          51
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        -0.22562793937155715,
+        0.3561392636952154
+      ],
+      "spearman_with_damage": 0.06458966565349543,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.003086524560260351,
+      "top_k_worst_delta_nll": 0.00398853100442631
+    },
+    "tn_incremental_rank_eps_0.0100": {
+      "selected_pairs": [
+        [
+          33,
+          51
+        ],
+        [
+          27,
+          32
+        ],
+        [
+          52,
+          59
+        ],
+        [
+          30,
+          59
+        ],
+        [
+          35,
+          47
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        -0.2728073874145043,
+        0.3518262822238674
+      ],
+      "spearman_with_damage": 0.03783392934125688,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.0011547484276581699,
+      "top_k_worst_delta_nll": 0.003445552519856232
+    },
+    "tn_incremental_rank_eps_0.0500": {
+      "selected_pairs": [
+        [
+          33,
+          51
+        ],
+        [
+          52,
+          59
+        ],
+        [
+          27,
+          32
+        ],
+        [
+          36,
+          51
+        ],
+        [
+          29,
+          51
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        -0.1882169381892443,
+        0.38112937210057923
+      ],
+      "spearman_with_damage": 0.10931393834129398,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.0021952455524364644,
+      "top_k_worst_delta_nll": 0.00398853100442631
+    },
+    "tn_incremental_rank_eps_0.1000": {
+      "selected_pairs": [
+        [
+          29,
+          51
+        ],
+        [
+          36,
+          51
+        ],
+        [
+          5,
+          58
+        ],
+        [
+          28,
+          44
+        ],
+        [
+          33,
+          51
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        -0.22562793937155715,
+        0.3561392636952154
+      ],
+      "spearman_with_damage": 0.06458966565349543,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.003086524560260351,
+      "top_k_worst_delta_nll": 0.00398853100442631
+    },
+    "tn_incremental_rank_eps_0.2000": {
+      "selected_pairs": [
+        [
+          29,
+          51
+        ],
+        [
+          5,
+          58
+        ],
+        [
+          36,
+          51
+        ],
+        [
+          28,
+          44
+        ],
+        [
+          13,
+          21
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        -0.28068964040265443,
+        0.3334295476171551
+      ],
+      "spearman_with_damage": 0.042227529309596175,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.002756156846735269,
+      "top_k_worst_delta_nll": 0.00398853100442631
+    },
+    "weight_cosine": {
+      "selected_pairs": [
+        [
+          35,
+          47
+        ],
+        [
+          52,
+          59
+        ],
+        [
+          19,
+          63
+        ],
+        [
+          10,
+          47
+        ],
+        [
+          9,
+          48
+        ]
+      ],
+      "spearman_bootstrap_95_ci": [
+        -0.43203356583058855,
+        0.14291853997067883
+      ],
+      "spearman_with_damage": -0.1545809813287017,
+      "top_k": 5,
+      "top_k_mean_delta_nll": 0.003186260604112068,
+      "top_k_worst_delta_nll": 0.010720247391851956
+    }
+  },
+  "num_pairs": 48,
+  "primary_reconstruction_error": 0.1,
+  "wall_seconds": 150.40912711299984
+}

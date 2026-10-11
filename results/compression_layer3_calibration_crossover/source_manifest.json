@@ -1,0 +1,15 @@
+{
+  "results/compression_layer3_c4/evaluation_blocks.pt": "920a2cd07f1dfbee584f47056efd5a7fe0468030c4dc51d130b3e21efaacc862",
+  "results/compression_layer3_c4/baseline_blocks.json": "c37da8faf703eebe5fef57a0f435c5c1ba14aaba9b8675087068b619d793fc6f",
+  "results/compression_layer3_c4/metadata.json": "5d6e30020e2ecc8b127f0da8f4cc2e267174b58e4605a05c4923e1766621d11e",
+  "results/compression_layer3_c4/svd_input_0.4/result.json": "9b620c71357bc8cab30555ddd439782ddb4937f76e48a6cd682020a602c94cb4",
+  "results/compression_layer3_c4/tucker_input_r64_0.4/result.json": "d40c4cf55ab9bd5ab0d3906459878a785e1ecda71e31efb26a7518050407ed2b",
+  "results/compression_layer3_c4/tucker_input_r48_0.4/result.json": "827dc6d75dce3446109564758652b4935c12d6b4655fa3263486d55fbcf152ee",
+  "results/compression_layer3_confirmation/evaluation_blocks.pt": "2f44f22dfc5e4266f26af000b01a109f8132c1455ebbb40040d1f75aedb3e520",
+  "results/compression_layer3_confirmation/baseline_blocks.json": "a57d08c08e6dfba9a6cacef5871ed5a8fe14dc1629efa95795c6f0720cc21631",
+  "results/compression_layer3_confirmation/metadata.json": "efcd8026f101a44f359f2e859fe114e3049ae5bfeb5627997d35ab1554cc3426",
+  "results/compression_layer3_confirmation/svd_input_0.4/result.json": "9b298e986ea409379b4cc5905103526c6c19957fb7ec2ffa3ebdac11997fad36",
+  "results/compression_layer3_confirmation/tucker_input_r64_0.4/result.json": "e0518a7330cbba1fee730fd838161b6c7759707d32d2df854c898b55423c14a4",
+  "results/compression_layer3_confirmation/tucker_input_r48_0.4/result.json": "dca87f7fd30ba4b49e8d2f32eee1d4af29922a026931431ceda3725bd3dc01c5",
+  "results/compression_layer3_c4/documents.json": "68cdbda5ec0fb43bb7fda169ecc382adde0bfb33e04cad5003e53b0f7cfd2792"
+}

@@ -1,0 +1,25 @@
+data:
+  block_size: 512
+  calibration_blocks: 64
+  calibration_split: train
+  dataset: Salesforce/wikitext
+  evaluation_blocks: 32
+  evaluation_split: validation
+  subset: wikitext-2-raw-v1
+  text_field: text
+  evaluation_offset_blocks: 32
+fractions:
+- 0.4
+methods:
+- svd_input
+- tucker_input_r64
+- tucker_input_r48
+model:
+  dtype: bfloat16
+  id: allenai/OLMoE-1B-7B-0924
+  layer: 3
+  revision: 6d84c48581ece794365f2b8e9cfb043c68ade9c5
+output_dir: results/compression_crosslayer_3
+seed: 17
+tucker_rank_policy: td_balanced
+whitening_relative_floor: 0.001

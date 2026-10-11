@@ -1,0 +1,25 @@
+seed: 17
+
+model:
+  id: __tiny_random_olmoe__
+  revision: null
+  dtype: float32
+  layer: 1
+
+data:
+  block_size: 16
+  calibration_blocks: 2
+  evaluation_blocks: 3
+
+experiment:
+  num_pairs: 4
+  calibration_tokens: 24
+  activation_chunk_tokens: 8
+  eval_batch_size: 1
+  reconstruction_errors: [0.05, 0.10, 0.20]
+  merge_alpha: 0.5
+  primary_reconstruction_error: 0.10
+  bootstrap_samples: 100
+
+output_dir: results/smoke
+

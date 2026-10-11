@@ -1,0 +1,58 @@
+{
+  "source": "results/compression_crosslayer_3",
+  "sha256": {
+    "calibration_blocks.pt": "85e70ccbd03483e3471985de6fa8723f222d1a65cc0c219cdcad6ab02e92baa3",
+    "calibration_moments.pt": "7a910691ded153c9bb9af558e567f7f808d30864e7afdb028b56b0a015d1997e",
+    "svd_input_0.4/gate_proj.pt": "f706e9520e924e3f452932bd570cb164250409974ce48b509073783b06f14ee7",
+    "svd_input_0.4/up_proj.pt": "1b2265d6140d8f6eb59619ed490825f8d3994be0510bee5b8565ba2b33820e94",
+    "svd_input_0.4/down_proj.pt": "b03d080340dfd1a46d82352bea79dbe9427004201fcf36306c77bef70d16e8d9",
+    "tucker_input_r64_0.4/gate_proj.pt": "a2bfd8bf5a1d7403ba4344a1fcd756e68dbc08de1c4d134dfc7aaa7079fc3781",
+    "tucker_input_r64_0.4/up_proj.pt": "3905453b28fcf7ec75acc95dae5e3223073feec39670ed723dc8a7425fe678ff",
+    "tucker_input_r64_0.4/down_proj.pt": "59dee0f612799b5ff3a88976394eee08d8f0499415361c040c47f2f91819cfed",
+    "tucker_input_r48_0.4/gate_proj.pt": "dd523db549f600a5216b9aa3d409200baad5e24e907b2054e66a646f555097c4",
+    "tucker_input_r48_0.4/up_proj.pt": "c270df163ee86bc851e37d275ac883ee316bf4b1346480c53cc7a54660f7af62",
+    "tucker_input_r48_0.4/down_proj.pt": "31849ca766893a79c5dd0a13ced5148dab2a73e42dc1bac53640f10bf9f8e4af"
+  },
+  "primary_comparison": "tucker_input_r48 minus svd_input on test blocks 32..95",
+  "success_rule": "negative mean paired NLL difference with paired block-bootstrap 95% CI below zero",
+  "source_signature": {
+    "config": {
+      "data": {
+        "block_size": 512,
+        "calibration_blocks": 64,
+        "calibration_split": "train",
+        "dataset": "Salesforce/wikitext",
+        "evaluation_blocks": 32,
+        "evaluation_split": "validation",
+        "subset": "wikitext-2-raw-v1",
+        "text_field": "text",
+        "evaluation_offset_blocks": 32
+      },
+      "fractions": [
+        0.4
+      ],
+      "methods": [
+        "svd_input",
+        "tucker_input_r64",
+        "tucker_input_r48"
+      ],
+      "model": {
+        "dtype": "bfloat16",
+        "id": "allenai/OLMoE-1B-7B-0924",
+        "layer": 3,
+        "revision": "6d84c48581ece794365f2b8e9cfb043c68ade9c5"
+      },
+      "output_dir": "results/compression_crosslayer_3",
+      "seed": 17,
+      "tucker_rank_policy": "td_balanced",
+      "whitening_relative_floor": 0.001
+    },
+    "code_sha256": "4206e3ebcdd89f68fa86379c3227855ddb5324be367cc270b70b9912f2bb6206",
+    "versions": {
+      "torch": "2.14.0",
+      "transformers": "5.7.0",
+      "datasets": "4.8.5",
+      "numpy": "2.5.3"
+    }
+  }
+}

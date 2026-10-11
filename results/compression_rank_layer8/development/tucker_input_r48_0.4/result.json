@@ -1,0 +1,110 @@
+{
+  "method": "tucker_input_r48",
+  "fraction": 0.4,
+  "retained_fraction": 0.39827728271484375,
+  "stored_bytes": 320735232,
+  "block_nll": [
+    3.1294212863869864,
+    3.0031250955540605,
+    2.616123505534491,
+    3.1308866079072897,
+    3.626746489343811,
+    2.801311336151541,
+    2.798542179473459,
+    3.3739842603351273,
+    3.070304855675147,
+    3.472373171095279,
+    3.2367342297578277,
+    3.3360848921385764,
+    3.265318271465264,
+    3.3879298977189336,
+    3.7534404239542565,
+    3.4927345469973092,
+    2.9250574279904598,
+    4.033174936552104,
+    3.3126225480828033,
+    2.875659561903743,
+    3.2330310321367417,
+    3.391849764172578,
+    3.175603041676859,
+    2.8785438612249266,
+    3.0483551323997067,
+    2.7534829455112524,
+    2.6586245184075343,
+    2.7279604559075343,
+    3.0327900925727738,
+    2.579428835157779,
+    2.6257333774156066,
+    2.891976134417808
+  ],
+  "delta_nll": 0.03984735716579017,
+  "seconds_this_attempt": 3.715209056000049,
+  "projections": {
+    "gate_proj": {
+      "method": "tucker",
+      "shape": [
+        64,
+        1024,
+        2048
+      ],
+      "ranks": [
+        48,
+        720,
+        1440
+      ],
+      "whitening": "input",
+      "rank_policy": "td_balanced",
+      "orientation": null,
+      "original_parameters": 134217728,
+      "stored_parameters": 53455872,
+      "stored_bytes": 106911744,
+      "retained_fraction": 0.39827728271484375,
+      "relative_frobenius_error": 0.7347313579913627,
+      "relative_input_weighted_error": 0.5301370553473459
+    },
+    "up_proj": {
+      "method": "tucker",
+      "shape": [
+        64,
+        1024,
+        2048
+      ],
+      "ranks": [
+        48,
+        720,
+        1440
+      ],
+      "whitening": "input",
+      "rank_policy": "td_balanced",
+      "orientation": null,
+      "original_parameters": 134217728,
+      "stored_parameters": 53455872,
+      "stored_bytes": 106911744,
+      "retained_fraction": 0.39827728271484375,
+      "relative_frobenius_error": 0.7581419889977125,
+      "relative_input_weighted_error": 0.6217757219987188
+    },
+    "down_proj": {
+      "method": "tucker",
+      "shape": [
+        64,
+        2048,
+        1024
+      ],
+      "ranks": [
+        48,
+        1440,
+        720
+      ],
+      "whitening": "input",
+      "rank_policy": "td_balanced",
+      "orientation": null,
+      "original_parameters": 134217728,
+      "stored_parameters": 53455872,
+      "stored_bytes": 106911744,
+      "retained_fraction": 0.39827728271484375,
+      "relative_frobenius_error": 0.7253672716502058,
+      "relative_input_weighted_error": 0.6922226146680801
+    }
+  }
+}

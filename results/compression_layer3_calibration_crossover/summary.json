@@ -1,0 +1,118 @@
+{
+  "scope": "Diagnostic reuse of observed evaluations, one calibration sample per corpus. Corpus, sampling/packing and sample effects are not separated. Intervals conditional on factors and evaluated items; WikiText adjacent blocks may be correlated. Not a fresh confirmation test.",
+  "corpora": {
+    "c4": {
+      "wiki_calibration_delta_nll": {
+        "svd_input": 0.026251628207600526,
+        "tucker_input_r64": 0.051616239920987544,
+        "tucker_input_r48": 0.05205419152216903
+      },
+      "c4_calibration_delta_nll": {
+        "svd_input": 0.02548911613494218,
+        "tucker_input_r64": 0.04999116138936024,
+        "tucker_input_r48": 0.04906358224305154
+      },
+      "old_tucker48_minus_svd": {
+        "mean": 0.025802563314568504,
+        "paired_95_ci": [
+          0.021696989760240235,
+          0.030759516434193595
+        ]
+      },
+      "new_tucker48_minus_svd": {
+        "mean": 0.02357446610810936,
+        "paired_95_ci": [
+          0.01892374554492254,
+          0.02900009106283317
+        ]
+      },
+      "relative_calibration_effect": {
+        "mean": -0.0022280972064591437,
+        "paired_95_ci": [
+          -0.0040624760951548135,
+          -0.0002554873780961954
+        ]
+      },
+      "per_method_calibration_effect": {
+        "svd_input": {
+          "mean": -0.0007625120726583454,
+          "paired_95_ci": [
+            -0.0022811674091913884,
+            0.0007494333205624358
+          ]
+        },
+        "tucker_input_r64": {
+          "mean": -0.001625078531627314,
+          "paired_95_ci": [
+            -0.003939999123842035,
+            0.0005627437055460817
+          ]
+        },
+        "tucker_input_r48": {
+          "mean": -0.002990609279117489,
+          "paired_95_ci": [
+            -0.0042110995887077165,
+            -0.001655818606542773
+          ]
+        }
+      }
+    },
+    "wikitext": {
+      "wiki_calibration_delta_nll": {
+        "svd_input": 0.052351046448351105,
+        "tucker_input_r64": 0.08061040217629155,
+        "tucker_input_r48": 0.03832067948731425
+      },
+      "c4_calibration_delta_nll": {
+        "svd_input": 0.05774122861500121,
+        "tucker_input_r64": 0.08759703514860566,
+        "tucker_input_r48": 0.051001938821751545
+      },
+      "old_tucker48_minus_svd": {
+        "mean": -0.014030366961036857,
+        "paired_95_ci": [
+          -0.02665316755291067,
+          -0.003426781839120669
+        ]
+      },
+      "new_tucker48_minus_svd": {
+        "mean": -0.006739289793249663,
+        "paired_95_ci": [
+          -0.014338006898614959,
+          -0.00018769159708935276
+        ]
+      },
+      "relative_calibration_effect": {
+        "mean": 0.007291077167787194,
+        "paired_95_ci": [
+          0.0005989083105336857,
+          0.014640481784619006
+        ]
+      },
+      "per_method_calibration_effect": {
+        "svd_input": {
+          "mean": 0.005390182166650104,
+          "paired_95_ci": [
+            -0.0012924032901831272,
+            0.011399565937467753
+          ]
+        },
+        "tucker_input_r64": {
+          "mean": 0.006986632972314111,
+          "paired_95_ci": [
+            -5.2231585209653755e-05,
+            0.013126993272635772
+          ]
+        },
+        "tucker_input_r48": {
+          "mean": 0.012681259334437298,
+          "paired_95_ci": [
+            0.009310304955260374,
+            0.01587150446822729
+          ]
+        }
+      }
+    }
+  },
+  "checks": "Unchanged old source artifacts; exact baseline match; unchanged ranks and bytes; same new factors/projection statistics across evaluations; disjoint calibration/evaluation hostnames and text hashes."
+}

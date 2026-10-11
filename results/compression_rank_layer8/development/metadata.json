@@ -1,0 +1,58 @@
+{
+  "signature": {
+    "config": {
+      "seed": 17,
+      "model": {
+        "id": "allenai/OLMoE-1B-7B-0924",
+        "revision": "6d84c48581ece794365f2b8e9cfb043c68ade9c5",
+        "dtype": "bfloat16",
+        "layer": 8
+      },
+      "data": {
+        "dataset": "Salesforce/wikitext",
+        "subset": "wikitext-2-raw-v1",
+        "text_field": "text",
+        "calibration_split": "train",
+        "calibration_blocks": 64,
+        "evaluation_split": "validation",
+        "block_size": 512,
+        "evaluation_blocks": 32,
+        "development_split": "validation",
+        "development_blocks": 32,
+        "development_offset_blocks": 32,
+        "evaluation_offset_blocks": 32
+      },
+      "tucker_rank_policy": "td_balanced",
+      "whitening_relative_floor": 0.001,
+      "fractions": [
+        0.4
+      ],
+      "output_dir": "results/compression_rank_layer8/development",
+      "expert_ranks": [
+        64,
+        48,
+        32,
+        24
+      ],
+      "full_expert_rank": 64,
+      "methods": [
+        "tucker_input_r64",
+        "tucker_input_r48",
+        "tucker_input_r32",
+        "tucker_input_r24"
+      ]
+    },
+    "code_sha256": "4206e3ebcdd89f68fa86379c3227855ddb5324be367cc270b70b9912f2bb6206",
+    "versions": {
+      "torch": "2.14.0",
+      "transformers": "5.7.0",
+      "datasets": "4.8.5",
+      "numpy": "2.5.3"
+    }
+  },
+  "device": "cuda:0",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "resolved_model_commit": "6d84c48581ece794365f2b8e9cfb043c68ade9c5",
+  "model_dtype": "torch.bfloat16",
+  "model_parameters": 6919161856
+}

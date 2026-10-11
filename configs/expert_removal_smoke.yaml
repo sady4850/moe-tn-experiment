@@ -1,0 +1,13 @@
+seed: 17
+model:
+  id: __tiny_random_olmoe__
+  dtype: float32
+device: cpu
+data:
+  block_size: 32
+  calibration_blocks: 2
+  dev_blocks: 4
+  test_blocks: 4
+keep_experts: 4
+whitening_relative_floor: 0.001
+output_dir: results/expert_removal_smoke

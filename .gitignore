@@ -1,0 +1,17 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+*.exit
+BOX_RUN.md
+results/**/*.pt
+results/**/.lock
+results/smoke/
+results/*smoke*/
+results/olmoe_gpu_pilot/
+.cache/
+# merge plans hold full neuron permutations (~20MB each); reproducible, checksummed in plans/index.json
+results/expert_removal_*/plans/*merge*.json
+results/expert_removal_*/plans/output_similarity.json

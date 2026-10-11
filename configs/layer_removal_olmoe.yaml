@@ -1,0 +1,37 @@
+seed: 17
+model:
+  id: allenai/OLMoE-1B-7B-0924
+  revision: 6d84c48581ece794365f2b8e9cfb043c68ade9c5
+  dtype: bfloat16
+data:
+  dataset: Salesforce/wikitext
+  subset: wikitext-2-raw-v1
+  text_field: text
+  block_size: 512
+  calibration_split: train
+  calibration_blocks: 64
+  dev_split: validation
+  dev_blocks: 64
+  test_split: test
+  test_offset_blocks: 32
+  test_blocks: 64
+c4_documents: results/compression_layer3_c4/documents.json
+tn_density_file: results/layer_tn_density/density.json
+whitening_relative_floor: 0.001
+budgets: [1, 2, 4]
+primary_k: 2
+exhaustive_limit: 200
+random_sets: 100
+downstream:
+  batch_size: 32
+  tasks:
+    arc_easy: acc
+    arc_challenge: acc_norm
+    hellaswag: acc_norm
+    piqa: acc
+    winogrande: acc
+baseline_checks:
+  - {corpus: dev, start: 32, end: 64, file: results/compression_crosslayer_3/baseline_blocks.json}
+  - {corpus: wikitext_test, start: 0, end: 64, file: results/compression_layer3_confirmation/baseline_blocks.json}
+  - {corpus: c4, start: 0, end: 256, file: results/compression_layer3_c4/baseline_blocks.json}
+output_dir: results/layer_removal_olmoe

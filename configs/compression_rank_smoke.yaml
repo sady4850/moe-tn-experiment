@@ -1,0 +1,26 @@
+seed: 17
+model:
+  id: __tiny_random_olmoe__
+  dtype: float32
+  layer: 1
+data:
+  calibration_blocks: 2
+  evaluation_blocks: 2
+  block_size: 32
+  calibration_split: train
+  development_split: validation
+  development_blocks: 2
+  development_offset_blocks: 2
+  evaluation_split: test
+  evaluation_offset_blocks: 0
+tucker_rank_policy: td_balanced
+whitening_relative_floor: 0.001
+fractions:
+- 0.4
+output_dir: results/compression_rank_smoke
+expert_ranks:
+- 6
+- 4
+- 3
+full_expert_rank: 6
+minimum_budget_fill: 0.9

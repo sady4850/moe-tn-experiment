@@ -1,0 +1,11 @@
+{
+  "svd_input_0.4/gate_proj.pt": "a5af5c76a05e44e8820d0ed660ad4bcc331b7019848f3b283314761afff77560",
+  "svd_input_0.4/up_proj.pt": "e206df8f80a603f7a21516715d4f52909bf5de6c78d2c31aaacc8de0391af5ee",
+  "svd_input_0.4/down_proj.pt": "07a475bbac532819dac72a19a80e153f08106d0232fe695f3352946e6bea314f",
+  "tucker_input_r64_0.4/gate_proj.pt": "adaa4e81521e93f8855bbb348ae4af7274155443a6579be3ee3826857f022b67",
+  "tucker_input_r64_0.4/up_proj.pt": "fc72c54e8d7dd228a68d38daebeeb7c742308bbe747fdb5351bf0faa6e1ef3e7",
+  "tucker_input_r64_0.4/down_proj.pt": "67bdc4bf68d7abe23b9820a5da9a8a683bcf904194dc2e865d28fab4c43114ff",
+  "tucker_input_r48_0.4/gate_proj.pt": "0dfc34d17cd68f1ad029794efdb9ff44f4d7b9265f33f8fa4fdd052cb2ce6fc9",
+  "tucker_input_r48_0.4/up_proj.pt": "cd102c024edfc247583a89fa478112431544022d6bec2c068506202b9be65f05",
+  "tucker_input_r48_0.4/down_proj.pt": "f5dde3f5613517ae3d004f760a6cfd4a5168576c97eef8aa67bed7f2edb9997d"
+}

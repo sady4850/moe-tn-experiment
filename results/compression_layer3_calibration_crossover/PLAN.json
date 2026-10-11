@@ -1,0 +1,58 @@
+{
+  "source_signature": {
+    "config": {
+      "data": {
+        "block_size": 512,
+        "calibration_blocks": 64,
+        "calibration_split": "train",
+        "dataset": "allenai/c4",
+        "evaluation_blocks": 256,
+        "evaluation_split": "validation",
+        "subset": "en",
+        "text_field": "text",
+        "evaluation_offset_blocks": 0
+      },
+      "fractions": [
+        0.4
+      ],
+      "methods": [
+        "svd_input",
+        "tucker_input_r64",
+        "tucker_input_r48"
+      ],
+      "model": {
+        "dtype": "bfloat16",
+        "id": "allenai/OLMoE-1B-7B-0924",
+        "layer": 3,
+        "revision": "6d84c48581ece794365f2b8e9cfb043c68ade9c5"
+      },
+      "output_dir": "results/compression_layer3_c4",
+      "seed": 17,
+      "tucker_rank_policy": "td_balanced",
+      "whitening_relative_floor": 0.001
+    },
+    "code_sha256": "4206e3ebcdd89f68fa86379c3227855ddb5324be367cc270b70b9912f2bb6206",
+    "versions": {
+      "torch": "2.14.0",
+      "transformers": "5.7.0",
+      "datasets": "4.8.5",
+      "numpy": "2.5.3"
+    }
+  },
+  "script_sha256": "0b30ea57a53449b23d637ba4aaffdbfc1282948f0dd5475190586acfda0b6858",
+  "helper_sha256": "e0e75fa0a8a5dc5fec79b2d8db27dff41f4c9f027ef5a000b3f1e73e0607d38e",
+  "calibration": {
+    "dataset": "allenai/c4",
+    "revision": "1588ec454efa1a09f29cd18ddd04fe05fc8653a2",
+    "shard": "en/c4-train.00000-of-01024.json.gz",
+    "blocks": 64,
+    "block_size": 512,
+    "seed": 17,
+    "selection": "First eligible distinct hostnames and unique text hashes; exclude all C4 evaluation hostnames/text hashes. One random 512-token window per document >=512 tokens; no EOS or concatenation."
+  },
+  "fixed": "OLMoE layer 3, BF16, fraction 0.4, SVD and Tucker r64/r48, td_balanced ranks, whitening floor 0.001; no recovery or rank selection.",
+  "evaluation": "Reuse exact C4 256-document windows and WikiText test blocks 32..95. Recompute original baseline and compare exactly with prior baseline.",
+  "primary": "(Tucker48 - SVD) under C4 calibration minus (Tucker48 - SVD) under WikiText calibration, on C4 evaluation; negative means relative improvement from recalibration.",
+  "analysis": "Paired percentile bootstrap of per-item contrasts, 2000 resamples, NumPy default_rng(17). Also report new method gaps, each method calibration effect, and same contrasts on WikiText.",
+  "interpretation": "Diagnostic reuse of observed evaluations, one calibration sample per corpus. Corpus, sampling/packing and sample effects are not separated. Intervals conditional on factors and evaluated items; WikiText adjacent blocks may be correlated. Not a fresh confirmation test."
+}

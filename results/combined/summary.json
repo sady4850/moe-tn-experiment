@@ -1,0 +1,1001 @@
+{
+  "bootstrap_note": "The cluster bootstrap resamples the same expert-pair identities in every layer. Its interval quantifies pair-sampling uncertainty for these fixed layers, not uncertainty over all model layers.",
+  "bootstrap_samples": 5000,
+  "comparisons_vs_primary_tn": {
+    "activation_cosine": {
+      "cluster_bootstrap_95_ci": [
+        -0.2349008734732341,
+        0.24148759423110389
+      ],
+      "mean_spearman_difference_baseline_minus_tn": 0.004848748009842231
+    },
+    "router_co_routing": {
+      "cluster_bootstrap_95_ci": [
+        -0.3504048844102429,
+        0.14926430505283134
+      ],
+      "mean_spearman_difference_baseline_minus_tn": -0.1051108007025938
+    },
+    "router_probability_sum": {
+      "cluster_bootstrap_95_ci": [
+        0.00206344373160424,
+        0.4466049145914443
+      ],
+      "mean_spearman_difference_baseline_minus_tn": 0.22488782747141411
+    },
+    "router_usage_sum": {
+      "cluster_bootstrap_95_ci": [
+        0.040884446177858344,
+        0.49568057732424
+      ],
+      "mean_spearman_difference_baseline_minus_tn": 0.27704766708608547
+    },
+    "weight_cosine": {
+      "cluster_bootstrap_95_ci": [
+        -0.2817371110679496,
+        0.2102423430138519
+      ],
+      "mean_spearman_difference_baseline_minus_tn": -0.04059921841076856
+    }
+  },
+  "interpretation": "All predictors are oriented so lower means safer to merge. Positive Spearman therefore means the signal tracks greater merge damage. The primary aggregate is the mean of within-layer correlations; it does not pool incomparable damage scales across layers.",
+  "layers": [
+    "layer3",
+    "layer8",
+    "layer13"
+  ],
+  "metrics": {
+    "activation_cosine": {
+      "cluster_bootstrap_95_ci": [
+        -0.15597456893607056,
+        0.14727283373786618
+      ],
+      "mean_top_k_minus_random_delta_nll": 0.0003984213445621892,
+      "mean_within_layer_spearman": -0.0032204371110146255,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              36,
+              41
+            ],
+            [
+              15,
+              35
+            ],
+            [
+              3,
+              43
+            ],
+            [
+              9,
+              48
+            ],
+            [
+              52,
+              59
+            ]
+          ],
+          "spearman_with_damage": -0.19995657837603126,
+          "top_k_mean_delta_nll": 0.00631633243448837,
+          "top_k_minus_random_mean_delta_nll": 0.00306184721086362
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              27,
+              32
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              30,
+              59
+            ],
+            [
+              20,
+              57
+            ],
+            [
+              36,
+              41
+            ]
+          ],
+          "spearman_with_damage": -0.08282674772036473,
+          "top_k_mean_delta_nll": 0.0010529266178259888,
+          "top_k_minus_random_mean_delta_nll": -0.0003337634286301888
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              36,
+              63
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              33,
+              51
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              4,
+              40
+            ]
+          ],
+          "spearman_with_damage": 0.27312201476335213,
+          "top_k_mean_delta_nll": -0.00013514479545673197,
+          "top_k_minus_random_mean_delta_nll": -0.0015328197485468635
+        }
+      },
+      "top_k": 5
+    },
+    "router_co_routing": {
+      "cluster_bootstrap_95_ci": [
+        -0.26842768960351304,
+        0.049222707412279444
+      ],
+      "mean_top_k_minus_random_delta_nll": 0.001001665078445367,
+      "mean_within_layer_spearman": -0.11317998582345067,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              3,
+              43
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              35,
+              47
+            ],
+            [
+              32,
+              41
+            ],
+            [
+              25,
+              62
+            ]
+          ],
+          "spearman_with_damage": -0.1758960732602947,
+          "top_k_mean_delta_nll": 0.005383376925892236,
+          "top_k_minus_random_mean_delta_nll": 0.002128891702267486
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              29,
+              53
+            ],
+            [
+              53,
+              60
+            ],
+            [
+              19,
+              63
+            ],
+            [
+              40,
+              61
+            ],
+            [
+              36,
+              41
+            ]
+          ],
+          "spearman_with_damage": -0.1662936899856732,
+          "top_k_mean_delta_nll": 0.0024446013389036736,
+          "top_k_minus_random_mean_delta_nll": 0.001057911292447496
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              33,
+              51
+            ],
+            [
+              5,
+              58
+            ],
+            [
+              20,
+              57
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              36,
+              63
+            ]
+          ],
+          "spearman_with_damage": 0.0026498057756158973,
+          "top_k_mean_delta_nll": 0.0012158671937112508,
+          "top_k_minus_random_mean_delta_nll": -0.00018180775937888072
+        }
+      },
+      "top_k": 5
+    },
+    "router_probability_sum": {
+      "cluster_bootstrap_95_ci": [
+        0.06071403859866022,
+        0.3690440200052255
+      ],
+      "mean_top_k_minus_random_delta_nll": -0.00010775489168441349,
+      "mean_within_layer_spearman": 0.21681864235055726,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              53,
+              60
+            ],
+            [
+              15,
+              24
+            ],
+            [
+              33,
+              51
+            ],
+            [
+              19,
+              63
+            ],
+            [
+              20,
+              57
+            ]
+          ],
+          "spearman_with_damage": 0.1974598349978289,
+          "top_k_mean_delta_nll": 0.0025529581506660293,
+          "top_k_minus_random_mean_delta_nll": -0.0007015270729587206
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              27,
+              32
+            ],
+            [
+              21,
+              37
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              21,
+              53
+            ],
+            [
+              19,
+              21
+            ]
+          ],
+          "spearman_with_damage": 0.3233825445071646,
+          "top_k_mean_delta_nll": 0.0020474323787802893,
+          "top_k_minus_random_mean_delta_nll": 0.0006607423323241118
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              35,
+              47
+            ],
+            [
+              4,
+              40
+            ],
+            [
+              10,
+              47
+            ],
+            [
+              14,
+              46
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "spearman_with_damage": 0.12961354754667823,
+          "top_k_mean_delta_nll": 0.0011151950186715,
+          "top_k_minus_random_mean_delta_nll": -0.00028247993441863164
+        }
+      },
+      "top_k": 5
+    },
+    "router_usage_sum": {
+      "cluster_bootstrap_95_ci": [
+        0.09658556874729869,
+        0.4228510048085065
+      ],
+      "mean_top_k_minus_random_delta_nll": 0.0001299209038986934,
+      "mean_within_layer_spearman": 0.2689784819652286,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              53,
+              60
+            ],
+            [
+              20,
+              42
+            ],
+            [
+              19,
+              63
+            ],
+            [
+              14,
+              46
+            ],
+            [
+              6,
+              46
+            ]
+          ],
+          "spearman_with_damage": 0.16176311027912002,
+          "top_k_mean_delta_nll": 0.005126544034177982,
+          "top_k_minus_random_mean_delta_nll": 0.001872058810553232
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              5,
+              10
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              6,
+              46
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              21,
+              53
+            ]
+          ],
+          "spearman_with_damage": 0.41674359535380956,
+          "top_k_mean_delta_nll": 0.0006354658571010141,
+          "top_k_minus_random_mean_delta_nll": -0.0007512241893551635
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              14,
+              46
+            ],
+            [
+              3,
+              43
+            ],
+            [
+              8,
+              42
+            ],
+            [
+              29,
+              54
+            ],
+            [
+              8,
+              49
+            ]
+          ],
+          "spearman_with_damage": 0.22842874026275614,
+          "top_k_mean_delta_nll": 0.0006666030435881432,
+          "top_k_minus_random_mean_delta_nll": -0.0007310719095019884
+        }
+      },
+      "top_k": 5
+    },
+    "tn_incremental_rank": {
+      "cluster_bootstrap_95_ci": [
+        -0.2059588566469568,
+        0.18914169983340864
+      ],
+      "mean_top_k_minus_random_delta_nll": 0.0019335744691480643,
+      "mean_within_layer_spearman": -0.008069185120856857,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              13,
+              59
+            ],
+            [
+              19,
+              63
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              32,
+              41
+            ],
+            [
+              46,
+              63
+            ]
+          ],
+          "spearman_with_damage": -0.07772470690403821,
+          "top_k_mean_delta_nll": 0.008251224525287615,
+          "top_k_minus_random_mean_delta_nll": 0.004996739301662865
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              29,
+              51
+            ],
+            [
+              36,
+              51
+            ],
+            [
+              5,
+              58
+            ],
+            [
+              28,
+              44
+            ],
+            [
+              33,
+              51
+            ]
+          ],
+          "spearman_with_damage": 0.06458966565349543,
+          "top_k_mean_delta_nll": 0.003086524560260351,
+          "top_k_minus_random_mean_delta_nll": 0.0016998345138041734
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              20,
+              57
+            ],
+            [
+              25,
+              62
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              20,
+              42
+            ],
+            [
+              14,
+              46
+            ]
+          ],
+          "spearman_with_damage": -0.01107251411202779,
+          "top_k_mean_delta_nll": 0.0005018245450672864,
+          "top_k_minus_random_mean_delta_nll": -0.0008958504080228451
+        }
+      },
+      "top_k": 5
+    },
+    "tn_incremental_rank_eps_0.0100": {
+      "cluster_bootstrap_95_ci": [
+        -0.26413347578191887,
+        0.0789267047745717
+      ],
+      "mean_top_k_minus_random_delta_nll": 0.0007455115163811278,
+      "mean_within_layer_spearman": -0.09247272768446296,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              19,
+              63
+            ],
+            [
+              13,
+              59
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              53,
+              60
+            ]
+          ],
+          "spearman_with_damage": -0.2738151164921242,
+          "top_k_mean_delta_nll": 0.00587404404134455,
+          "top_k_minus_random_mean_delta_nll": 0.0026195588177198004
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              33,
+              51
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              30,
+              59
+            ],
+            [
+              35,
+              47
+            ]
+          ],
+          "spearman_with_damage": 0.03783392934125688,
+          "top_k_mean_delta_nll": 0.0011547484276581699,
+          "top_k_minus_random_mean_delta_nll": -0.00023194161879800767
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              20,
+              57
+            ],
+            [
+              20,
+              42
+            ],
+            [
+              42,
+              50
+            ],
+            [
+              5,
+              58
+            ],
+            [
+              14,
+              46
+            ]
+          ],
+          "spearman_with_damage": -0.04143699590252159,
+          "top_k_mean_delta_nll": 0.001246592303311722,
+          "top_k_minus_random_mean_delta_nll": -0.00015108264977840955
+        }
+      },
+      "top_k": 5
+    },
+    "tn_incremental_rank_eps_0.0500": {
+      "cluster_bootstrap_95_ci": [
+        -0.1992392020559619,
+        0.1573716604222313
+      ],
+      "mean_top_k_minus_random_delta_nll": 0.0015834733490633897,
+      "mean_within_layer_spearman": -0.018996960486322195,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              19,
+              63
+            ],
+            [
+              13,
+              59
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              32,
+              41
+            ],
+            [
+              46,
+              63
+            ]
+          ],
+          "spearman_with_damage": -0.16293964394268348,
+          "top_k_mean_delta_nll": 0.008251224525287615,
+          "top_k_minus_random_mean_delta_nll": 0.004996739301662865
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              33,
+              51
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              36,
+              51
+            ],
+            [
+              29,
+              51
+            ]
+          ],
+          "spearman_with_damage": 0.10931393834129398,
+          "top_k_mean_delta_nll": 0.0021952455524364644,
+          "top_k_minus_random_mean_delta_nll": 0.0008085555059802868
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              20,
+              57
+            ],
+            [
+              20,
+              42
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              5,
+              58
+            ],
+            [
+              14,
+              46
+            ]
+          ],
+          "spearman_with_damage": -0.0033651758575770734,
+          "top_k_mean_delta_nll": 0.0003428001926371493,
+          "top_k_minus_random_mean_delta_nll": -0.0010548747604529822
+        }
+      },
+      "top_k": 5
+    },
+    "tn_incremental_rank_eps_0.1000": {
+      "cluster_bootstrap_95_ci": [
+        -0.2059588566469568,
+        0.18914169983340864
+      ],
+      "mean_top_k_minus_random_delta_nll": 0.0019335744691480643,
+      "mean_within_layer_spearman": -0.008069185120856857,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              13,
+              59
+            ],
+            [
+              19,
+              63
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              32,
+              41
+            ],
+            [
+              46,
+              63
+            ]
+          ],
+          "spearman_with_damage": -0.07772470690403821,
+          "top_k_mean_delta_nll": 0.008251224525287615,
+          "top_k_minus_random_mean_delta_nll": 0.004996739301662865
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              29,
+              51
+            ],
+            [
+              36,
+              51
+            ],
+            [
+              5,
+              58
+            ],
+            [
+              28,
+              44
+            ],
+            [
+              33,
+              51
+            ]
+          ],
+          "spearman_with_damage": 0.06458966565349543,
+          "top_k_mean_delta_nll": 0.003086524560260351,
+          "top_k_minus_random_mean_delta_nll": 0.0016998345138041734
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              20,
+              57
+            ],
+            [
+              25,
+              62
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              20,
+              42
+            ],
+            [
+              14,
+              46
+            ]
+          ],
+          "spearman_with_damage": -0.01107251411202779,
+          "top_k_mean_delta_nll": 0.0005018245450672864,
+          "top_k_minus_random_mean_delta_nll": -0.0008958504080228451
+        }
+      },
+      "top_k": 5
+    },
+    "tn_incremental_rank_eps_0.2000": {
+      "cluster_bootstrap_95_ci": [
+        -0.17108518650151447,
+        0.2264193747062098
+      ],
+      "mean_top_k_minus_random_delta_nll": 0.0012454976411351872,
+      "mean_within_layer_spearman": 0.02623389781444492,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              32,
+              41
+            ],
+            [
+              13,
+              59
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              19,
+              63
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "spearman_with_damage": 0.006947459834997829,
+          "top_k_mean_delta_nll": 0.005824567940370606,
+          "top_k_minus_random_mean_delta_nll": 0.0025700827167458563
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              29,
+              51
+            ],
+            [
+              5,
+              58
+            ],
+            [
+              36,
+              51
+            ],
+            [
+              28,
+              44
+            ],
+            [
+              13,
+              21
+            ]
+          ],
+          "spearman_with_damage": 0.042227529309596175,
+          "top_k_mean_delta_nll": 0.002756156846735269,
+          "top_k_minus_random_mean_delta_nll": 0.0013694668002790916
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              25,
+              62
+            ],
+            [
+              20,
+              57
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              20,
+              42
+            ],
+            [
+              4,
+              45
+            ]
+          ],
+          "spearman_with_damage": 0.02952670429874077,
+          "top_k_mean_delta_nll": 0.001194618359470745,
+          "top_k_minus_random_mean_delta_nll": -0.00020305659361938657
+        }
+      },
+      "top_k": 5
+    },
+    "weight_cosine": {
+      "cluster_bootstrap_95_ci": [
+        -0.21951433929573078,
+        0.12134743825912725
+      ],
+      "mean_top_k_minus_random_delta_nll": 9.850825297106219e-05,
+      "mean_within_layer_spearman": -0.048668403531625416,
+      "per_layer": {
+        "layer13": {
+          "random_pair_mean_delta_nll": 0.00325448522362475,
+          "selected_pairs": [
+            [
+              19,
+              63
+            ],
+            [
+              50,
+              61
+            ],
+            [
+              32,
+              41
+            ],
+            [
+              13,
+              59
+            ],
+            [
+              36,
+              41
+            ]
+          ],
+          "spearman_with_damage": -0.11636995223621363,
+          "top_k_mean_delta_nll": 0.004625227120058195,
+          "top_k_minus_random_mean_delta_nll": 0.0013707418964334452
+        },
+        "layer3": {
+          "random_pair_mean_delta_nll": 0.0013866900464561775,
+          "selected_pairs": [
+            [
+              35,
+              47
+            ],
+            [
+              52,
+              59
+            ],
+            [
+              19,
+              63
+            ],
+            [
+              10,
+              47
+            ],
+            [
+              9,
+              48
+            ]
+          ],
+          "spearman_with_damage": -0.1545809813287017,
+          "top_k_mean_delta_nll": 0.003186260604112068,
+          "top_k_minus_random_mean_delta_nll": 0.0017995705576558903
+        },
+        "layer8": {
+          "random_pair_mean_delta_nll": 0.0013976749530901316,
+          "selected_pairs": [
+            [
+              5,
+              58
+            ],
+            [
+              27,
+              32
+            ],
+            [
+              33,
+              51
+            ],
+            [
+              32,
+              41
+            ],
+            [
+              3,
+              43
+            ]
+          ],
+          "spearman_with_damage": 0.12494572297003907,
+          "top_k_mean_delta_nll": -0.0014771127420860175,
+          "top_k_minus_random_mean_delta_nll": -0.002874787695176149
+        }
+      },
+      "top_k": 5
+    }
+  },
+  "num_pairs_per_layer": 48,
+  "seed": 1701
+}

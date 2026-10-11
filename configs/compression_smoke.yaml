@@ -1,0 +1,14 @@
+seed: 17
+model:
+  id: __tiny_random_olmoe__
+  dtype: float32
+  layer: 1
+data:
+  calibration_blocks: 2
+  evaluation_blocks: 2
+  block_size: 32
+methods: [svd_input, shared_input, tucker_input, tucker_none]
+tucker_rank_policy: td_balanced
+whitening_relative_floor: 0.001
+fractions: [0.8]
+output_dir: results/compression_input_smoke

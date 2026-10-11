@@ -1,0 +1,81 @@
+{
+  "source_signature": {
+    "config": {
+      "data": {
+        "block_size": 512,
+        "calibration_blocks": 64,
+        "calibration_split": "train",
+        "dataset": "Salesforce/wikitext",
+        "evaluation_blocks": 32,
+        "evaluation_split": "validation",
+        "subset": "wikitext-2-raw-v1",
+        "text_field": "text",
+        "evaluation_offset_blocks": 32
+      },
+      "fractions": [
+        0.4
+      ],
+      "methods": [
+        "svd_input",
+        "tucker_input_r64",
+        "tucker_input_r48"
+      ],
+      "model": {
+        "dtype": "bfloat16",
+        "id": "allenai/OLMoE-1B-7B-0924",
+        "layer": 3,
+        "revision": "6d84c48581ece794365f2b8e9cfb043c68ade9c5"
+      },
+      "output_dir": "results/compression_crosslayer_3",
+      "seed": 17,
+      "tucker_rank_policy": "td_balanced",
+      "whitening_relative_floor": 0.001
+    },
+    "code_sha256": "4206e3ebcdd89f68fa86379c3227855ddb5324be367cc270b70b9912f2bb6206",
+    "versions": {
+      "torch": "2.14.0",
+      "transformers": "5.7.0",
+      "datasets": "4.8.5",
+      "numpy": "2.5.3"
+    }
+  },
+  "evaluation_config": {
+    "data": {
+      "block_size": 512,
+      "calibration_blocks": 64,
+      "calibration_split": "train",
+      "dataset": "allenai/c4",
+      "evaluation_blocks": 256,
+      "evaluation_split": "validation",
+      "subset": "en",
+      "text_field": "text",
+      "evaluation_offset_blocks": 0
+    },
+    "fractions": [
+      0.4
+    ],
+    "methods": [
+      "svd_input",
+      "tucker_input_r64",
+      "tucker_input_r48"
+    ],
+    "model": {
+      "dtype": "bfloat16",
+      "id": "allenai/OLMoE-1B-7B-0924",
+      "layer": 3,
+      "revision": "6d84c48581ece794365f2b8e9cfb043c68ade9c5"
+    },
+    "output_dir": "results/compression_layer3_c4",
+    "seed": 17,
+    "tucker_rank_policy": "td_balanced",
+    "whitening_relative_floor": 0.001
+  },
+  "dataset_revision": "1588ec454efa1a09f29cd18ddd04fe05fc8653a2",
+  "shard": "en/c4-validation.00000-of-00008.json.gz",
+  "selection": "First 256 eligible distinct hostnames in shard order, unique text SHA256; at least 512 tokens; one uniformly sampled 512-token window per document using Python Random(17); no cross-document concatenation or added EOS.",
+  "calibration": "Unchanged WikiText train tokens and moments copied from source; config dataset describes evaluation only.",
+  "primary": "Mean paired NLL: tucker_input_r48 minus svd_input",
+  "success": "Mean below zero and paired document-bootstrap 95% percentile interval wholly below zero; 2000 replicates, NumPy default_rng(17).",
+  "scope": "English C4 validation shard 0, long pages, one page per hostname; fixed layer, rank, factors, calibration and payload. No model-pretraining disjointness claim.",
+  "script_sha256": "e0e75fa0a8a5dc5fec79b2d8db27dff41f4c9f027ef5a000b3f1e73e0607d38e"
+}

@@ -1,0 +1,33 @@
+{
+  "selection": {
+    "selected_method": "tucker_input_r48",
+    "criterion": "minimum development delta_nll",
+    "development_scores": {
+      "tucker_input_r64": 0.04662235655663301,
+      "tucker_input_r48": 0.03984735716579017,
+      "tucker_input_r32": 0.0399167906281533,
+      "tucker_input_r24": 0.04349001979641254
+    }
+  },
+  "comparisons": {
+    "svd_input": {
+      "selected_minus_baseline": 0.033062682926304876,
+      "paired_95_ci": [
+        0.026658188620192185,
+        0.039228300665689296
+      ]
+    },
+    "tucker_input_r64": {
+      "selected_minus_baseline": -0.0004117782801797837,
+      "paired_95_ci": [
+        -0.005363953136884507,
+        0.004861840249974214
+      ]
+    }
+  },
+  "test_delta_nll": {
+    "svd_input": 0.0251572192765029,
+    "tucker_input_r64": 0.05863168048298756,
+    "tucker_input_r48": 0.058219902202807775
+  }
+}

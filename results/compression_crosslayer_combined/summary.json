@@ -1,0 +1,83 @@
+{
+  "rows": [
+    {
+      "layer": 3,
+      "method": "svd_input",
+      "delta_nll": 0.03325513477661378,
+      "actual_retained": 0.39990234375,
+      "minus_svd": 0.0,
+      "paired_95_ci": [
+        0.0,
+        0.0
+      ],
+      "blocks_better_than_svd": 0,
+      "calibration_min_expert_count": 1475
+    },
+    {
+      "layer": 3,
+      "method": "tucker_input_r64",
+      "delta_nll": 0.04206533114737496,
+      "actual_retained": 0.3995342254638672,
+      "minus_svd": 0.008810196370761178,
+      "paired_95_ci": [
+        0.0012944790715106941,
+        0.01598192334408393
+      ],
+      "blocks_better_than_svd": 9,
+      "calibration_min_expert_count": 1475
+    },
+    {
+      "layer": 3,
+      "method": "tucker_input_r48",
+      "delta_nll": -0.017686675905947996,
+      "actual_retained": 0.39827728271484375,
+      "minus_svd": -0.050941810682561775,
+      "paired_95_ci": [
+        -0.0752727454422505,
+        -0.030014411343986983
+      ],
+      "blocks_better_than_svd": 25,
+      "calibration_min_expert_count": 1475
+    },
+    {
+      "layer": 13,
+      "method": "svd_input",
+      "delta_nll": 0.03568102842207756,
+      "actual_retained": 0.39990234375,
+      "minus_svd": 0.0,
+      "paired_95_ci": [
+        0.0,
+        0.0
+      ],
+      "blocks_better_than_svd": 0,
+      "calibration_min_expert_count": 967
+    },
+    {
+      "layer": 13,
+      "method": "tucker_input_r64",
+      "delta_nll": 0.08458673884024129,
+      "actual_retained": 0.3995342254638672,
+      "minus_svd": 0.04890571041816373,
+      "paired_95_ci": [
+        0.04053734184011325,
+        0.057604378216887187
+      ],
+      "blocks_better_than_svd": 0,
+      "calibration_min_expert_count": 967
+    },
+    {
+      "layer": 13,
+      "method": "tucker_input_r48",
+      "delta_nll": 0.10082582298323599,
+      "actual_retained": 0.39827728271484375,
+      "minus_svd": 0.06514479456115843,
+      "paired_95_ci": [
+        0.05251198188199454,
+        0.07906562260219033
+      ],
+      "blocks_better_than_svd": 0,
+      "calibration_min_expert_count": 967
+    }
+  ],
+  "checks": "Identical code, versions, model, data, methods and budgets except layer; baseline block losses identical across both layers and prior layer-8 development run."
+}

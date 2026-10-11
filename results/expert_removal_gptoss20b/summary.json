@@ -1,0 +1,14 @@
+{
+  "family_best": {
+    "tn": "tn_prune",
+    "tn_whitened": "tn_w_prune",
+    "cheap": "frequency"
+  },
+  "random_median_dev_delta": 0.8181938798460244,
+  "tn_vs_cheap": "tie",
+  "tn_whitened_vs_cheap": "tie",
+  "stage3_expert_arm": [
+    "tn_prune",
+    "frequency"
+  ]
+}

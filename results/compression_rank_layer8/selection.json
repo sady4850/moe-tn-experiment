@@ -1,0 +1,10 @@
+{
+  "selected_method": "tucker_input_r48",
+  "criterion": "minimum development delta_nll",
+  "development_scores": {
+    "tucker_input_r64": 0.04662235655663301,
+    "tucker_input_r48": 0.03984735716579017,
+    "tucker_input_r32": 0.0399167906281533,
+    "tucker_input_r24": 0.04349001979641254
+  }
+}

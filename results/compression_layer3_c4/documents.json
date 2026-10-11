@@ -1,0 +1,2050 @@
+[
+  {
+    "row": 1,
+    "url": "https://jmtd.net/log/geek/linux/ui/",
+    "hostname": "jmtd.net",
+    "text_sha256": "061b9a4ce6aad4e41325dd2cd73e2a567cfa2018e7c0dddb29dfb07956ef5177",
+    "document_tokens": 645,
+    "window_start": 133
+  },
+  {
+    "row": 2,
+    "url": "http://synergistic-technologies.com/biocmeisner.html",
+    "hostname": "synergistic-technologies.com",
+    "text_sha256": "286399b04c32b08774966c32ef990fdecbd7f7be70bfd89935240f81db5404ca",
+    "document_tokens": 712,
+    "window_start": 106
+  },
+  {
+    "row": 10,
+    "url": "http://www.hollistonreporter.com/article/14259/bocce-ball-is-alive-and-well-in-holliston.html",
+    "hostname": "hollistonreporter.com",
+    "text_sha256": "ee3571255a1ddc1047e005064ba4e834e08030c34217a21360c217783d1ef723",
+    "document_tokens": 1315,
+    "window_start": 310
+  },
+  {
+    "row": 12,
+    "url": "https://triciaannemitchell.com/2013/03/12/the-blue-skies-of-trogir-croatia/",
+    "hostname": "triciaannemitchell.com",
+    "text_sha256": "35b70e0da818846c4d691492c55a5c1a2c0baeeb473ec2126a41528512f15d32",
+    "document_tokens": 1036,
+    "window_start": 374
+  },
+  {
+    "row": 18,
+    "url": "https://www.surebetbuilders.com/nc/builder-in-mc-leansville/",
+    "hostname": "surebetbuilders.com",
+    "text_sha256": "f7b977cdf996571c3487d58547815de3a049de82baa8a2d14175d74a315ac309",
+    "document_tokens": 592,
+    "window_start": 37
+  },
+  {
+    "row": 21,
+    "url": "https://charlies-magazines.com/how-to-get-rid-of-alcohol-smell-fast-naturally/",
+    "hostname": "charlies-magazines.com",
+    "text_sha256": "cbd2bd797c7d1da8496891526a5227a7f805ebdc06feb867b5f636e549ef0c38",
+    "document_tokens": 1147,
+    "window_start": 178
+  },
+  {
+    "row": 22,
+    "url": "https://www.farmmade.com/meet-the-farmers-of-farmgirlrosepetals/",
+    "hostname": "farmmade.com",
+    "text_sha256": "d1b1469eea8672af82a256144086ed1bcb12ebc0693acd7695164e87868fa1c7",
+    "document_tokens": 1229,
+    "window_start": 553
+  },
+  {
+    "row": 34,
+    "url": "https://www.tamworthinformed.co.uk/perfusion-machine/",
+    "hostname": "tamworthinformed.co.uk",
+    "text_sha256": "09243fdada4b180dd2d6e231b4c14c9d4050a3672504ee6a51f2e532b9f0fd22",
+    "document_tokens": 755,
+    "window_start": 169
+  },
+  {
+    "row": 37,
+    "url": "https://biography.jrank.org/pages/199/Wheeler-Jody-1952.html",
+    "hostname": "biography.jrank.org",
+    "text_sha256": "c7521d683861d39b039ec1d996c44338136a53c9e4208f23d5ad2fff741b0147",
+    "document_tokens": 1499,
+    "window_start": 284
+  },
+  {
+    "row": 38,
+    "url": "https://www.eweek.com/networking/ibm-takes-wraps-off-opteron-based-cluster",
+    "hostname": "eweek.com",
+    "text_sha256": "13b538ab00534c6039e05ce324e00a3163c44134ad9ac8515047e3d002209c68",
+    "document_tokens": 961,
+    "window_start": 56
+  },
+  {
+    "row": 49,
+    "url": "http://www.withgigglesandgrace.com/first-award-recognition-liebster-award/",
+    "hostname": "withgigglesandgrace.com",
+    "text_sha256": "684792bc99010da3e2841ac7059411e9d97d0c11d1b2df1b9cc1c4bff0f4da3d",
+    "document_tokens": 1425,
+    "window_start": 27
+  },
+  {
+    "row": 61,
+    "url": "https://www.autoblog.gr/2016/03/21/gmc-terrain-nightfall-edition-2017/",
+    "hostname": "autoblog.gr",
+    "text_sha256": "1e441d36859397a2179e96b57d1e9d8ae680fa3416500b64ddcc33eaf0a5bfe2",
+    "document_tokens": 810,
+    "window_start": 127
+  },
+  {
+    "row": 65,
+    "url": "https://www.leinsterleader.ie/news/gaelic/326633/head.html",
+    "hostname": "leinsterleader.ie",
+    "text_sha256": "4fffb8abeed6d1a9a5c719a60cf5c8ec477c16a0bcdc5ee136b8df37b596278a",
+    "document_tokens": 556,
+    "window_start": 24
+  },
+  {
+    "row": 69,
+    "url": "https://www.franklindowntownpartnership.org/2013/11/2013-food-elves-press-release.html",
+    "hostname": "franklindowntownpartnership.org",
+    "text_sha256": "8abad20967769c2a4adba93dc407695af9b702a0837d39286cf578a33d257bdb",
+    "document_tokens": 805,
+    "window_start": 214
+  },
+  {
+    "row": 70,
+    "url": "https://www.globalatlanta.com/qa-rooftop-solar-without-the-panels-a-belgian-entrepreneurs-bright-view-on-the-future-of-renewables/",
+    "hostname": "globalatlanta.com",
+    "text_sha256": "ea4fd02a8c6f6d91e29dccbaafe5638a26e5c7add62bbbefcac97894fb338abc",
+    "document_tokens": 694,
+    "window_start": 64
+  },
+  {
+    "row": 81,
+    "url": "https://www.booktopia.com.au/disequilibrium-and-self-organisation-c-w-kilmister/prod9789027723000.html",
+    "hostname": "booktopia.com.au",
+    "text_sha256": "5d93e3d5a1acf319e3520119dd30fe8016e1570c3b0db32d15c8300192acac25",
+    "document_tokens": 598,
+    "window_start": 64
+  },
+  {
+    "row": 86,
+    "url": "http://benheide.com/sandisk-16gb-extreme-pro-compactflash-review/",
+    "hostname": "benheide.com",
+    "text_sha256": "fb488e10aa9b4f9eda63ceb7278820a2aee6fa85249c8e6e5f21a4fab2f91349",
+    "document_tokens": 1899,
+    "window_start": 650
+  },
+  {
+    "row": 89,
+    "url": "https://www.bostonmamas.com/blog/2008/10/28/featured-mamas-susan-dorson-amy-weitzman.html",
+    "hostname": "bostonmamas.com",
+    "text_sha256": "c187443678735d217669cba78ab827e9ec8212c982d9fe7fc08805283ba96120",
+    "document_tokens": 2601,
+    "window_start": 1644
+  },
+  {
+    "row": 91,
+    "url": "https://www.axonmedchem.com/products/enzymes/hydrolases/atpase/hsp90",
+    "hostname": "axonmedchem.com",
+    "text_sha256": "56889a18f511dfc323d4c3703427ce4161038e05162cb8c512e57d2b5474a838",
+    "document_tokens": 599,
+    "window_start": 17
+  },
+  {
+    "row": 92,
+    "url": "https://www.goldn.co.uk/product/palladium-tank-plating-kit-1-litre/",
+    "hostname": "goldn.co.uk",
+    "text_sha256": "9312387ae903e578f3f83af4a4f4b5d09450c8cb162001dd7bb42eedd6efa43d",
+    "document_tokens": 730,
+    "window_start": 141
+  },
+  {
+    "row": 94,
+    "url": "http://www.bathroommakeoverauthority.com/tx/bathroom-makeovers-in-iowa-park/",
+    "hostname": "bathroommakeoverauthority.com",
+    "text_sha256": "b1793e398693cc440506d089f3f86f8905a21c48cbf44ec1a46b272755382335",
+    "document_tokens": 518,
+    "window_start": 0
+  },
+  {
+    "row": 102,
+    "url": "https://www.freelancerbabu.com/blog/web-design-vs-seo-vs-social-media/",
+    "hostname": "freelancerbabu.com",
+    "text_sha256": "53a5c073b243d7a678c6a3869850d3a92f9bda59f7e35c86c08dcdfb0f37e2a4",
+    "document_tokens": 620,
+    "window_start": 17
+  },
+  {
+    "row": 104,
+    "url": "https://gamewith.net/kingdomhearts3/article/show/5245",
+    "hostname": "gamewith.net",
+    "text_sha256": "f4eab72392a119bbdaf903dfe479f923d2db8e238d00d397018f47181dfe0ff0",
+    "document_tokens": 1556,
+    "window_start": 402
+  },
+  {
+    "row": 109,
+    "url": "https://blogs.msf.org/de/node/15186",
+    "hostname": "blogs.msf.org",
+    "text_sha256": "b4c2a9234b8da5b92ffe5ee4989c1b8bb68d04b721a53055eedc7e364f2028f1",
+    "document_tokens": 966,
+    "window_start": 77
+  },
+  {
+    "row": 112,
+    "url": "https://huddle.today/report-says-newcomers-contribute-168-million-to-provincial-budget-each-year/?fbclid=IwAR1zQ40jwb7TcJofm4BE2U2Ngt0hEzMCamX-z8HndzRj1F-yua2xCeVlYLI",
+    "hostname": "huddle.today",
+    "text_sha256": "058d63ea56d06c472b860e30adec6f21d129f56d29b93f78723a65ad935702b6",
+    "document_tokens": 1169,
+    "window_start": 545
+  },
+  {
+    "row": 113,
+    "url": "http://lcpu.org/lcpu-booking-judges-and-lecturers/",
+    "hostname": "lcpu.org",
+    "text_sha256": "c6d9943decb3133393aaa85b495fa2ef56d81c24ba2976623f27149dd06cd82b",
+    "document_tokens": 799,
+    "window_start": 286
+  },
+  {
+    "row": 114,
+    "url": "http://www.paperbackstash.com/2016/12/2016-end-of-year-survey.html",
+    "hostname": "paperbackstash.com",
+    "text_sha256": "1d7a05e7ca6bd769826f1276413a78c54ccccb5dcb4a9a7bcf96db298e588f71",
+    "document_tokens": 2280,
+    "window_start": 1642
+  },
+  {
+    "row": 115,
+    "url": "http://www.centralalbertaphotographicsociety.com/gallery-members-master.html",
+    "hostname": "centralalbertaphotographicsociety.com",
+    "text_sha256": "e489a8b0b70dd72a3fc35eefc0391faa6014c073693419e579e27027ff9078a7",
+    "document_tokens": 1149,
+    "window_start": 215
+  },
+  {
+    "row": 118,
+    "url": "https://styleblueprint.com/nashville/everyday/anthropologie-ethos/",
+    "hostname": "styleblueprint.com",
+    "text_sha256": "11196add8efed9468ba055d9c3cde2b2971a18fd231eee1fec0610eb5ae0facf",
+    "document_tokens": 828,
+    "window_start": 169
+  },
+  {
+    "row": 129,
+    "url": "http://yoomken.com/badges/personalities",
+    "hostname": "yoomken.com",
+    "text_sha256": "4b452078cbfcbdefa5c05529e80d5d2faf7c55a5c0eea8997a559f30300dae85",
+    "document_tokens": 1039,
+    "window_start": 126
+  },
+  {
+    "row": 135,
+    "url": "https://blogs.sap.com/2014/10/22/learning-at-the-speed-of-business-part-3-all-hail-the-queen/",
+    "hostname": "blogs.sap.com",
+    "text_sha256": "7fce38114dd011e9c6eae3810ae64deb33892fb84a3ecc5e306179b35a7e0cc4",
+    "document_tokens": 1707,
+    "window_start": 141
+  },
+  {
+    "row": 146,
+    "url": "https://storiesbywilliams.com/2011/11/17/hunters-of-dune-a-review/",
+    "hostname": "storiesbywilliams.com",
+    "text_sha256": "c2fbdc62e0e360ed4b50cb5f4e782d3c8d417c3a8c97fbe2e810c26c1632d198",
+    "document_tokens": 1672,
+    "window_start": 633
+  },
+  {
+    "row": 150,
+    "url": "https://jewishfunerals.org.au/arranging-the-funeral/",
+    "hostname": "jewishfunerals.org.au",
+    "text_sha256": "6336b1c9d30558e42eaa77495a663e163d2dff61bb8106f277334ad2042a955a",
+    "document_tokens": 3090,
+    "window_start": 1678
+  },
+  {
+    "row": 153,
+    "url": "http://hewan.co/Side-Kitchen-Chairs/%5Bexplore%5D-1259/best-choice-rockton-side-chair-set-of-2-by-laurel-foundry-modern-farmhouse-gf65dig33x-for-less.dhtml",
+    "hostname": "hewan.co",
+    "text_sha256": "1b81897a2fb98ddc7e214892bc92862b3c256b92b58a93cc1b83f186da8a9ee4",
+    "document_tokens": 2134,
+    "window_start": 167
+  },
+  {
+    "row": 157,
+    "url": "https://www.zmescience.com/medicine/processed-meat-red-cancer-26102015/",
+    "hostname": "zmescience.com",
+    "text_sha256": "491b3fd88fa316087b77ac944853aaa652facd359c7e906cdcc5a396b3a45d0a",
+    "document_tokens": 633,
+    "window_start": 64
+  },
+  {
+    "row": 158,
+    "url": "https://forums.dansdeals.com/index.php?topic=28145.30",
+    "hostname": "forums.dansdeals.com",
+    "text_sha256": "d19e46f881d51edf7d69f28a8f914cc656bd44e07591e479d6290ca22a3cce1e",
+    "document_tokens": 2885,
+    "window_start": 1941
+  },
+  {
+    "row": 174,
+    "url": "https://www.monotrac.com/product-info",
+    "hostname": "monotrac.com",
+    "text_sha256": "243f1b0f8d6894d4aea196bca87d305e5e39ca0516765e6aef6f949ae9fd7383",
+    "document_tokens": 552,
+    "window_start": 40
+  },
+  {
+    "row": 177,
+    "url": "http://crystlechawla.hatenablog.com/?page=1435254071",
+    "hostname": "crystlechawla.hatenablog.com",
+    "text_sha256": "8234de04e05e308d9b16bb2c0cfc5c40b63e737b6b501ad50f6d02625f2868a4",
+    "document_tokens": 1650,
+    "window_start": 290
+  },
+  {
+    "row": 182,
+    "url": "https://www.inc.com/suzanne-lucas/supreme-court-your-bakery-doesnt-have-to-bake-a-gay-wedding-cake.html",
+    "hostname": "inc.com",
+    "text_sha256": "789ffa14bb4dce85c6eebc44f0d4593ee24c395d19b33ef9bea533819bd68e33",
+    "document_tokens": 681,
+    "window_start": 104
+  },
+  {
+    "row": 185,
+    "url": "http://www.mywanderingstory.com/2013/04/baby-naomis-first-studio-photos_20.html",
+    "hostname": "mywanderingstory.com",
+    "text_sha256": "be7c112ada44cdd96ec0bb9b4a7498dc4fbd995aabcf4496c2d58807a718ad8c",
+    "document_tokens": 767,
+    "window_start": 172
+  },
+  {
+    "row": 188,
+    "url": "http://better-colombia.co/online-casino-spiele-gratis/fantastic-four-slot-machine-online-amaya-casino-slots.php",
+    "hostname": "better-colombia.co",
+    "text_sha256": "618390595ddeee035cd123181360c1dba79662a48b993d35a6809c50c7dd1062",
+    "document_tokens": 998,
+    "window_start": 9
+  },
+  {
+    "row": 190,
+    "url": "http://www.humaniteinenglish.com/spip.php?article2328",
+    "hostname": "humaniteinenglish.com",
+    "text_sha256": "58e7f53e2e11efbbfefde37ef0bea3873d34d31b9ac08dc99a0ababa2bd1b5a2",
+    "document_tokens": 600,
+    "window_start": 55
+  },
+  {
+    "row": 196,
+    "url": "http://www.rockfordcenter.com/older-adult-services-65/",
+    "hostname": "rockfordcenter.com",
+    "text_sha256": "921b5b858c94fc183e6e52c39b2a92e45b2acf1126897e9544999204127d9f34",
+    "document_tokens": 670,
+    "window_start": 95
+  },
+  {
+    "row": 200,
+    "url": "https://www.skipjackhub.com/benefits-of-encrypcurrency/",
+    "hostname": "skipjackhub.com",
+    "text_sha256": "bc775e00ed08a70927dfbb44225481c5f942ab9d3216e9e1d5cf3e375cf102bc",
+    "document_tokens": 1310,
+    "window_start": 585
+  },
+  {
+    "row": 202,
+    "url": "http://www.marketwired.com/press-release/teck-reports-unaudited-results-for-2011-tsx-tck.a-1617583.htm",
+    "hostname": "marketwired.com",
+    "text_sha256": "953fbecaa94db64ea57bde6cf3ec704a74f98871d37a4f1b240545eb23188ea8",
+    "document_tokens": 11286,
+    "window_start": 846
+  },
+  {
+    "row": 207,
+    "url": "https://forums.nexusmods.com/index.php?/topic/5106815-recorders-unofficial-guide-and-bug-fix/",
+    "hostname": "forums.nexusmods.com",
+    "text_sha256": "905ccd7326b0c72e88025e5e2bc90977cc65d4a43b0f0cb869618961b89f424b",
+    "document_tokens": 4328,
+    "window_start": 3673
+  },
+  {
+    "row": 214,
+    "url": "https://www.daycare.com/forum/showthread.php?s=a13b5eb7d39e57c474a0abeaef2cd01c&t=65963",
+    "hostname": "daycare.com",
+    "text_sha256": "5884f47394eadcf20098b2191f629cf1478b1351343e7586a2421531533dde2c",
+    "document_tokens": 934,
+    "window_start": 385
+  },
+  {
+    "row": 218,
+    "url": "http://www.rembastrans.rs/pp51/lotensin-40-mg-tablet.html",
+    "hostname": "rembastrans.rs",
+    "text_sha256": "d084cbab02711138b070170fed0cbafe29f9f4597f3b364cf7085ae24a0a9c68",
+    "document_tokens": 1587,
+    "window_start": 726
+  },
+  {
+    "row": 224,
+    "url": "http://businessnc.com/whats-the-big-ideacategory/",
+    "hostname": "businessnc.com",
+    "text_sha256": "78c4f8b2864c725fa19832617e3e5a06c06cd2ba538680fb5042380764ac30a6",
+    "document_tokens": 773,
+    "window_start": 25
+  },
+  {
+    "row": 226,
+    "url": "http://caas.rxwiki.com/gemfibrozil",
+    "hostname": "caas.rxwiki.com",
+    "text_sha256": "056d59b6a2cfb9a2a4ebaca6f5176cd9b221c854657912a09ed08c47cfce8e43",
+    "document_tokens": 758,
+    "window_start": 245
+  },
+  {
+    "row": 227,
+    "url": "https://casinobonusca.com/50-free-spins/",
+    "hostname": "casinobonusca.com",
+    "text_sha256": "07525f2955455d4381ca890e43405640197e755c8e15c98c889f07973d605553",
+    "document_tokens": 2531,
+    "window_start": 977
+  },
+  {
+    "row": 229,
+    "url": "https://orthoaspen.org/condition/foot-fractures/",
+    "hostname": "orthoaspen.org",
+    "text_sha256": "d81a443d61cf0392444c98c86d90c3ca84d36d2ba964548951a61d872c1cc1a4",
+    "document_tokens": 635,
+    "window_start": 47
+  },
+  {
+    "row": 232,
+    "url": "https://vinyl.org.au/component/k2/itemlist/tag/Recycling",
+    "hostname": "vinyl.org.au",
+    "text_sha256": "2fc42701189b0f557bebcceb4cc3bca3de4587e4482193abb187e5d1253de44d",
+    "document_tokens": 1380,
+    "window_start": 593
+  },
+  {
+    "row": 240,
+    "url": "http://forum.caithness.org/archive/index.php/t-137294.html?s=4f23a1328872c8a76c670ddb50295906",
+    "hostname": "forum.caithness.org",
+    "text_sha256": "b669a4c80141ddafaed3e065081d8c6516363e200bb7049a1add1bc1207880be",
+    "document_tokens": 1245,
+    "window_start": 5
+  },
+  {
+    "row": 246,
+    "url": "http://wiki.sabirding.co.za/(X(1)S(dvan5dvgnrxq2g55m3yp4gny))/Bronkhorstspruit.ashx",
+    "hostname": "wiki.sabirding.co.za",
+    "text_sha256": "2a0cd72ab1af8017272d5423d648fbd8fa368231de5330ae5da22076dcf2230e",
+    "document_tokens": 1356,
+    "window_start": 415
+  },
+  {
+    "row": 249,
+    "url": "https://candles.lovetoknow.com/Ear_Wax_Candle",
+    "hostname": "candles.lovetoknow.com",
+    "text_sha256": "1a9e1961e786be5a9f612738d1dbb7e3c039e3c62edc390304cea2784048a6d2",
+    "document_tokens": 664,
+    "window_start": 61
+  },
+  {
+    "row": 250,
+    "url": "https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Bufori.html",
+    "hostname": "ipfs.io",
+    "text_sha256": "da5dec851bd1a8ad807b12c53d0dee7c68929ba1311b82dc0d98f6b9b3e5e2aa",
+    "document_tokens": 849,
+    "window_start": 59
+  },
+  {
+    "row": 251,
+    "url": "http://blogs.coventry.ac.uk/uncovered/2016/10/14/6-student-budget-places-to-eat-in-coventry-2/",
+    "hostname": "blogs.coventry.ac.uk",
+    "text_sha256": "03e6a1de67d691cdfd7dc5a780192fca45e1e6076ab5e00298ea96af3910d59d",
+    "document_tokens": 666,
+    "window_start": 142
+  },
+  {
+    "row": 258,
+    "url": "http://blog.whooosreading.org/amplify-student-voice-with-technology/",
+    "hostname": "blog.whooosreading.org",
+    "text_sha256": "26b0cc6a2a189b347ead8fe374a83ab646bf7e85e7a847d74150f88dcd52724b",
+    "document_tokens": 1273,
+    "window_start": 218
+  },
+  {
+    "row": 260,
+    "url": "https://www.edvirt.com/sprayed-concrete-e4-sthlm-bypas",
+    "hostname": "edvirt.com",
+    "text_sha256": "9cd9e3344cc751b29a31a86aabc76b1aa02f89d87c8926fdd92aa39fdfac9818",
+    "document_tokens": 617,
+    "window_start": 31
+  },
+  {
+    "row": 266,
+    "url": "https://www.fichier-pdf.fr/recherche-pdf.php?q=gastronomic",
+    "hostname": "fichier-pdf.fr",
+    "text_sha256": "9663785508ea4da0243def5a690b5c0ef2990a6edff35b2c4919b14dff09a60e",
+    "document_tokens": 572,
+    "window_start": 33
+  },
+  {
+    "row": 270,
+    "url": "https://www.healthforcega.com/health-force-of-georgia-terms-of-service/",
+    "hostname": "healthforcega.com",
+    "text_sha256": "19ee438dd50ee6155e25359cb9871e1a3ebfb7a8993f5acf695fd918c953c466",
+    "document_tokens": 1699,
+    "window_start": 736
+  },
+  {
+    "row": 271,
+    "url": "https://lidafarm.com/2014/06/",
+    "hostname": "lidafarm.com",
+    "text_sha256": "9213a9dd3701fd2d82f141e8ec68d2bda401bdfb7f13f9ee31d008b5f1962584",
+    "document_tokens": 665,
+    "window_start": 14
+  },
+  {
+    "row": 273,
+    "url": "http://dailybowloflife.blogspot.com/2009/06/jeremiah-1616.html",
+    "hostname": "dailybowloflife.blogspot.com",
+    "text_sha256": "f31fc306a37cc767b2ca68b819811916bee0f32137ae7109713b9f3d71f78306",
+    "document_tokens": 521,
+    "window_start": 4
+  },
+  {
+    "row": 274,
+    "url": "https://mg.co.za/article/2014-05-29-nathi-mthethwa-on-patrol-for-the-nations-artistic-soul",
+    "hostname": "mg.co.za",
+    "text_sha256": "d7e67eccf9fb9254c4800a7ff02fff8bc116618ee1fa47a9cf673a1f2cb5152e",
+    "document_tokens": 1227,
+    "window_start": 65
+  },
+  {
+    "row": 283,
+    "url": "https://blog.booko.com.au/2009/08/23/on-being-googled/",
+    "hostname": "blog.booko.com.au",
+    "text_sha256": "bd3075a7ef2c7a214b849ecf40705363090388e326507a5fae4c5d25dd1e4f0d",
+    "document_tokens": 773,
+    "window_start": 141
+  },
+  {
+    "row": 284,
+    "url": "https://orangepixel.co.uk/website-design/3-reasons-need-wordpress-project-management/",
+    "hostname": "orangepixel.co.uk",
+    "text_sha256": "4efd8a709d10b96e4aab6699b45d9d0c6924149fa58467bd21bd9a361fee2c61",
+    "document_tokens": 619,
+    "window_start": 24
+  },
+  {
+    "row": 290,
+    "url": "https://www.strtrade.com/news,page83.html",
+    "hostname": "strtrade.com",
+    "text_sha256": "be8b307c1f81d03d6b3640b52124fe41d0c62907aa57d97c1cf0abf8c335d86d",
+    "document_tokens": 710,
+    "window_start": 191
+  },
+  {
+    "row": 294,
+    "url": "https://craighill.net/2013/07/31/australians-face-perils-by-doing-business-in-china/",
+    "hostname": "craighill.net",
+    "text_sha256": "1fed4262f469527ba2eda5825a7b0574c8e71c36f198b5d9aa46310111b657a4",
+    "document_tokens": 676,
+    "window_start": 154
+  },
+  {
+    "row": 295,
+    "url": "https://hax.iimarckus.org/topic/7014/4/",
+    "hostname": "hax.iimarckus.org",
+    "text_sha256": "e611be426327173ac2f54190a954f45c0eef4e343ba11faeb0665570290608d2",
+    "document_tokens": 952,
+    "window_start": 424
+  },
+  {
+    "row": 302,
+    "url": "http://www.honolulumagazine.com/Honolulu-Magazine/October-2017/7-Absolutely-Free-Honolulu-Events-to-Check-Out-in-October-2017/",
+    "hostname": "honolulumagazine.com",
+    "text_sha256": "5f529804c29b1dad265a5652f6e3b5a40cd8ea37ab31c6a5b378af2095d3ad49",
+    "document_tokens": 698,
+    "window_start": 142
+  },
+  {
+    "row": 306,
+    "url": "https://www.westgoalparacollege.in/intelligent/7299/ore-bagging-machines.html",
+    "hostname": "westgoalparacollege.in",
+    "text_sha256": "c581bae7f4584bee61e751bafc788ac3f2bfc7080b03e7648ced99a759f372aa",
+    "document_tokens": 718,
+    "window_start": 136
+  },
+  {
+    "row": 309,
+    "url": "http://www.breatheyourpassion.com/blog/2015/12/10/living-my-dream",
+    "hostname": "breatheyourpassion.com",
+    "text_sha256": "9f393e40d8f227c03f3a1f435785cd7ae74f6b61c994cb198f80d919049d34db",
+    "document_tokens": 2691,
+    "window_start": 530
+  },
+  {
+    "row": 318,
+    "url": "https://blogs.slv.vic.gov.au/such-was-life/violet-town-railway-disaster/",
+    "hostname": "blogs.slv.vic.gov.au",
+    "text_sha256": "fce9e99b5ba9f94390c6fbf6416146ab445e98e1ad6f67dc9b729d11194a8ecc",
+    "document_tokens": 4193,
+    "window_start": 1024
+  },
+  {
+    "row": 320,
+    "url": "https://www.pcgamer.com/uk/how-to-stink-up-the-road-to-a-victory-royale-with-fortnites-stink-bomb/",
+    "hostname": "pcgamer.com",
+    "text_sha256": "11c590ed302c07b344958c68908954f57a84dadb3210fee00b10c688e351119d",
+    "document_tokens": 742,
+    "window_start": 168
+  },
+  {
+    "row": 321,
+    "url": "http://airtycoon2.forumotion.com/t35-historical-mode",
+    "hostname": "airtycoon2.forumotion.com",
+    "text_sha256": "7c7c47fd58b9ff11a28e836cf403b4fef2ed0d493e3bb098d3b5dc633569903c",
+    "document_tokens": 724,
+    "window_start": 78
+  },
+  {
+    "row": 326,
+    "url": "https://www.macworld.co.uk/news/ipad/multitasking-in-ios-9-makes-the-ipad-a-true-post-pc-device-3615857/",
+    "hostname": "macworld.co.uk",
+    "text_sha256": "66c5d9cd0ab15b3f7fbb797d65c61b5d547c568b481fbf7fbb8714ee521c97e4",
+    "document_tokens": 1650,
+    "window_start": 712
+  },
+  {
+    "row": 327,
+    "url": "https://john.do/ipseity-personal-branding-wordpress-theme/",
+    "hostname": "john.do",
+    "text_sha256": "2d9fbf6f616926dc5c114c1ada4483831680c6d024c5a73bb8f5c5892e564d38",
+    "document_tokens": 933,
+    "window_start": 163
+  },
+  {
+    "row": 328,
+    "url": "https://tvseriesfinale.com/tv-show/greek-last-episode-19291/comment-page-1/",
+    "hostname": "tvseriesfinale.com",
+    "text_sha256": "6707efe40a20fb1cd23c8e556097b55dc355319cafdb8fb51fd432f21a377806",
+    "document_tokens": 572,
+    "window_start": 10
+  },
+  {
+    "row": 331,
+    "url": "https://discussion.roadscholar.org/road-scholar-general/f/health-special-considerations/174/when-the-activity-level-is-too-high",
+    "hostname": "discussion.roadscholar.org",
+    "text_sha256": "ce2e5f9ba7fce08e2df594cadf2659cf44352ce75a715542f705abf1d2d6366e",
+    "document_tokens": 1179,
+    "window_start": 340
+  },
+  {
+    "row": 335,
+    "url": "https://issuu.com/polisgroup/docs/polis_group_portfolio",
+    "hostname": "issuu.com",
+    "text_sha256": "8807f6473cf99351697985c816a6eef843dd40a893c2266e52d32855b4906466",
+    "document_tokens": 2639,
+    "window_start": 385
+  },
+  {
+    "row": 339,
+    "url": "http://www.shemfoodbank.org/about-us/",
+    "hostname": "shemfoodbank.org",
+    "text_sha256": "1e2a9fd2f9dab2c9f81a538ec223b65c755b81befb149661c81ed60a505199e6",
+    "document_tokens": 1001,
+    "window_start": 465
+  },
+  {
+    "row": 340,
+    "url": "http://www.thefutoncritic.com/news/2014/07/14/pam-oliver-elevated-to-senior-correspondent-624412/20140714fox02/",
+    "hostname": "thefutoncritic.com",
+    "text_sha256": "036df3c0eba9506db6b19fbeb5e899bc8dbc3a6db19738f9baeb1e441a5a8866",
+    "document_tokens": 859,
+    "window_start": 294
+  },
+  {
+    "row": 342,
+    "url": "https://www.nytimes.com/2015/01/04/style/the-unending-anxiety-of-an-icymi-world.html?_r=0",
+    "hostname": "nytimes.com",
+    "text_sha256": "16a7385c506029e9a46d0b6a7b0a0abbd2d4ab241af8291466eecaa05b11e79f",
+    "document_tokens": 1116,
+    "window_start": 592
+  },
+  {
+    "row": 343,
+    "url": "http://www.governmentjobs.org/tsa-jobs.html",
+    "hostname": "governmentjobs.org",
+    "text_sha256": "df39b33672a6f848a3dce5f8b2e3dbe2a2b343d9c599f3c8d2fcca76a2a3d393",
+    "document_tokens": 702,
+    "window_start": 69
+  },
+  {
+    "row": 352,
+    "url": "https://www.holidaylodges-uk.com/lodge-park/Exmoor-Gate-2979.html",
+    "hostname": "holidaylodges-uk.com",
+    "text_sha256": "b57d26a1391384706516ecbd3b7102c48499612e8cbc63ece317d5f847f254d4",
+    "document_tokens": 678,
+    "window_start": 85
+  },
+  {
+    "row": 356,
+    "url": "http://blogs.ubc.ca/library/category/2010/",
+    "hostname": "blogs.ubc.ca",
+    "text_sha256": "2bbbba4595790b2483e6b9958959ea86890e54d46f7beeaf6fa8f07c884b340f",
+    "document_tokens": 1078,
+    "window_start": 9
+  },
+  {
+    "row": 358,
+    "url": "https://www.sunshinekelly.com/2016/12/kens-christmas-carnival-gift-wrapping.html",
+    "hostname": "sunshinekelly.com",
+    "text_sha256": "d17ffe8dc63a9420a2b86ee9dfbb242615c66c5a59eb473fc3055cf4e7651880",
+    "document_tokens": 519,
+    "window_start": 0
+  },
+  {
+    "row": 359,
+    "url": "https://rookief1.com/2012/07/22/germany-gp-2012/",
+    "hostname": "rookief1.com",
+    "text_sha256": "6af70433cb6a9a4be24f6dec58c02d8aa2a05e638194e8da4aa6e1375543b0ad",
+    "document_tokens": 1174,
+    "window_start": 356
+  },
+  {
+    "row": 361,
+    "url": "https://mrtony19.wordpress.com/about/",
+    "hostname": "mrtony19.wordpress.com",
+    "text_sha256": "cf2571da153e9e5e0e8a20e108fd84e18ffe29fa315fa98f5c782a310aa01b18",
+    "document_tokens": 643,
+    "window_start": 4
+  },
+  {
+    "row": 365,
+    "url": "http://jimbrownforussenate.com/profesjonalny-list-motywacyjny/",
+    "hostname": "jimbrownforussenate.com",
+    "text_sha256": "527171df2444e6de2d2b4c76c8b9177e697b2df65cb5c2676310cdf208c478b3",
+    "document_tokens": 5522,
+    "window_start": 3826
+  },
+  {
+    "row": 368,
+    "url": "https://www.dailycomet.com/entertainment/20091125/tv-retailer-qvc-joins-black-friday-frenzy",
+    "hostname": "dailycomet.com",
+    "text_sha256": "0076f9428a403c396d3bced134ca80f9072d6f46d69c8ff0ee7862bf70de9c93",
+    "document_tokens": 574,
+    "window_start": 47
+  },
+  {
+    "row": 375,
+    "url": "http://www.berkeleydailyplanet.com/issue/2002-10-16/article/15413?headline=David-Letterman-gets-his-wish---By-David-Bauder-The-Associated-Press-",
+    "hostname": "berkeleydailyplanet.com",
+    "text_sha256": "5286c5e135e27cf0635f314301e8846efb75a5b5e0dda889f85c3d6acc0ad691",
+    "document_tokens": 731,
+    "window_start": 69
+  },
+  {
+    "row": 376,
+    "url": "https://demafirm.com/holiday-buy-flash-furniture-hercules-series-fan-back-metal-chair-black-vinyl-seat-uj3wm27s3n-T04827-kitchen_furniture.aspx",
+    "hostname": "demafirm.com",
+    "text_sha256": "cd08e8bd6f6e4793fd470a9c732402131d5efbc394a55e73d60690636733614f",
+    "document_tokens": 1607,
+    "window_start": 970
+  },
+  {
+    "row": 379,
+    "url": "https://www.newsweek.com/dragon-ball-fighterz-xenoverse-2-livestream-1290410?utm_campaign=Distribution",
+    "hostname": "newsweek.com",
+    "text_sha256": "fa5fbfc60c23ef011f04bfa32780c81dca86eafe881c84555d035d171aaeafcb",
+    "document_tokens": 529,
+    "window_start": 1
+  },
+  {
+    "row": 387,
+    "url": "http://mysales-coach.com/index.php?option=com_content&amp;view=article&amp;id=1622",
+    "hostname": "mysales-coach.com",
+    "text_sha256": "c909e561c87c736c6c055075bd6bba75a9ec32fe4f48192df1ca6f783007dea5",
+    "document_tokens": 1035,
+    "window_start": 203
+  },
+  {
+    "row": 388,
+    "url": "https://mobile.ghanaweb.com/GhanaHomePage/features/Ghana-gets-first-ever-Open-University-505362",
+    "hostname": "mobile.ghanaweb.com",
+    "text_sha256": "9ddfcbcc8f0bc74205e1c7b1a7d039e428c6dc362044c4d32d00bf15577ae45b",
+    "document_tokens": 635,
+    "window_start": 39
+  },
+  {
+    "row": 389,
+    "url": "https://www.lds.org/scriptures/bofm/alma/5.27-29?lang=eng",
+    "hostname": "lds.org",
+    "text_sha256": "7d0f3b0579e8ed06285f47d76655652f23f7ad8a92d96a7bdd4adbea253f2417",
+    "document_tokens": 3062,
+    "window_start": 1057
+  },
+  {
+    "row": 392,
+    "url": "http://lp.medicalnewstoday.com/articles/320124.php?iacp",
+    "hostname": "lp.medicalnewstoday.com",
+    "text_sha256": "d9ac34fe2777a7968f693639535bbd780cff4b8877de7aa3e81006dd529a36dd",
+    "document_tokens": 1266,
+    "window_start": 76
+  },
+  {
+    "row": 393,
+    "url": "http://www.stu2.net/projects/bev2/index.php",
+    "hostname": "stu2.net",
+    "text_sha256": "7e2bef95c0598b3d9563c69528bab39bb1484df1740b58bd351e15fa2c35c4dd",
+    "document_tokens": 1544,
+    "window_start": 993
+  },
+  {
+    "row": 395,
+    "url": "http://webfoundations.com/showcase.html",
+    "hostname": "webfoundations.com",
+    "text_sha256": "885c0874f77118579a67c89834910dd28f1cfe9f74e1779a44b0797001c8b5e8",
+    "document_tokens": 1247,
+    "window_start": 21
+  },
+  {
+    "row": 399,
+    "url": "https://www.couponchaska.com/best-smart-fitness-bands-india/",
+    "hostname": "couponchaska.com",
+    "text_sha256": "35f22e93f4beafb184345f4bba377ff1f2f36ddd0e78dc10d30029066db748f2",
+    "document_tokens": 931,
+    "window_start": 317
+  },
+  {
+    "row": 401,
+    "url": "https://www.amybucklesbookshelf.co.uk/2018/05/we-never-asked-for-wings-book-review.html",
+    "hostname": "amybucklesbookshelf.co.uk",
+    "text_sha256": "1f1dd3229a52bef5ebf1aa6fffe4bc1e2c39223e535049d86a1278e78b9b13a3",
+    "document_tokens": 696,
+    "window_start": 144
+  },
+  {
+    "row": 409,
+    "url": "http://www.chicagonow.com/media-tech-connection/2011/08/weekly-tech-events-for-week-of-august-22-socialdevcamp-hackathon-and-more/",
+    "hostname": "chicagonow.com",
+    "text_sha256": "695c24c71504bfae2b03339840d05d0a972e25ed4c1c2784da43077c804854fa",
+    "document_tokens": 571,
+    "window_start": 33
+  },
+  {
+    "row": 414,
+    "url": "https://www.agoda.com/ms-my/kafieris-apartments-on-the-cliff/hotel/santorini-gr.html",
+    "hostname": "agoda.com",
+    "text_sha256": "7a5304c03b4db24bcd83e95d0f419f0c1a6c030f736d744d93a2e833a17cbdf0",
+    "document_tokens": 934,
+    "window_start": 351
+  },
+  {
+    "row": 416,
+    "url": "http://www.veganforum.com/forums/archive/index.php/t-332-p-204.html?s=9da4d2e570e219ae7264adc76d84b0c3",
+    "hostname": "veganforum.com",
+    "text_sha256": "2e9a871f1b0056adf3da5016876c82fb98396cda1522392c6996ce87da1750da",
+    "document_tokens": 586,
+    "window_start": 17
+  },
+  {
+    "row": 417,
+    "url": "http://missliterati.com/secret-battle-star-week-9.html",
+    "hostname": "missliterati.com",
+    "text_sha256": "b86800b55d335676e54c7af9c8bcac5fd5903ea5488129050fdf751973ab97d7",
+    "document_tokens": 1392,
+    "window_start": 412
+  },
+  {
+    "row": 420,
+    "url": "https://thyroidschool.com/thyroid-blog/hypothyroid-or-hashimotos",
+    "hostname": "thyroidschool.com",
+    "text_sha256": "648a3b00654f45d48cdadcaa5ccab7df2b41537bbfb26cf2419337295c89a4fd",
+    "document_tokens": 602,
+    "window_start": 62
+  },
+  {
+    "row": 421,
+    "url": "https://www.cnbc.com/2015/06/13/hunt-for-returns-forces-funds-into-emerging-market-debt.html",
+    "hostname": "cnbc.com",
+    "text_sha256": "1b3aedde496675bf663e1bfaf5ace7122fe4355da8131729dc195b3f41e13754",
+    "document_tokens": 1060,
+    "window_start": 400
+  },
+  {
+    "row": 425,
+    "url": "https://institute.franklin.edu/i4-blog/Workflow-Workflow/black-jeannie",
+    "hostname": "institute.franklin.edu",
+    "text_sha256": "3fe854a4526664f06a3d1dca26af85c95f54db99b3846081a1cc9eb352549d7a",
+    "document_tokens": 829,
+    "window_start": 93
+  },
+  {
+    "row": 427,
+    "url": "https://www.cookrepublic.com/turmeric-roasted-cashews-with-chia/",
+    "hostname": "cookrepublic.com",
+    "text_sha256": "1ed775858861e1cd4f83d6ef9efbd21771df211055af4177489f42c6d7dfaf0c",
+    "document_tokens": 1333,
+    "window_start": 200
+  },
+  {
+    "row": 429,
+    "url": "https://alpost10nc.org/oratorical-contest/",
+    "hostname": "alpost10nc.org",
+    "text_sha256": "95211a65eb877211244c375aa0363bc411193ad5472885f37ddc7742ce96f585",
+    "document_tokens": 622,
+    "window_start": 32
+  },
+  {
+    "row": 434,
+    "url": "https://whatjamesdid.com/2013/10/29/let-there-be-light/",
+    "hostname": "whatjamesdid.com",
+    "text_sha256": "08e4693d9f16ee25a9c411e99936cf2c71fee2df49aeb285cbe72cdbfc4de863",
+    "document_tokens": 867,
+    "window_start": 77
+  },
+  {
+    "row": 435,
+    "url": "http://www.luvcelebs.com/cineview/review-jackson-durai-is-a-decent-watch-843.html",
+    "hostname": "luvcelebs.com",
+    "text_sha256": "ae5c0ac71c856b9ba81bc1572380c96d7b5e6849154246c52f8cba856e03f009",
+    "document_tokens": 708,
+    "window_start": 173
+  },
+  {
+    "row": 436,
+    "url": "https://veranikalim.com/topic-3737.html",
+    "hostname": "veranikalim.com",
+    "text_sha256": "cd6c2549446a251b482fe4601a195cbc3f00d02a4b0ecf1c1ef12b548c009275",
+    "document_tokens": 1494,
+    "window_start": 113
+  },
+  {
+    "row": 440,
+    "url": "https://www.brighthub.com/office/entrepreneurs/articles/128217.aspx",
+    "hostname": "brighthub.com",
+    "text_sha256": "36ed1228eb80df06a8e2548609b4db08a7d45f16e657f7b9c90af200fa9002f1",
+    "document_tokens": 1047,
+    "window_start": 217
+  },
+  {
+    "row": 441,
+    "url": "http://outsideoftheboot.com/2017/11/28/scout-report-panagiotis-retsos/",
+    "hostname": "outsideoftheboot.com",
+    "text_sha256": "c7894b769ad5008a137d7b2447ba45473d43b5cda128ba83dae5b42980f64290",
+    "document_tokens": 1438,
+    "window_start": 51
+  },
+  {
+    "row": 442,
+    "url": "http://colourchameleon.com/blog/2014/02/",
+    "hostname": "colourchameleon.com",
+    "text_sha256": "10d881c3747667929761f02452616c4847b147edfbdc4eeedcba3f7520d95917",
+    "document_tokens": 1643,
+    "window_start": 1099
+  },
+  {
+    "row": 449,
+    "url": "https://www.blueoregon.com/2008/10/yes-on-56-the-s/",
+    "hostname": "blueoregon.com",
+    "text_sha256": "4e5ea36c896898dc3f2fedd081f0720dc20e1c3e7cd3a8d2123803ea1da66b26",
+    "document_tokens": 1397,
+    "window_start": 312
+  },
+  {
+    "row": 450,
+    "url": "http://opus1journal.org/articles/article.asp?docID=173&keywords=expected+value&type=1&chapterID=0",
+    "hostname": "opus1journal.org",
+    "text_sha256": "b8d1ed9e7582ddeb00d6ff79b5a8254404b8b00a858fd7d8b942b867a6b7fb05",
+    "document_tokens": 525,
+    "window_start": 12
+  },
+  {
+    "row": 458,
+    "url": "http://www.vipulgrover.com/2012/02/panda-chameleon-cats-or-dark-horse.html",
+    "hostname": "vipulgrover.com",
+    "text_sha256": "bee3958d679858246c67e00c407995f1c078bac336c6bccc7e12aefa428d87ee",
+    "document_tokens": 706,
+    "window_start": 80
+  },
+  {
+    "row": 459,
+    "url": "https://jknewsservice.com/heres-how-smartphones-damage-your-productivity-and-health/",
+    "hostname": "jknewsservice.com",
+    "text_sha256": "02a80904bae3087fd4d5a575973287d98b262551a66e4f03c4d7b65a3626c037",
+    "document_tokens": 528,
+    "window_start": 10
+  },
+  {
+    "row": 466,
+    "url": "http://www.tacomadailyindex.com/blog/tacoma-celebrates-first-annual-world-trade-center-association-day/101096/",
+    "hostname": "tacomadailyindex.com",
+    "text_sha256": "e220cba1634be736bf5bce1f141fd3cbc4987ea6d13df8381e1840c6b261b619",
+    "document_tokens": 846,
+    "window_start": 25
+  },
+  {
+    "row": 468,
+    "url": "https://forum.tuts4you.com/blogs/entry/161-quick-dirty-way-to-bypass-themida-anti-attach/",
+    "hostname": "forum.tuts4you.com",
+    "text_sha256": "3e3d93e31b05721f871b24d571a39a5e1a3d25d7c75dc3c92122030f41292c0d",
+    "document_tokens": 939,
+    "window_start": 82
+  },
+  {
+    "row": 475,
+    "url": "http://www.brooksbrokerage.com/news/news-05-01-20.html",
+    "hostname": "brooksbrokerage.com",
+    "text_sha256": "83faf4312b904d194b89b2bf1c535e327094866b424d8a24af59e8f7c6c7dbec",
+    "document_tokens": 843,
+    "window_start": 214
+  },
+  {
+    "row": 476,
+    "url": "https://patents.google.com/patent/US20070005147A1/en",
+    "hostname": "patents.google.com",
+    "text_sha256": "014da96f032f0313c29a5d1e8a8d543938022c51c3b3dd78c5c6c0c8a634c423",
+    "document_tokens": 2806,
+    "window_start": 380
+  },
+  {
+    "row": 477,
+    "url": "https://www.orlandosentinel.com/news/os-xpm-1997-06-03-9706020278-story.html",
+    "hostname": "orlandosentinel.com",
+    "text_sha256": "1ec54c6bc5c225d6b21c5da09670d7aba4bfcf72ce5e6afb42f6564648524246",
+    "document_tokens": 657,
+    "window_start": 79
+  },
+  {
+    "row": 481,
+    "url": "https://dailyanarchist.com/forum/index.php/topic,1086.0.html",
+    "hostname": "dailyanarchist.com",
+    "text_sha256": "1d1493efc8640a8cffaa80f8c9ef7d39166505766e1165a2b329eb165c646628",
+    "document_tokens": 795,
+    "window_start": 128
+  },
+  {
+    "row": 487,
+    "url": "https://www.trinityp3.com/2013/09/kpis-agency-performance/",
+    "hostname": "trinityp3.com",
+    "text_sha256": "449e9daa3a99aae51a115b55821c1a4f8d7fa066f099c95e829bfd4a9efa640e",
+    "document_tokens": 1125,
+    "window_start": 413
+  },
+  {
+    "row": 492,
+    "url": "http://archive.constantcontact.com/fs104/1103700524337/archive/1112496223003.html",
+    "hostname": "archive.constantcontact.com",
+    "text_sha256": "8c13f965ac914eb394c8c08f3dc777049a85c3c8b8d406cc5c84b99f22b6be4a",
+    "document_tokens": 878,
+    "window_start": 245
+  },
+  {
+    "row": 499,
+    "url": "http://ralf-wetzel.info/?option=com_content&view=article&id=11779",
+    "hostname": "ralf-wetzel.info",
+    "text_sha256": "c353f85ab2b8e90af4e332e01c9c6c091a7187c5bb8278a98d83a3bb03e3f117",
+    "document_tokens": 870,
+    "window_start": 38
+  },
+  {
+    "row": 501,
+    "url": "http://dwse.org/index.php/terms",
+    "hostname": "dwse.org",
+    "text_sha256": "f53497302069233b74e11869b943fda65b0f1b40c1d0ec094fb031ced0f82feb",
+    "document_tokens": 2157,
+    "window_start": 1110
+  },
+  {
+    "row": 508,
+    "url": "http://embeddedblog.blogspot.com/2019/02/",
+    "hostname": "embeddedblog.blogspot.com",
+    "text_sha256": "b48ed6d03ac00dc90f9b05906315ee6309653fe0dcbb02457aef16491a2a2014",
+    "document_tokens": 4599,
+    "window_start": 348
+  },
+  {
+    "row": 514,
+    "url": "https://www.seacoastonline.com/article/20100128/NEWS/100129784",
+    "hostname": "seacoastonline.com",
+    "text_sha256": "63ab2c678889e154ddabc29dce924a5445da96484dd2ddf0ea32dfcaa9bae02e",
+    "document_tokens": 1177,
+    "window_start": 556
+  },
+  {
+    "row": 521,
+    "url": "http://www.duvallhomes.org/category/news-events/",
+    "hostname": "duvallhomes.org",
+    "text_sha256": "fc1e64c63ad6053a3315f2770946a4040504cb67e9a85d796a7a9b8beab70306",
+    "document_tokens": 2784,
+    "window_start": 990
+  },
+  {
+    "row": 527,
+    "url": "https://bookshelvesofdoom.blogs.com/bookshelves_of_doom/books_poetry/",
+    "hostname": "bookshelvesofdoom.blogs.com",
+    "text_sha256": "bb3d15cfcd8acb8094bf0b8054db699d25d463459110b74d87bf348b98e08d46",
+    "document_tokens": 675,
+    "window_start": 57
+  },
+  {
+    "row": 544,
+    "url": "https://www.stmarytx.edu/2008/shimek-freeman-earn-heartland-honors/",
+    "hostname": "stmarytx.edu",
+    "text_sha256": "d88fa58923b87950bde0f4dfcaab320b3cdf3f121640ef17ab55bae4681c4242",
+    "document_tokens": 540,
+    "window_start": 17
+  },
+  {
+    "row": 548,
+    "url": "http://www.oyumm.com/author/birdy/?profile-section=reputation",
+    "hostname": "oyumm.com",
+    "text_sha256": "c5cc9a63265a12eb5816070e8d7efec06a4cf1d0dca7c8f63cd184471f81dc98",
+    "document_tokens": 6184,
+    "window_start": 2172
+  },
+  {
+    "row": 553,
+    "url": "https://www.manrepeller.com/2017/08/eyelash-extensions-were-making-my-lids-bald.html",
+    "hostname": "manrepeller.com",
+    "text_sha256": "cf16262e559b66d6ea49470188670c3a33cb10c771a3f7445033a9462da1e737",
+    "document_tokens": 1657,
+    "window_start": 334
+  },
+  {
+    "row": 556,
+    "url": "https://www.resolver.co.uk/companies/brightbingo-complaints",
+    "hostname": "resolver.co.uk",
+    "text_sha256": "82e0b8c9ec069da75a921f8dca2a8eb7fab2951ab964a8637a7e03affb1f82dc",
+    "document_tokens": 533,
+    "window_start": 9
+  },
+  {
+    "row": 569,
+    "url": "https://bangkokshootingrange.com/2018/12/17/basic-safety-rules/",
+    "hostname": "bangkokshootingrange.com",
+    "text_sha256": "6fa4eafd41571558f1816684de81560f85fda711394154f9f38a41d525509766",
+    "document_tokens": 1018,
+    "window_start": 25
+  },
+  {
+    "row": 578,
+    "url": "http://gazdalkodastudomany.uni-corvinus.hu/index.php?id=59095&tx_ttnews%5Btt_news%5D=0&tx_ttnews%5BcalendarYear%5D=2018&tx_ttnews%5BcalendarMonth%5D=12&cHash=1422a43787795f1fee536d0b8d2426c1",
+    "hostname": "gazdalkodastudomany.uni-corvinus.hu",
+    "text_sha256": "12c0def99c4b3e63fdfa128857b2b48a83832e51c7050387457c8f11fc75c5dd",
+    "document_tokens": 1046,
+    "window_start": 498
+  },
+  {
+    "row": 580,
+    "url": "http://www.healthyourwayonline.com/tag/parenting/",
+    "hostname": "healthyourwayonline.com",
+    "text_sha256": "17d9955bdb9100e5ee3db70027cfb54e8fcb071ce8251643c9ba1901fddb364b",
+    "document_tokens": 1282,
+    "window_start": 600
+  },
+  {
+    "row": 584,
+    "url": "http://phogezmc.angelfire.com/huge/furniture-60657.html",
+    "hostname": "phogezmc.angelfire.com",
+    "text_sha256": "b85ba623849ea647e6d996fd9c0b09ca7e6d7de504e367d6a3bd2236e9ac4f36",
+    "document_tokens": 687,
+    "window_start": 100
+  },
+  {
+    "row": 591,
+    "url": "https://www.igi-global.com/chapter/interplay-between-humans-technology/45295",
+    "hostname": "igi-global.com",
+    "text_sha256": "ec33ee9477f3c83a166a15b537588fb018dcc1c86946a516921da9caeb24b876",
+    "document_tokens": 1042,
+    "window_start": 498
+  },
+  {
+    "row": 592,
+    "url": "http://shahsightshop.blogspot.com/2012/01/shah-sight-suzanne-tyrpak-thanks-for.html",
+    "hostname": "shahsightshop.blogspot.com",
+    "text_sha256": "2823c8ed7bb72ec811dcdefcca9967997eb5df0480601c61e0ba85547fc08e65",
+    "document_tokens": 1045,
+    "window_start": 227
+  },
+  {
+    "row": 595,
+    "url": "https://www.cantravelwilltravel.com/puerto-morelos-snorkelling-tour-mexico/",
+    "hostname": "cantravelwilltravel.com",
+    "text_sha256": "b762dbb5534fe0cc823ebcd99529a2bd6d25d72e44a94f0c54aab2449aa8108a",
+    "document_tokens": 1982,
+    "window_start": 1134
+  },
+  {
+    "row": 600,
+    "url": "https://mfidie.com/buy-mtn-shares-ghana/",
+    "hostname": "mfidie.com",
+    "text_sha256": "1d795e858fc4ebef6f5f373adbf92eac453b4e113d672b543962e7ea2ff957fc",
+    "document_tokens": 602,
+    "window_start": 52
+  },
+  {
+    "row": 605,
+    "url": "https://www.gpwih.com/furniture/dining-room/89909/glasses-dining-tables/attachment/ideal-home-3/",
+    "hostname": "gpwih.com",
+    "text_sha256": "e900469bdf424825229e1ab08a591bb03fcf7c6291d1029eb7b6149e72a77e19",
+    "document_tokens": 553,
+    "window_start": 33
+  },
+  {
+    "row": 606,
+    "url": "https://squeeze.com/blog/9-podcasts-that-will-make-you-smarter-with-your-money",
+    "hostname": "squeeze.com",
+    "text_sha256": "19faa3d7f0c2fec338e46789c0ab8cc7566a53e4f04547430053b35c5d1ea8ba",
+    "document_tokens": 948,
+    "window_start": 320
+  },
+  {
+    "row": 612,
+    "url": "http://philashipguild.org/category/volunteers/",
+    "hostname": "philashipguild.org",
+    "text_sha256": "d31ebf57748e0d8f4ec6280e63eae01542617ac5dc7c4b37dd6286538ebde841",
+    "document_tokens": 1158,
+    "window_start": 455
+  },
+  {
+    "row": 617,
+    "url": "https://www.fromroses.co.uk/blog/omroses.co.uk/2014/07/introducing-advertisers-on-from-roses-5.html",
+    "hostname": "fromroses.co.uk",
+    "text_sha256": "81f285c0a1c0a839e48129e6f20408deb871ed977607f33c59e5668edb99f519",
+    "document_tokens": 711,
+    "window_start": 19
+  },
+  {
+    "row": 618,
+    "url": "https://www.lilyelement.com/2017/06/review-stone-cold-bastards-by-jake-bible.html",
+    "hostname": "lilyelement.com",
+    "text_sha256": "6e525611b2dd5cc6053ea01ab304439f90704a22261192faa813956279727190",
+    "document_tokens": 606,
+    "window_start": 58
+  },
+  {
+    "row": 621,
+    "url": "https://onedersave.com/itemlist/tag/nitrates.htm",
+    "hostname": "onedersave.com",
+    "text_sha256": "ef5ad5e98fa6024b5dda193bde64b43e57d03a46108e3b97807f538efcd1b880",
+    "document_tokens": 606,
+    "window_start": 27
+  },
+  {
+    "row": 625,
+    "url": "http://www.digitallyobsessed.com/r-displayreview.php?ID=4792",
+    "hostname": "digitallyobsessed.com",
+    "text_sha256": "1e1c45880aec489575cd54fb51607f8e99937a8125ec312b4330b5abf812f12f",
+    "document_tokens": 1005,
+    "window_start": 117
+  },
+  {
+    "row": 628,
+    "url": "http://teachupsidedown.narelo.com/early-childhood-education-technology/",
+    "hostname": "teachupsidedown.narelo.com",
+    "text_sha256": "9a16b1e52f5af9fc30525df8c9a430538b8fb6229632874193b6a100d0e4cfe6",
+    "document_tokens": 626,
+    "window_start": 61
+  },
+  {
+    "row": 632,
+    "url": "https://www.psychicmediumjudilynch.com/judis-blog/affirmations-to-reach-higher-ground",
+    "hostname": "psychicmediumjudilynch.com",
+    "text_sha256": "26b467b8af1dfe3749e73d6f0fc949160f14007c28e9d6d3421ca9985124e7f1",
+    "document_tokens": 860,
+    "window_start": 162
+  },
+  {
+    "row": 634,
+    "url": "http://test.littlefighters.org.za/foodie-friday/",
+    "hostname": "test.littlefighters.org.za",
+    "text_sha256": "6758456da6a52081ed749581fbbb41ebc5135814853781f858605943d5be642b",
+    "document_tokens": 1102,
+    "window_start": 193
+  },
+  {
+    "row": 635,
+    "url": "http://pasajeen.com/%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A5%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88-%E7%B4%A0%E9%A3%9F%E8%8A%82s%C3%B9sh%C3%ADji%C3%A9-%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E4%B9%9D%E7%9A%87%E6%96%8B%E8%8A%82ji%C7%94hu%C3%A1ngzh%C4%81i-ji%C3%A9/",
+    "hostname": "pasajeen.com",
+    "text_sha256": "2d0c949544d681005454657f0c48bd00ecf6b9a9415d60d6066163edb72db763",
+    "document_tokens": 587,
+    "window_start": 46
+  },
+  {
+    "row": 636,
+    "url": "https://earthclinic.com/ailments/flu/apple-cider-vinegar-remedy/",
+    "hostname": "earthclinic.com",
+    "text_sha256": "32c9c0c822a3561bc6884781b9462929aafbe86b9957d5b676e38e56d171684f",
+    "document_tokens": 8821,
+    "window_start": 464
+  },
+  {
+    "row": 640,
+    "url": "http://battlhammer.tripod.com/tradeskills/alchemy.htm",
+    "hostname": "battlhammer.tripod.com",
+    "text_sha256": "ab650b9c448c58cc332bc207e3d87b98efaafb3c7a76c1e6f23145779574c698",
+    "document_tokens": 795,
+    "window_start": 265
+  },
+  {
+    "row": 642,
+    "url": "https://thisgirleats.blog/2017/06/21/vegetarian-chilli-and-baked-potato/",
+    "hostname": "thisgirleats.blog",
+    "text_sha256": "8a1fe8663a88b2252d90b195cdedc522fa8d690ccbcecdacd3f90f071ee7c900",
+    "document_tokens": 533,
+    "window_start": 13
+  },
+  {
+    "row": 648,
+    "url": "http://www.closing-argument.com/latestissue/commandments",
+    "hostname": "closing-argument.com",
+    "text_sha256": "7bb334cc71b6bd3738371c63168eecf45d68297d9ac27ca01ccb4671ca5ebe84",
+    "document_tokens": 1206,
+    "window_start": 54
+  },
+  {
+    "row": 649,
+    "url": "http://insongphat.com/en/services/print-pp-indoor-outdoor-41",
+    "hostname": "insongphat.com",
+    "text_sha256": "1f3b930134ffeb0d534d2a76b5c8bcca194d109a8fd6addce6cb45ba0a060bcb",
+    "document_tokens": 521,
+    "window_start": 5
+  },
+  {
+    "row": 653,
+    "url": "http://www.amreading.com/2017/01/07/10-disadvantages-of-being-a-bookworm-and-how-to-fix-them/",
+    "hostname": "amreading.com",
+    "text_sha256": "83a8eb7076f63993b043a34e0cd84e183e11457099535436a9668bed7922f6bd",
+    "document_tokens": 1895,
+    "window_start": 1184
+  },
+  {
+    "row": 657,
+    "url": "https://thewinesnob.net/2015/01/06/thirty-oregon-wines-in-thirty-days-day-5-fun-with-deponte/",
+    "hostname": "thewinesnob.net",
+    "text_sha256": "a17ee1903fced8157b302e0683e9fcbd613a7e04e8cddd2c84d29c741c1b8237",
+    "document_tokens": 839,
+    "window_start": 86
+  },
+  {
+    "row": 660,
+    "url": "https://blog.ceb.com/2013/04/26/exiting-gracefully-the-termination-letter/",
+    "hostname": "blog.ceb.com",
+    "text_sha256": "e3d6d39f5890d4069500372635bbf9f05ee9c1785a76171a90a652c4a06c7937",
+    "document_tokens": 602,
+    "window_start": 71
+  },
+  {
+    "row": 663,
+    "url": "https://lessons.lerntipp.at/4/lesson-plan-2-project-planning-concepts",
+    "hostname": "lessons.lerntipp.at",
+    "text_sha256": "b412b05036579060e2a706f2955f5d8c2051736fd8293d1e262e2cc3baceeb94",
+    "document_tokens": 568,
+    "window_start": 14
+  },
+  {
+    "row": 664,
+    "url": "http://thetalon.ipbhost.com/topic/4874-just-wondering/page/2/",
+    "hostname": "thetalon.ipbhost.com",
+    "text_sha256": "30d88e40e445d5197f5e4c95a0f5a5071d2f2ec44e257a1c1e4808245f175055",
+    "document_tokens": 1342,
+    "window_start": 627
+  },
+  {
+    "row": 667,
+    "url": "http://newzealand.missing.report/patricia-wearn-waitemata/",
+    "hostname": "newzealand.missing.report",
+    "text_sha256": "6454dd79289a6b91019250df7ed93c88a06701ec1516b59cec2e01a29d7eef76",
+    "document_tokens": 753,
+    "window_start": 80
+  },
+  {
+    "row": 668,
+    "url": "https://www.dulux.com.my/en/inspiration/creative-nursery-schemes-parents-stuck-colour-rut",
+    "hostname": "dulux.com.my",
+    "text_sha256": "5707be64e2bdfd172619a74c9374ba3571cd29b18edc16461d30de97292c4e50",
+    "document_tokens": 685,
+    "window_start": 94
+  },
+  {
+    "row": 669,
+    "url": "https://www.roadrider.com.au/bmw-g-310-gs-confirmed-mrlp-release-date/",
+    "hostname": "roadrider.com.au",
+    "text_sha256": "a188969f18acddca3bd5e8876890a554739db895438e06aef15721314f1a0593",
+    "document_tokens": 687,
+    "window_start": 44
+  },
+  {
+    "row": 677,
+    "url": "https://oldjewstellingjokesonstage.com/clickfunnels-best-deals/",
+    "hostname": "oldjewstellingjokesonstage.com",
+    "text_sha256": "eb66222779cdebd1f90c1079d0ea2c1a70fca70d96bc042f0150674e27c3bba1",
+    "document_tokens": 6844,
+    "window_start": 6183
+  },
+  {
+    "row": 679,
+    "url": "https://bereid.com/creative/",
+    "hostname": "bereid.com",
+    "text_sha256": "dca35ada6303df04d89c3783e83582812a0645cf43b34e7eb4eadcdbf83e457e",
+    "document_tokens": 538,
+    "window_start": 6
+  },
+  {
+    "row": 687,
+    "url": "https://www.southernliving.com/dinner/one-bowl-meals",
+    "hostname": "southernliving.com",
+    "text_sha256": "c98377e64f069376f207a8f3be9c4c291c8e6212f7e532e5cf6cac3e208fe1a5",
+    "document_tokens": 1454,
+    "window_start": 310
+  },
+  {
+    "row": 689,
+    "url": "http://konacoaching.com/corporate-resilience-edge/",
+    "hostname": "konacoaching.com",
+    "text_sha256": "5356b72ef36ef799f1ca696677ce5b9b8a0b1fddd13d2d752d3fb3c21b098d2f",
+    "document_tokens": 2058,
+    "window_start": 888
+  },
+  {
+    "row": 692,
+    "url": "http://www.healthyskinportal.com/articles/banishing-preventing-blackheads/913/",
+    "hostname": "healthyskinportal.com",
+    "text_sha256": "ef51edf58bea14341a7683f99a3f3a49f343f88a75b2d092fd796a36b2dd2aee",
+    "document_tokens": 542,
+    "window_start": 11
+  },
+  {
+    "row": 698,
+    "url": "https://www.kibble.org/kpn/podcasts/social-enterprise/sec26-june-osullivan-from-london-early-years-foundation-and-danny-dickson-from-charity-bank",
+    "hostname": "kibble.org",
+    "text_sha256": "5429b2b57017d49ab19c942c8fb1deeced7161b2085b2a53a3362426a8bef797",
+    "document_tokens": 526,
+    "window_start": 7
+  },
+  {
+    "row": 699,
+    "url": "http://www.thecapeverdean.com/news/?m=201302",
+    "hostname": "thecapeverdean.com",
+    "text_sha256": "ca2654bebe4f38dd75efebd1a347bd1ceee1eb20a0f9b4a829e8798cbf992eae",
+    "document_tokens": 4178,
+    "window_start": 2422
+  },
+  {
+    "row": 701,
+    "url": "http://www.oneluckyday.net/2011/10/gray-is-new-black.html",
+    "hostname": "oneluckyday.net",
+    "text_sha256": "f89cfdc334d55bed33d78616438f905e2fddd04c4fef7ecca6e067480672a93b",
+    "document_tokens": 988,
+    "window_start": 47
+  },
+  {
+    "row": 705,
+    "url": "http://shopdogshopcat.com/privacy/",
+    "hostname": "shopdogshopcat.com",
+    "text_sha256": "84838de55a1772ad6e5f03bf1c5f11479685e3f307ed57dcd7d812e084f49cc5",
+    "document_tokens": 652,
+    "window_start": 132
+  },
+  {
+    "row": 706,
+    "url": "https://annaraccoon.com/2011/02/03/public-libraries-censoring-bloggers/",
+    "hostname": "annaraccoon.com",
+    "text_sha256": "daac85707f6037d4574e5fb3312fef5c8c60d6c4632cbb3b0f3af36dad8ec966",
+    "document_tokens": 801,
+    "window_start": 54
+  },
+  {
+    "row": 711,
+    "url": "http://c2withoutprescription.com/category/computers-and-technology/page/2/",
+    "hostname": "c2withoutprescription.com",
+    "text_sha256": "a85e77baad44bde13e8eb2e1d01892c595e017d0b40b54738cc981341fb35d07",
+    "document_tokens": 7346,
+    "window_start": 4286
+  },
+  {
+    "row": 712,
+    "url": "http://muehlenbaecker.info/05028-best-selling-books-2012-reviews/",
+    "hostname": "muehlenbaecker.info",
+    "text_sha256": "0d3904924d0e7ce68b16dee389822b3c731f2505c65dde6127fa6037288afafb",
+    "document_tokens": 525,
+    "window_start": 0
+  },
+  {
+    "row": 717,
+    "url": "http://happydog.co.nz/walking.html",
+    "hostname": "happydog.co.nz",
+    "text_sha256": "660b1168419da3127621f51a79cdaee4abbcd2db290d53566ba1b6e5ed152aa4",
+    "document_tokens": 826,
+    "window_start": 98
+  },
+  {
+    "row": 719,
+    "url": "http://forums1.amceaglesden.com/index.php?topic=36584.15",
+    "hostname": "forums1.amceaglesden.com",
+    "text_sha256": "71b718e4869c986fcf6be20e289466529c7a599d72fe56a25be939a17d6964ff",
+    "document_tokens": 1277,
+    "window_start": 589
+  },
+  {
+    "row": 725,
+    "url": "https://cashaeon.com/saving-in-gold-vs-investing-in-gold/",
+    "hostname": "cashaeon.com",
+    "text_sha256": "0c8e7df23c298aa242de5bf715a016c668eea028425db38202cf1d736f86d43b",
+    "document_tokens": 800,
+    "window_start": 283
+  },
+  {
+    "row": 727,
+    "url": "http://www.thetechnomind.com/services.php?service=Java",
+    "hostname": "thetechnomind.com",
+    "text_sha256": "3fe865a417997b68da8afe3a1546fb445e016a5fd7415409568cba7ea250ddf7",
+    "document_tokens": 839,
+    "window_start": 91
+  },
+  {
+    "row": 730,
+    "url": "https://faveable.com/best-bald-fade-haircut-styles",
+    "hostname": "faveable.com",
+    "text_sha256": "4cf0683f3b2c7394eb1ad719f520fe443d4e424f01d14a05a91035555549e114",
+    "document_tokens": 2236,
+    "window_start": 920
+  },
+  {
+    "row": 737,
+    "url": "https://nerdparadise.com/puzzles/3pieceshuffle",
+    "hostname": "nerdparadise.com",
+    "text_sha256": "3c8dc4e08ae8e6736031e1f7b8c6c34ba8de67a22df0722d2a9dab5c21e1a15b",
+    "document_tokens": 709,
+    "window_start": 118
+  },
+  {
+    "row": 739,
+    "url": "http://healthyhormones.com/news/news44.htm",
+    "hostname": "healthyhormones.com",
+    "text_sha256": "12ed6fbd076cadf531f6c8911c52b037434b46f00c741c24c0f0cb120b3c6293",
+    "document_tokens": 678,
+    "window_start": 114
+  },
+  {
+    "row": 740,
+    "url": "https://scfh.ru/en/news/athens-on-the-spree-a-center-for-art-and-culture-in-berlin/",
+    "hostname": "scfh.ru",
+    "text_sha256": "98c6b3a36243c8c64944b71a7b59cd391e50125dc90c7bbbd12df222521d71bb",
+    "document_tokens": 945,
+    "window_start": 258
+  },
+  {
+    "row": 756,
+    "url": "https://www.masterresource.org/debate-issues/2009-predictions-and-pause/",
+    "hostname": "masterresource.org",
+    "text_sha256": "7ea8d61917eecda2608e549beb1e115efa70e80e36d37cdf91556d2b2e0d8f2f",
+    "document_tokens": 1338,
+    "window_start": 140
+  },
+  {
+    "row": 758,
+    "url": "http://thecrumbfactory.weebly.com/blog/the-tefillin-boy-and-the-math-whiz",
+    "hostname": "thecrumbfactory.weebly.com",
+    "text_sha256": "cf8721160394fa5be91d333fd5e62476d9280bf050c3f3f4c66fd9b4e666570c",
+    "document_tokens": 938,
+    "window_start": 274
+  },
+  {
+    "row": 761,
+    "url": "http://www.skipcohenuniversity.com/scu-blog/great-memories-and-great-images",
+    "hostname": "skipcohenuniversity.com",
+    "text_sha256": "f2f40a61558f05fc3803921bd528615960f3558a3cd988f2136b2542d92cb38f",
+    "document_tokens": 557,
+    "window_start": 35
+  },
+  {
+    "row": 762,
+    "url": "https://theloveof.nl/2017/04/13/het-zaanse-bakkertje-vegan-bakery/",
+    "hostname": "theloveof.nl",
+    "text_sha256": "799c9058a24b0f50ce5bbc6287cdb074c310b96826c10878c92ca9e1bcf88c1e",
+    "document_tokens": 597,
+    "window_start": 60
+  },
+  {
+    "row": 768,
+    "url": "https://www.jkt48stuff.com/2015/06/assessing-jkt48s-leadership-shuffle/",
+    "hostname": "jkt48stuff.com",
+    "text_sha256": "35e7d7cb0a7e6f4c8c54e2d12c4a4aed222e0b5b49b5103652a0801824926f6e",
+    "document_tokens": 2736,
+    "window_start": 1854
+  },
+  {
+    "row": 770,
+    "url": "https://forestlakecamp.com/meet-flcs-girls-camp-head-counselors/",
+    "hostname": "forestlakecamp.com",
+    "text_sha256": "f86240d5ab45999e73256ae6b6b6f4ad4e418b890fec39eeab4294affebcb229",
+    "document_tokens": 644,
+    "window_start": 3
+  },
+  {
+    "row": 773,
+    "url": "https://www.omm.com/resources/alerts-and-publications/publications/libyan-sanctions-update-the-european-union-the-united-states-and-other-jurisdictions-expand-and-clarify-sanctions-rules/",
+    "hostname": "omm.com",
+    "text_sha256": "7d6bb755abd0585af7e4ea85979262d9cef8fb5d936bacf21fc20baa339d45e2",
+    "document_tokens": 1050,
+    "window_start": 301
+  },
+  {
+    "row": 774,
+    "url": "http://right.degregoristore.com/who-invented-essay-writing.html",
+    "hostname": "right.degregoristore.com",
+    "text_sha256": "4ef695d35213c2f0414cef10b07120d207870727cbddea6a226cd4c561a1002e",
+    "document_tokens": 1382,
+    "window_start": 269
+  },
+  {
+    "row": 790,
+    "url": "https://www.alllaw.com/articles/nolo/bankruptcy/debts-discharged-chapter-13-not-7.html",
+    "hostname": "alllaw.com",
+    "text_sha256": "06348679a4b1a5f7787374f5bbd9dfe97b6b7445660c87d4fc3f1b0facb4681e",
+    "document_tokens": 748,
+    "window_start": 47
+  },
+  {
+    "row": 794,
+    "url": "https://asksiddhi.in/blog/display/982",
+    "hostname": "asksiddhi.in",
+    "text_sha256": "27f5ad7b1529c6bfd6e94e1df7e8e95a44ee30df98cb19fa394664e46836116c",
+    "document_tokens": 592,
+    "window_start": 1
+  },
+  {
+    "row": 797,
+    "url": "https://carriefroese.wordpress.com/tag/melody-ludski/",
+    "hostname": "carriefroese.wordpress.com",
+    "text_sha256": "1229df16d6c7a8e8edfa181b949bc153106b4ca3a6f950dc682bb1530a938a44",
+    "document_tokens": 1468,
+    "window_start": 846
+  },
+  {
+    "row": 801,
+    "url": "http://gadgetzine.net/contemporary-chandelier/",
+    "hostname": "gadgetzine.net",
+    "text_sha256": "6b54d2cad6c46522c08ce0d35847e1e9e4d04eec21ddebc0bd260dcd08f5b1a8",
+    "document_tokens": 610,
+    "window_start": 59
+  },
+  {
+    "row": 802,
+    "url": "http://www.mtv.com/news/1632005/travis-barker-a-trak-talk-about-their-new-project-tour/",
+    "hostname": "mtv.com",
+    "text_sha256": "bde24b7e69e90c262056763e0479fb48ab50687358f2d11f210555b127d478bc",
+    "document_tokens": 706,
+    "window_start": 86
+  },
+  {
+    "row": 803,
+    "url": "https://www.barkerhedges.com/calhoun-isle-100000-to-200000/",
+    "hostname": "barkerhedges.com",
+    "text_sha256": "865af91950c9792cd3047e2b32583e21c5914617d96e04a796d7f91917906c36",
+    "document_tokens": 512,
+    "window_start": 0
+  },
+  {
+    "row": 804,
+    "url": "https://longlivemusic.org/tag/daley/",
+    "hostname": "longlivemusic.org",
+    "text_sha256": "9c3ca5bdc52579ed7ddc97a7c57536ff0f2a847cddc00c8a19dd356240f9d700",
+    "document_tokens": 814,
+    "window_start": 108
+  },
+  {
+    "row": 813,
+    "url": "http://sports-kings.com/nfl-news-channel/eagles-dont-stop-and-saints-slide-another-big-fella-into-town",
+    "hostname": "sports-kings.com",
+    "text_sha256": "ac85eced72c217e0c67a82d08a83854a1056e6806ecacdfaf322676e264eea86",
+    "document_tokens": 688,
+    "window_start": 13
+  },
+  {
+    "row": 819,
+    "url": "http://www.whitneyzone.com/wz/ubbthreads.php/topics/33259/Rim_Fire_Tioga_Road_Closure",
+    "hostname": "whitneyzone.com",
+    "text_sha256": "0960b34fc198a958f6540e25f66f067e35e553b596116e5e4602e6f4d0ed90b0",
+    "document_tokens": 642,
+    "window_start": 68
+  },
+  {
+    "row": 822,
+    "url": "https://youmattermarathon.com/share/?pageNum=3",
+    "hostname": "youmattermarathon.com",
+    "text_sha256": "0df0a718ac95b75c4c81e7731fa3a1251ff5d435f26a96f88ef5713a4787504d",
+    "document_tokens": 2511,
+    "window_start": 201
+  },
+  {
+    "row": 824,
+    "url": "http://nofearofthefuture.blogspot.com/2010/12/memory-42.html",
+    "hostname": "nofearofthefuture.blogspot.com",
+    "text_sha256": "8e50575501926c672d8e168ce36449c436981516981b0dff029c1acde8c9991b",
+    "document_tokens": 2166,
+    "window_start": 1060
+  },
+  {
+    "row": 826,
+    "url": "http://pyjamapeople.in/index.php/2018/05/04/we-will-also-think-about-the-notion-of-information/",
+    "hostname": "pyjamapeople.in",
+    "text_sha256": "2fb05011ff66e062b59d87712dd9ad3f9a0eafdcfccca50bf18d98e12398dc17",
+    "document_tokens": 600,
+    "window_start": 85
+  },
+  {
+    "row": 827,
+    "url": "https://www.newyorkcriminallawyer-blog.com/category/weapon-possession/",
+    "hostname": "newyorkcriminallawyer-blog.com",
+    "text_sha256": "431def1de7e849fac19f792cbd523468a13bc15d552f7fa3554a5a425d031020",
+    "document_tokens": 1943,
+    "window_start": 31
+  },
+  {
+    "row": 833,
+    "url": "https://consumerwatchdogbw.blogspot.com/2017/12/progress.html",
+    "hostname": "consumerwatchdogbw.blogspot.com",
+    "text_sha256": "d694c7c5ab0b356eb572ba3a7847f75bcd1f8098970d17ce01d0718de1d0f0e0",
+    "document_tokens": 1100,
+    "window_start": 28
+  },
+  {
+    "row": 836,
+    "url": "https://peopleandprojectspodcast.com/index.php/search-by-pdu-type/leadership.html?start=100",
+    "hostname": "peopleandprojectspodcast.com",
+    "text_sha256": "17ef1363c6ef78d4124498785a0daaae0f18ce14b0a9809deb2116904e210e5c",
+    "document_tokens": 3554,
+    "window_start": 462
+  },
+  {
+    "row": 838,
+    "url": "https://www.blockchaindevelopers.org/2018/02/26/get-answers-to-your-top-questions-about-ether/",
+    "hostname": "blockchaindevelopers.org",
+    "text_sha256": "fefc86ef18a266ca138d8775a6a907f02fd6a30658b0dfcdd403402961191fd4",
+    "document_tokens": 600,
+    "window_start": 60
+  },
+  {
+    "row": 839,
+    "url": "http://www.mandarinfilm.com/en/blog/documentary",
+    "hostname": "mandarinfilm.com",
+    "text_sha256": "0e5bd54e6911828d99083b81ecedfb004e85b6d74b82e3f102e22a72ec966ea3",
+    "document_tokens": 2572,
+    "window_start": 1234
+  },
+  {
+    "row": 841,
+    "url": "http://sam-keller.blogspot.com/2011/07/looking-in-mirror-questions-every.html",
+    "hostname": "sam-keller.blogspot.com",
+    "text_sha256": "ba9fbc3bbf86b8f03aece61714f8062db0099ea17ff1a2835950483e3c9906af",
+    "document_tokens": 699,
+    "window_start": 156
+  },
+  {
+    "row": 844,
+    "url": "http://www.siyahistanbul.com/how-to-publish-an-outstanding-undergraduate-thesis.html",
+    "hostname": "siyahistanbul.com",
+    "text_sha256": "cceedf773b69e9639141c43ecee5cca85b02eeff632a23b13156901abf858a81",
+    "document_tokens": 835,
+    "window_start": 104
+  },
+  {
+    "row": 847,
+    "url": "http://icouponeme.info/online-dating-site/",
+    "hostname": "icouponeme.info",
+    "text_sha256": "2f2931e4bdfd0337bce6d0e8431a6aa198e27d2df104c8e0f4179c4e79993e66",
+    "document_tokens": 1717,
+    "window_start": 202
+  },
+  {
+    "row": 850,
+    "url": "http://www.iamodules.com/WSW/QuickBooks-Integrated-Shopping-Cart-Design.jsp",
+    "hostname": "iamodules.com",
+    "text_sha256": "cd7b604515bf021671c943ad70ae623ca684c66d4c777a0f03e04c2ef3f6552f",
+    "document_tokens": 925,
+    "window_start": 398
+  },
+  {
+    "row": 851,
+    "url": "https://www.consultancy-me.com/news/1436/bassam-hajhamad-named-as-pwcs-country-senior-partner-in-qatar",
+    "hostname": "consultancy-me.com",
+    "text_sha256": "161284a5761a11d6b4089174f70e2aa46d9d56bdc3aff270f4a8265948ae9072",
+    "document_tokens": 530,
+    "window_start": 0
+  },
+  {
+    "row": 864,
+    "url": "https://www.omfif.org/analysis/commentary/2017/july/dont-be-afraid-of-bitcoin/",
+    "hostname": "omfif.org",
+    "text_sha256": "8252c573c720de747cc98efcffebfe4394616f95123d88e0c2ae734a28563e06",
+    "document_tokens": 676,
+    "window_start": 116
+  },
+  {
+    "row": 872,
+    "url": "http://cj750.com.au/Alternator_system.html",
+    "hostname": "cj750.com.au",
+    "text_sha256": "3202c6dd45463c59d9789339280d70ce69de23b5015fa46a1eeeeb2f56f41298",
+    "document_tokens": 907,
+    "window_start": 274
+  },
+  {
+    "row": 874,
+    "url": "http://www.transformers-universe.com/include.php?path=content/articles.php&contentid=2800",
+    "hostname": "transformers-universe.com",
+    "text_sha256": "8dd0db161b1fb176e4d87dff1a015636166d111bc6899a05acd37c77371a066c",
+    "document_tokens": 633,
+    "window_start": 105
+  },
+  {
+    "row": 876,
+    "url": "https://www.nlpfamily.com/blog/category/training",
+    "hostname": "nlpfamily.com",
+    "text_sha256": "d53b85a05398f1f322b40e1d5240cb4d4ad3215605772eee5b3feb07cd09ace2",
+    "document_tokens": 2833,
+    "window_start": 909
+  },
+  {
+    "row": 888,
+    "url": "http://antalyaescortbayanlar.info/pissing/alexa-may-in-multiple-position-sucking-fat-cock&p=212.php",
+    "hostname": "antalyaescortbayanlar.info",
+    "text_sha256": "431e3b57b4a03d013c108c781032ee575b4b0030cf80c16e15ed5610055f5989",
+    "document_tokens": 810,
+    "window_start": 15
+  },
+  {
+    "row": 890,
+    "url": "https://www.got2bwireless.com/financial-resume-template/",
+    "hostname": "got2bwireless.com",
+    "text_sha256": "272a39184dc3786a70707c34b6cbf5fce7805716547daddc07443c5cf075a82a",
+    "document_tokens": 640,
+    "window_start": 102
+  },
+  {
+    "row": 893,
+    "url": "http://styleandenergy.com/energy/2019/4/11/10-ways-to-feed-your-soul",
+    "hostname": "styleandenergy.com",
+    "text_sha256": "86cf8128024767674fc01312fcd5a72ca8d137db9d8ab05bc6c84b670ae9a6f5",
+    "document_tokens": 1348,
+    "window_start": 813
+  },
+  {
+    "row": 905,
+    "url": "http://www.ptownyearround.com/2013/05/",
+    "hostname": "ptownyearround.com",
+    "text_sha256": "14cf35684918b9a728a28852f51500f460b8b174cb7d4b33e310dbe286ce2a8d",
+    "document_tokens": 5979,
+    "window_start": 1005
+  },
+  {
+    "row": 911,
+    "url": "https://www.belmarrahealth.com/essential-oils-menopause-usage-risks-recipes/",
+    "hostname": "belmarrahealth.com",
+    "text_sha256": "9532d08786d2a9f795a05be2bcac878888173523ba22cce7d51bc474642b14be",
+    "document_tokens": 1181,
+    "window_start": 438
+  },
+  {
+    "row": 917,
+    "url": "https://ir.comstockcompanies.com/governance/board-of-directors/default.aspx",
+    "hostname": "ir.comstockcompanies.com",
+    "text_sha256": "c5b2fcdf3cbe604b96e083ce6eb8294f7f2a9aa251ba807702de701286852342",
+    "document_tokens": 1690,
+    "window_start": 119
+  },
+  {
+    "row": 921,
+    "url": "http://gorgeousbrownskin.com/2015/07/how-i-managed-to-get-my-acne-under-control/",
+    "hostname": "gorgeousbrownskin.com",
+    "text_sha256": "9bb2a1649540f5dd63d2c45b79585360823b1ecb452636e34f8b4d3938782492",
+    "document_tokens": 2760,
+    "window_start": 2208
+  },
+  {
+    "row": 930,
+    "url": "https://hollandlawllp.com/terms-of-use/",
+    "hostname": "hollandlawllp.com",
+    "text_sha256": "a2a2e61c23c02d8e0b66396cc4085531c3fa0fb01bd45c596fa7e95b1a62db37",
+    "document_tokens": 2279,
+    "window_start": 122
+  },
+  {
+    "row": 934,
+    "url": "https://lesleysbooknook.blogspot.com/2019/02/texas-road-trip-day-nineteen.html",
+    "hostname": "lesleysbooknook.blogspot.com",
+    "text_sha256": "95ef69f48decbf027b06e8f2b8567375edb5b12bd40c39b6ba14d66732a51893",
+    "document_tokens": 1106,
+    "window_start": 192
+  },
+  {
+    "row": 935,
+    "url": "https://intensiveactivity.wordpress.com/category/esther-mcvey/",
+    "hostname": "intensiveactivity.wordpress.com",
+    "text_sha256": "4e573f00ee93f68941747b03e9c92120424030af2f50d73a42f8c240beef6052",
+    "document_tokens": 2614,
+    "window_start": 1074
+  },
+  {
+    "row": 938,
+    "url": "https://brightoncollege.com/programs/accounting-office/computerized-accounting-and-bookkeeping-diploma/",
+    "hostname": "brightoncollege.com",
+    "text_sha256": "0dc483070f9391fbad654a9325958e67f84a4d028513db5a0cb56c16c524ffeb",
+    "document_tokens": 874,
+    "window_start": 137
+  },
+  {
+    "row": 943,
+    "url": "http://blog.safelyfiled.com/2013/07/protecting-yourself-from-phisher.html",
+    "hostname": "blog.safelyfiled.com",
+    "text_sha256": "81d49a640a1112aec63fb53f694208fc463faceb5e328acb6a8daf58766b896d",
+    "document_tokens": 1312,
+    "window_start": 365
+  },
+  {
+    "row": 946,
+    "url": "http://www.red-bottoms.us.com/choosing-invention-ideas-is-simple/",
+    "hostname": "red-bottoms.us.com",
+    "text_sha256": "9abb6736ab2c6fa98e34cedeef6ed5a4fa190ce2a623aaf307ab00433073960f",
+    "document_tokens": 587,
+    "window_start": 44
+  },
+  {
+    "row": 955,
+    "url": "https://jeparleamericain.com/2013/03/02/pretty-in-pink/",
+    "hostname": "jeparleamericain.com",
+    "text_sha256": "3dfd2c811d81a1350473675cafe9beea6c88f22f6de7f85da33ac9d3603edf89",
+    "document_tokens": 597,
+    "window_start": 69
+  },
+  {
+    "row": 956,
+    "url": "https://www.qualitytalks.org/things-washington-dc/",
+    "hostname": "qualitytalks.org",
+    "text_sha256": "d04bb931e392c2e5e63c48331815cd150d6a3a282cdd6f9d99e125ddf3b9b013",
+    "document_tokens": 568,
+    "window_start": 37
+  },
+  {
+    "row": 963,
+    "url": "http://pal-book.com/post/the-chase/",
+    "hostname": "pal-book.com",
+    "text_sha256": "b84ff09e785b50a5dfc6933905289c8c8668786763c2b6784111cd4194469c7a",
+    "document_tokens": 1619,
+    "window_start": 853
+  },
+  {
+    "row": 967,
+    "url": "https://www.helis.com/database/news/aw159_ff/",
+    "hostname": "helis.com",
+    "text_sha256": "c9506a4ce7ebedf30a7c1e652c8087acdab11605241bd8f1cf9af41ae7ad85e1",
+    "document_tokens": 629,
+    "window_start": 51
+  },
+  {
+    "row": 969,
+    "url": "https://careertrend.com/how-2063499-become-tightrope-walker.html",
+    "hostname": "careertrend.com",
+    "text_sha256": "227c1d3ab07ce1e624830b973af15af6eb7e8ba812353744915ca2fc9df0a1ee",
+    "document_tokens": 589,
+    "window_start": 0
+  },
+  {
+    "row": 971,
+    "url": "https://www.citylab.com/life/2011/11/black-friday-mexico/572/",
+    "hostname": "citylab.com",
+    "text_sha256": "3bdad1e631c8a7659779f1310787e5a1f9893eff2976217abd013847123da9fb",
+    "document_tokens": 529,
+    "window_start": 16
+  },
+  {
+    "row": 975,
+    "url": "https://eveonline-japanwiki.com/backstory/amarr-succession",
+    "hostname": "eveonline-japanwiki.com",
+    "text_sha256": "f4700d8d944ae21bcd3d220c9c96aad1abb18ec93b8441d4c91ee2792bcfa61c",
+    "document_tokens": 766,
+    "window_start": 192
+  },
+  {
+    "row": 983,
+    "url": "https://scientuspharma.com/about-us/scientific-advisors/",
+    "hostname": "scientuspharma.com",
+    "text_sha256": "90546559a0f01d777a7770083d7ece3fa6a0e135628a92007e9066772cadea16",
+    "document_tokens": 943,
+    "window_start": 173
+  },
+  {
+    "row": 984,
+    "url": "https://bestgadget.in/best-earphone-under-500.html",
+    "hostname": "bestgadget.in",
+    "text_sha256": "f91af6344cd6efc4205d518260647d8c819dfab9765e2a8c2def1d1f1391c2a8",
+    "document_tokens": 564,
+    "window_start": 5
+  },
+  {
+    "row": 985,
+    "url": "https://www.averagesalarysurvey.com/it-telecommunication-ii/norway",
+    "hostname": "averagesalarysurvey.com",
+    "text_sha256": "fe4ea9f0a31bc3c204a8f647b872f4a62d8ea995240f542a0a0224a70355175a",
+    "document_tokens": 1448,
+    "window_start": 775
+  },
+  {
+    "row": 1000,
+    "url": "http://www.d2messageboard.com/showthread.php?t=94010&amp;s=9b3a30e7f44ebca6bdc3a1b43888f6d8",
+    "hostname": "d2messageboard.com",
+    "text_sha256": "03ff657b5f0cb48bf50e3759698552400bbea38febf7a2d3ede979cacfd8f69f",
+    "document_tokens": 906,
+    "window_start": 383
+  },
+  {
+    "row": 1001,
+    "url": "https://thejournal.com/articles/1997/01/01/new-technology-training-method-brings-ga-educators-out-of-the-dark.aspx",
+    "hostname": "thejournal.com",
+    "text_sha256": "afdcfaf3eb56e0990adc32aa9a64699efd18da2626badb2e9900b091d29aa739",
+    "document_tokens": 803,
+    "window_start": 17
+  },
+  {
+    "row": 1002,
+    "url": "https://www.laurensmith.com/brand-image/",
+    "hostname": "laurensmith.com",
+    "text_sha256": "2fd55c8d9219a60daca21d9acbd34f85434b5b46d044c1bdce2df5b18e801067",
+    "document_tokens": 2689,
+    "window_start": 1166
+  },
+  {
+    "row": 1003,
+    "url": "https://www.kindadusty.com/deal-with-the-dangers-in-your-home-in-the-right-way/",
+    "hostname": "kindadusty.com",
+    "text_sha256": "b80beb63ccbec93a36a179d992565101ae39521ad2de6ab4eac1d7d03795a909",
+    "document_tokens": 591,
+    "window_start": 41
+  },
+  {
+    "row": 1005,
+    "url": "https://www.odgersinterim.com/pl/who-we-are/intelligence/enter-the-maelstrom-why-the-convergence-of-sports-media-and-gaming-is-the-future-of-esports-4740/",
+    "hostname": "odgersinterim.com",
+    "text_sha256": "9435dcd5234853d1b94c4f8125f5a3471c398660fc860211f90f613fc0ff2deb",
+    "document_tokens": 1216,
+    "window_start": 329
+  },
+  {
+    "row": 1012,
+    "url": "http://www.everydaythrifter.com/2017/08/10/7-things-college-students-should-buy-at-thrift-stores/",
+    "hostname": "everydaythrifter.com",
+    "text_sha256": "e7f53868a6533d262cccef0b48c090483017d425dbde92688d786a8df14b7417",
+    "document_tokens": 1913,
+    "window_start": 240
+  },
+  {
+    "row": 1016,
+    "url": "https://www.theravive.com/cities/il/christian-counseling-lincolnwood.aspx",
+    "hostname": "theravive.com",
+    "text_sha256": "bd369eca2f9a2e8412761322554295afa2a9d3a069f9625dd5226672d238558a",
+    "document_tokens": 1195,
+    "window_start": 342
+  }
+]

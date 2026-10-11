@@ -1,0 +1,18 @@
+{
+  "primary_difference": 0.025802563314568504,
+  "paired_document_95_ci": [
+    0.021696989760240235,
+    0.030759516434193595
+  ],
+  "criterion_passed": false,
+  "documents_better_than_svd": 20,
+  "documents": 256,
+  "scored_tokens": 130816,
+  "baseline_nll": 2.5026259389642167,
+  "delta_nll": {
+    "svd_input": 0.026251628207600526,
+    "tucker_input_r64": 0.051616239920987544,
+    "tucker_input_r48": 0.05205419152216903
+  },
+  "checks": "Factor/calibration/data SHA256 unchanged; projection diagnostics and payload exactly match development."
+}

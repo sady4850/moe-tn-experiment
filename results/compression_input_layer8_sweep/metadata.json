@@ -1,0 +1,46 @@
+{
+  "signature": {
+    "config": {
+      "seed": 17,
+      "model": {
+        "id": "allenai/OLMoE-1B-7B-0924",
+        "revision": "6d84c48581ece794365f2b8e9cfb043c68ade9c5",
+        "dtype": "bfloat16",
+        "layer": 8
+      },
+      "data": {
+        "dataset": "Salesforce/wikitext",
+        "subset": "wikitext-2-raw-v1",
+        "text_field": "text",
+        "calibration_split": "train",
+        "calibration_blocks": 64,
+        "evaluation_split": "validation",
+        "block_size": 512,
+        "evaluation_blocks": 32
+      },
+      "methods": [
+        "svd_input",
+        "tucker_input"
+      ],
+      "tucker_rank_policy": "td_balanced",
+      "whitening_relative_floor": 0.001,
+      "fractions": [
+        0.6,
+        0.4
+      ],
+      "output_dir": "results/compression_input_layer8_sweep"
+    },
+    "code_sha256": "9df9fdf57ebacbd36dd181e710a50e7020e08ea82621178bf371afa3bd7ad921",
+    "versions": {
+      "torch": "2.14.0",
+      "transformers": "5.7.0",
+      "datasets": "4.8.5",
+      "numpy": "2.5.3"
+    }
+  },
+  "device": "cuda:0",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "resolved_model_commit": "6d84c48581ece794365f2b8e9cfb043c68ade9c5",
+  "model_dtype": "torch.bfloat16",
+  "model_parameters": 6919161856
+}

@@ -1,0 +1,37 @@
+seed: 17
+model:
+  id: allenai/OLMoE-1B-7B-0924
+  revision: 6d84c48581ece794365f2b8e9cfb043c68ade9c5
+  dtype: bfloat16
+data:
+  dataset: Salesforce/wikitext
+  subset: wikitext-2-raw-v1
+  text_field: text
+  block_size: 512
+  calibration_split: train
+  calibration_blocks: 64
+  dev_split: validation
+  dev_blocks: 64
+  test_split: test
+  test_offset_blocks: 32
+  test_blocks: 64
+c4_documents: results/compression_layer3_c4/documents.json
+whitening_relative_floor: 0.001
+downstream:
+  batch_size: 32
+  tasks:
+    arc_easy: acc
+    arc_challenge: acc_norm
+    hellaswag: acc_norm
+    piqa: acc
+    winogrande: acc
+output_dir: results/expert_removal_olmoe
+keep_experts: 40
+experiment0_dirs:
+  "3": results/olmoe_layer3
+  "8": results/olmoe_layer8
+  "13": results/olmoe_layer13
+baseline_checks:
+  - {corpus: dev, file: results/layer_removal_olmoe/dev/base.json}
+  - {corpus: wikitext_test, file: results/layer_removal_olmoe/wikitext_test/base.json}
+  - {corpus: c4, file: results/layer_removal_olmoe/c4/base.json}

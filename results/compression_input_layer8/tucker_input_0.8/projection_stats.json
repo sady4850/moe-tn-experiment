@@ -1,0 +1,68 @@
+{
+  "gate_proj": {
+    "method": "tucker",
+    "shape": [
+      64,
+      1024,
+      2048
+    ],
+    "ranks": [
+      64,
+      895,
+      1790
+    ],
+    "whitening": "input",
+    "rank_policy": "td_balanced",
+    "orientation": null,
+    "original_parameters": 134217728,
+    "stored_parameters": 107117696,
+    "stored_bytes": 214235392,
+    "retained_fraction": 0.7980890274047852,
+    "relative_frobenius_error": 0.4264189411372946,
+    "relative_input_weighted_error": 0.2480991379613294
+  },
+  "up_proj": {
+    "method": "tucker",
+    "shape": [
+      64,
+      1024,
+      2048
+    ],
+    "ranks": [
+      64,
+      895,
+      1790
+    ],
+    "whitening": "input",
+    "rank_policy": "td_balanced",
+    "orientation": null,
+    "original_parameters": 134217728,
+    "stored_parameters": 107117696,
+    "stored_bytes": 214235392,
+    "retained_fraction": 0.7980890274047852,
+    "relative_frobenius_error": 0.444569053074062,
+    "relative_input_weighted_error": 0.30108599606773284
+  },
+  "down_proj": {
+    "method": "tucker",
+    "shape": [
+      64,
+      2048,
+      1024
+    ],
+    "ranks": [
+      64,
+      1790,
+      895
+    ],
+    "whitening": "input",
+    "rank_policy": "td_balanced",
+    "orientation": null,
+    "original_parameters": 134217728,
+    "stored_parameters": 107117696,
+    "stored_bytes": 214235392,
+    "retained_fraction": 0.7980890274047852,
+    "relative_frobenius_error": 0.40342897900851277,
+    "relative_input_weighted_error": 0.36068028930841795
+  }
+}

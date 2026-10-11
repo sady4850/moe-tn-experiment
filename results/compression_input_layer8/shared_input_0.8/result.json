@@ -1,0 +1,104 @@
+{
+  "method": "shared_input",
+  "fraction": 0.8,
+  "retained_fraction": 0.79962158203125,
+  "stored_bytes": 643940352,
+  "block_nll": [
+    2.3136662373104206,
+    2.6507054756298922,
+    3.050419100110078,
+    2.939796641848092,
+    2.4786498784552347,
+    2.9092922024064336,
+    2.736135105797456,
+    2.462324706075709,
+    2.366871216059198,
+    2.553430008561644,
+    2.890332604574364,
+    3.039848193263821,
+    2.060195474941903,
+    2.0772886630840266,
+    2.1948352074669764,
+    2.121735873287671,
+    2.3071809832130628,
+    2.781365142643102,
+    2.781828579837329,
+    2.9126399389218443,
+    2.522132231531311,
+    2.997091573278498,
+    3.184064114863625,
+    3.2099575931078768,
+    2.593396449975538,
+    2.383705213811766,
+    2.4199089752018104,
+    2.1789966441413893,
+    2.7838698534582926,
+    2.9260098630901417,
+    2.967994167380137,
+    2.8960257155088063
+  ],
+  "delta_nll": 0.032871619595940066,
+  "seconds_this_attempt": 4.048514033999993,
+  "projections": {
+    "gate_proj": {
+      "method": "shared",
+      "shape": [
+        64,
+        1024,
+        2048
+      ],
+      "ranks": [
+        1588
+      ],
+      "whitening": "input",
+      "rank_policy": null,
+      "orientation": "input",
+      "original_parameters": 134217728,
+      "stored_parameters": 107323392,
+      "stored_bytes": 214646784,
+      "retained_fraction": 0.79962158203125,
+      "relative_frobenius_error": 0.40699973171086756,
+      "relative_input_weighted_error": 0.15797996046014962
+    },
+    "up_proj": {
+      "method": "shared",
+      "shape": [
+        64,
+        1024,
+        2048
+      ],
+      "ranks": [
+        1588
+      ],
+      "whitening": "input",
+      "rank_policy": null,
+      "orientation": "input",
+      "original_parameters": 134217728,
+      "stored_parameters": 107323392,
+      "stored_bytes": 214646784,
+      "retained_fraction": 0.79962158203125,
+      "relative_frobenius_error": 0.4269572183110243,
+      "relative_input_weighted_error": 0.19522153429787847
+    },
+    "down_proj": {
+      "method": "shared",
+      "shape": [
+        64,
+        2048,
+        1024
+      ],
+      "ranks": [
+        1588
+      ],
+      "whitening": "input",
+      "rank_policy": null,
+      "orientation": "output",
+      "original_parameters": 134217728,
+      "stored_parameters": 107323392,
+      "stored_bytes": 214646784,
+      "retained_fraction": 0.79962158203125,
+      "relative_frobenius_error": 0.3482784584381194,
+      "relative_input_weighted_error": 0.34373269662680916
+    }
+  }
+}

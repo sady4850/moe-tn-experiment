@@ -1,0 +1,71 @@
+{
+  "source_signature": {
+    "config": {
+      "data": {
+        "block_size": 512,
+        "calibration_blocks": 64,
+        "calibration_split": "train",
+        "dataset": "Salesforce/wikitext",
+        "evaluation_blocks": 32,
+        "evaluation_split": "validation",
+        "subset": "wikitext-2-raw-v1",
+        "text_field": "text",
+        "evaluation_offset_blocks": 32
+      },
+      "fractions": [
+        0.4
+      ],
+      "methods": [
+        "svd_input",
+        "tucker_input_r64",
+        "tucker_input_r48"
+      ],
+      "model": {
+        "dtype": "bfloat16",
+        "id": "allenai/OLMoE-1B-7B-0924",
+        "layer": 3,
+        "revision": "6d84c48581ece794365f2b8e9cfb043c68ade9c5"
+      },
+      "output_dir": "results/compression_crosslayer_3",
+      "seed": 17,
+      "tucker_rank_policy": "td_balanced",
+      "whitening_relative_floor": 0.001
+    },
+    "code_sha256": "4206e3ebcdd89f68fa86379c3227855ddb5324be367cc270b70b9912f2bb6206",
+    "versions": {
+      "torch": "2.14.0",
+      "transformers": "5.7.0",
+      "datasets": "4.8.5",
+      "numpy": "2.5.3"
+    }
+  },
+  "projection_mixes": {
+    "tucker_gate": {
+      "gate_proj": "tucker_input_r48",
+      "up_proj": "svd_input",
+      "down_proj": "svd_input"
+    },
+    "tucker_up": {
+      "gate_proj": "svd_input",
+      "up_proj": "tucker_input_r48",
+      "down_proj": "svd_input"
+    },
+    "tucker_down": {
+      "gate_proj": "svd_input",
+      "up_proj": "svd_input",
+      "down_proj": "tucker_input_r48"
+    }
+  },
+  "script_sha256": "bbef3255128cfbcc7f8e7959c9a812d3af658d36af83f8ff4eb272c8564374bf",
+  "helper_sha256": {
+    "c4_layer3_confirmation.py": "e0e75fa0a8a5dc5fec79b2d8db27dff41f4c9f027ef5a000b3f1e73e0607d38e",
+    "calibration_crossover.py": "0b30ea57a53449b23d637ba4aaffdbfc1282948f0dd5475190586acfda0b6858"
+  },
+  "fixed": "Layer 3, original WikiText calibration, saved BF16 factors, fraction 0.4 per projection, unchanged expert/spatial ranks and whitening. No decomposition/calibration/training.",
+  "evaluation": "Reused WikiText test blocks 32..95 (64) and C4 documents (256); no data selection.",
+  "comparisons": "Each hybrid minus all-SVD per evaluated item. Lower is better. Also full-Tucker minus SVD and nonadditivity residual = full-Tucker minus SVD minus sum of three hybrid-minus-SVD effects.",
+  "intervals": "Paired item percentile bootstrap 2000 resamples, NumPy default_rng(17); exploratory, no multiplicity correction. WikiText blocks can be correlated.",
+  "candidate_rule": "A single-projection hybrid is a candidate only if its mean effect vs SVD is negative on both corpora; report intervals without claiming independent confirmation.",
+  "controls": "Recompute original baselines exactly; reconstruct full SVD and full Tucker with this installer and match prior first-block NLL on both corpora. Verify source hashes before/after.",
+  "scope": "Diagnostic reuse of known evaluations, single layer/calibration/budget. Nonadditivity combines pairwise and higher-order interactions; it does not identify each interaction. New-data confirmation required after selection. Dense reconstruction, no runtime memory/speed claim."
+}

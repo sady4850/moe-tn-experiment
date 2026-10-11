@@ -1,0 +1,28 @@
+seed: 17
+model:
+  id: openai/gpt-oss-20b
+  revision: 6cee5e81ee83917806bbde320786a8fb61efebee
+data:
+  dataset: Salesforce/wikitext
+  subset: wikitext-2-raw-v1
+  text_field: text
+  block_size: 512
+  calibration_split: train
+  calibration_blocks: 64
+  dev_split: validation
+  dev_blocks: 64
+  test_split: test
+  test_offset_blocks: 32
+  test_blocks: 64
+c4_count: 256
+whitening_relative_floor: 0.001
+keep_experts: 20
+downstream:
+  batch_size: 16
+  tasks:
+    arc_easy: acc
+    arc_challenge: acc_norm
+    hellaswag: acc_norm
+    piqa: acc
+    winogrande: acc
+output_dir: results/expert_removal_gptoss20b

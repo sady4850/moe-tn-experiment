@@ -1,0 +1,75 @@
+{
+  "verdicts": {
+    "tn_vs_bi_k1": "lose",
+    "tn_whitened_vs_bi_k1": "lose",
+    "tn_vs_bi_k2": "lose",
+    "tn_whitened_vs_bi_k2": "lose",
+    "tn_vs_bi_k4": "lose",
+    "tn_whitened_vs_bi_k4": "lose"
+  },
+  "sets": {
+    "1": {
+      "tn": [
+        0
+      ],
+      "tn_whitened": [
+        0
+      ],
+      "bi": [
+        13
+      ],
+      "oracle": [
+        2
+      ]
+    },
+    "2": {
+      "tn": [
+        0,
+        12
+      ],
+      "tn_whitened": [
+        0,
+        15
+      ],
+      "bi": [
+        13,
+        14
+      ],
+      "oracle": [
+        2,
+        6
+      ]
+    },
+    "4": {
+      "tn": [
+        0,
+        10,
+        12,
+        13
+      ],
+      "tn_whitened": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "bi": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "oracle": [
+        6,
+        7,
+        8,
+        13
+      ]
+    }
+  },
+  "primary": {
+    "tn": "lose",
+    "tn_whitened": "lose",
+    "stage3_tn_arm": null
+  }
+}

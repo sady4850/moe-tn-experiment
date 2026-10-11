@@ -1,0 +1,92 @@
+{
+  "rows": [
+    {
+      "reduction": 0.19999999999999996,
+      "svd_delta_nll": 0.01311238357932136,
+      "tucker_delta_nll": 0.019075389944177318,
+      "tucker_minus_svd": 0.005963006364855958,
+      "paired_95_ci": [
+        0.002404212018514944,
+        0.010084798331363347
+      ],
+      "svd_retained": 0.7998046875,
+      "tucker_retained": 0.7980890274047852,
+      "tucker_ranks": {
+        "gate_proj": [
+          64,
+          895,
+          1790
+        ],
+        "up_proj": [
+          64,
+          895,
+          1790
+        ],
+        "down_proj": [
+          64,
+          1790,
+          895
+        ]
+      }
+    },
+    {
+      "reduction": 0.4,
+      "svd_delta_nll": 0.017758811756589415,
+      "tucker_delta_nll": 0.03673108543201896,
+      "tucker_minus_svd": 0.018972273675429543,
+      "paired_95_ci": [
+        0.01290353114357664,
+        0.025465282022136458
+      ],
+      "svd_retained": 0.59912109375,
+      "tucker_retained": 0.5986614227294922,
+      "tucker_ranks": {
+        "gate_proj": [
+          64,
+          770,
+          1550
+        ],
+        "up_proj": [
+          64,
+          770,
+          1550
+        ],
+        "down_proj": [
+          64,
+          1550,
+          770
+        ]
+      }
+    },
+    {
+      "reduction": 0.6,
+      "svd_delta_nll": 0.02478194563356166,
+      "tucker_delta_nll": 0.0538924379591373,
+      "tucker_minus_svd": 0.029110492325575638,
+      "paired_95_ci": [
+        0.02219853167897807,
+        0.03616447336753055
+      ],
+      "svd_retained": 0.39990234375,
+      "tucker_retained": 0.3995342254638672,
+      "tucker_ranks": {
+        "gate_proj": [
+          64,
+          625,
+          1260
+        ],
+        "up_proj": [
+          64,
+          625,
+          1260
+        ],
+        "down_proj": [
+          64,
+          1260,
+          625
+        ]
+      }
+    }
+  ],
+  "checks": "Identical source, package versions, model, calibration/evaluation settings, baseline block losses and whitening diagnostics."
+}

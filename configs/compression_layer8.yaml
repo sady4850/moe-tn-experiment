@@ -1,0 +1,20 @@
+seed: 17
+model:
+  id: allenai/OLMoE-1B-7B-0924
+  revision: 6d84c48581ece794365f2b8e9cfb043c68ade9c5
+  dtype: bfloat16
+  layer: 8
+data:
+  dataset: Salesforce/wikitext
+  subset: wikitext-2-raw-v1
+  text_field: text
+  calibration_split: train
+  calibration_blocks: 64
+  evaluation_split: validation
+  block_size: 512
+  evaluation_blocks: 32
+methods: [svd_input, shared_input, tucker_input, tucker_none]
+tucker_rank_policy: td_balanced
+whitening_relative_floor: 0.001
+fractions: [0.8]
+output_dir: results/compression_input_layer8

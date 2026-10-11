@@ -1,0 +1,12 @@
+{
+  "primary_difference": -0.014030366961036857,
+  "paired_95_ci": [
+    -0.02665316755291067,
+    -0.003426781839120669
+  ],
+  "criterion_passed": true,
+  "relative_reduction_in_nll_damage_vs_svd": 0.26800547291598165,
+  "blocks_better_than_svd": 33,
+  "evaluated_blocks": 64,
+  "checks": "Per-projection ranks, payload bytes, raw/weighted reconstruction errors exactly match development candidates. SHA256-verified copied factors; no test tuning."
+}

@@ -1,0 +1,143 @@
+
+[pairwise] layer 11 whitened done, 4.8 min
+[pairwise] layer 12 raw done, 9.5 min
+[pairwise] layer 12 whitened done, 14.2 min
+[pairwise] layer 13 raw done, 18.9 min
+[pairwise] layer 13 whitened done, 23.6 min
+[pairwise] layer 14 raw done, 28.4 min
+[pairwise] layer 14 whitened done, 33.1 min
+[pairwise] layer 15 raw done, 37.8 min
+[pairwise] layer 15 whitened done, 42.5 min
+[check] layer 3 pairwise vs Experiment 0: mean |diff| 0.0000, max 0.0006
+[check] layer 8 pairwise vs Experiment 0: mean |diff| 0.0000, max 0.0006
+[check] layer 13 pairwise vs Experiment 0: mean |diff| 0.0000, max 0.0004
+[plans] tn_prune built
+[plans] tn_merge built
+[plans] tn_w_prune built
+[plans] tn_w_merge built
+[plans] frequency built
+[plans] reap built
+[plans] output_similarity built
+[plans] random_prune_0 built
+[plans] random_prune_1 built
+[plans] random_prune_2 built
+[plans] random_merge_0 built
+[plans] random_merge_1 built
+[plans] random_merge_2 built
+[plans] frozen
+[check] dev vs results/layer_removal_olmoe/dev/base.json: correlation 1.000000, mean diff +0.00e+00
+[check] wikitext_test vs results/layer_removal_olmoe/wikitext_test/base.json: correlation 1.000000, mean diff +0.00e+00
+[check] c4 vs results/layer_removal_olmoe/c4/base.json: correlation 1.000000, mean diff +0.00e+00
+[dev] tn_prune: ΔNLL +1.1333
+[dev] tn_merge: ΔNLL +1.9001
+[dev] tn_w_prune: ΔNLL +1.4326
+[dev] tn_w_merge: ΔNLL +3.0355
+[dev] frequency: ΔNLL +0.2207
+[dev] reap: ΔNLL +0.4204
+[dev] output_similarity: ΔNLL +1.3393
+[dev] random_prune_0: ΔNLL +0.7426
+[dev] random_prune_1: ΔNLL +0.9737
+[dev] random_prune_2: ΔNLL +0.8018
+[dev] random_merge_0: ΔNLL +1.8768
+[dev] random_merge_1: ΔNLL +3.4699
+[dev] random_merge_2: ΔNLL +2.6614
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Overwriting default num_fewshot of arc_easy from None to 0
+Overwriting default num_fewshot of arc_challenge from None to 0
+Overwriting default num_fewshot of hellaswag from None to 0
+Overwriting default num_fewshot of piqa from None to 0
+Overwriting default num_fewshot of winogrande from None to 0
+
+
+
+
+
+
+
+
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Overwriting default num_fewshot of arc_easy from None to 0
+Overwriting default num_fewshot of arc_challenge from None to 0
+Overwriting default num_fewshot of hellaswag from None to 0
+Overwriting default num_fewshot of piqa from None to 0
+Overwriting default num_fewshot of winogrande from None to 0
+
+
+
+
+
+
+
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Overwriting default num_fewshot of arc_easy from None to 0
+Overwriting default num_fewshot of arc_challenge from None to 0
+Overwriting default num_fewshot of hellaswag from None to 0
+Overwriting default num_fewshot of piqa from None to 0
+Overwriting default num_fewshot of winogrande from None to 0
+
+
+
+
+
+
+
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Overwriting default num_fewshot of arc_easy from None to 0
+Overwriting default num_fewshot of arc_challenge from None to 0
+Overwriting default num_fewshot of hellaswag from None to 0
+Overwriting default num_fewshot of piqa from None to 0
+Overwriting default num_fewshot of winogrande from None to 0
+
+
+
+
+
+
+
+# Stage 2: one-shot expert removal and merging, 64 -> 40 experts in every layer (no healing)
+
+Pre-registered in PRUNING_PLAN.md (amendment 2026-10-10, stage 2 definitions).
+
+## Dev (WikiText validation) for all variants
+
+| Family | Variant | Operator | Dev ΔNLL |
+|---|---|---|---:|
+| tn | tn_prune **(family best)** | prune | +1.1333 |
+| tn | tn_merge | merge | +1.9001 |
+| tn_whitened | tn_w_prune **(family best)** | prune | +1.4326 |
+| tn_whitened | tn_w_merge | merge | +3.0355 |
+| cheap | frequency **(family best)** | prune | +0.2207 |
+| cheap | reap | prune | +0.4204 |
+| cheap | output_similarity | merge | +1.3393 |
+| random | random_prune_0 | prune | +0.7426 |
+| random | random_prune_1 | prune | +0.9737 |
+| random | random_prune_2 | prune | +0.8018 |
+| random | random_merge_0 | merge | +1.8768 |
+| random | random_merge_1 | merge | +3.4699 |
+| random | random_merge_2 | merge | +2.6614 |
+
+Median of the 6 random variants: +1.4253.
+
+## Test
+
+| Model | wikitext_test ΔNLL | c4 ΔNLL | Downstream mean (Δ pts) |
+|---|---:|---:|---:|
+| base | +0.0000 | +0.0000 | 70.50 (+0.00) |
+| tn_prune | +1.2360 | +1.0609 | 43.28 (-27.22) |
+| tn_w_prune | +1.5238 | +1.1651 | 45.98 (-24.51) |
+| frequency | +0.2251 | +0.8640 | 48.82 (-21.68) |
+
+- **tn (tn_prune) vs cheap (frequency): lose**. NLL difference (test): wikitext_test +1.0109 [+0.9677, +1.0535]; c4 +0.1969 [+0.1621, +0.2336].
+- **tn_whitened (tn_w_prune) vs cheap (frequency): lose**. NLL difference (test): wikitext_test +1.2987 [+1.2448, +1.3551]; c4 +0.3010 [+0.2555, +0.3489].
+
+## Pre-registered decision
+
+TN vs cheap: **lose**. TN-whitened vs cheap: **lose**.
+Expert-level variants for stage 3: **none (killed)**.
+
+A loss also follows when the TN family best is worse on dev than the median random variant. TN-whitened can replace TN only with a win.

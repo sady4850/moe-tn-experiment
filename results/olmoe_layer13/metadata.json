@@ -1,0 +1,48 @@
+{
+  "config": {
+    "data": {
+      "block_size": 512,
+      "calibration_blocks": 2,
+      "calibration_split": "train",
+      "dataset": "Salesforce/wikitext",
+      "evaluation_blocks": 32,
+      "evaluation_split": "validation",
+      "subset": "wikitext-2-raw-v1",
+      "text_field": "text"
+    },
+    "experiment": {
+      "activation_chunk_tokens": 32,
+      "bootstrap_samples": 2000,
+      "calibration_tokens": 512,
+      "eval_batch_size": 1,
+      "merge_alpha": 0.5,
+      "num_pairs": 48,
+      "primary_reconstruction_error": 0.1,
+      "reconstruction_errors": [
+        0.01,
+        0.05,
+        0.1,
+        0.2
+      ]
+    },
+    "model": {
+      "dtype": "bfloat16",
+      "id": "allenai/OLMoE-1B-7B-0924",
+      "layer": 13,
+      "revision": "6d84c48581ece794365f2b8e9cfb043c68ade9c5"
+    },
+    "output_dir": "results/olmoe_layer13",
+    "seed": 17
+  },
+  "gpu": {
+    "cuda_version": "13.0",
+    "name": "NVIDIA A100 80GB PCIe",
+    "vram_bytes": 85094825984
+  },
+  "model_commit": "6d84c48581ece794365f2b8e9cfb043c68ade9c5",
+  "model_parameters": 6919161856,
+  "platform": "Linux-6.17.0-20-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "torch": "2.14.0+cu130",
+  "transformers": "5.7.0"
+}

@@ -1,0 +1,163 @@
+[plans] tn_prune built
+[plans] tn_merge built
+[plans] tn_w_prune built
+[plans] tn_w_merge built
+[plans] frequency built
+[plans] reap built
+[plans] output_similarity built
+[plans] random_prune_0 built
+[plans] random_prune_1 built
+[plans] random_prune_2 built
+[plans] random_merge_0 built
+[plans] random_merge_1 built
+[plans] random_merge_2 built
+[plans] frozen
+[dev] tn_prune: ΔNLL +0.3991
+[dev] tn_merge: ΔNLL +0.9334
+[dev] tn_w_prune: ΔNLL +0.6792
+[dev] tn_w_merge: ΔNLL +1.5846
+[dev] frequency: ΔNLL -0.0179
+[dev] reap: ΔNLL +0.3042
+[dev] output_similarity: ΔNLL +2.1876
+[dev] random_prune_0: ΔNLL +0.5344
+[dev] random_prune_1: ΔNLL +0.7597
+[dev] random_prune_2: ΔNLL +0.5928
+[dev] random_merge_0: ΔNLL +0.8767
+[dev] random_merge_1: ΔNLL +0.9332
+[dev] random_merge_2: ΔNLL +1.0445
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/2251 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 2251/2251 [00:00<00:00, 95379.98 examples/s]
+Generating test split:   0%|          | 0/2376 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 2376/2376 [00:00<00:00, 341208.15 examples/s]
+Generating validation split:   0%|          | 0/570 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 570/570 [00:00<00:00, 185186.16 examples/s]
+Generating train split:   0%|          | 0/1119 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 1119/1119 [00:00<00:00, 133332.18 examples/s]
+Generating test split:   0%|          | 0/1172 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 1172/1172 [00:00<00:00, 123828.01 examples/s]
+Generating validation split:   0%|          | 0/299 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 299/299 [00:00<00:00, 106922.75 examples/s]
+Generating train split:   0%|          | 0/39905 [00:00<?, ? examples/s]
+Generating train split:  80%|████████  | 32000/39905 [00:00<00:00, 306902.63 examples/s]
+Generating train split: 100%|██████████| 39905/39905 [00:00<00:00, 319539.25 examples/s]
+Generating test split:   0%|          | 0/10003 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 10003/10003 [00:00<00:00, 338868.30 examples/s]
+Generating validation split:   0%|          | 0/10042 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 10042/10042 [00:00<00:00, 345024.42 examples/s]
+Map:   0%|          | 0/39905 [00:00<?, ? examples/s]
+Map:   3%|▎         | 1061/39905 [00:00<00:03, 10510.03 examples/s]
+Map:   6%|▌         | 2241/39905 [00:00<00:03, 11263.69 examples/s]
+Map:   9%|▊         | 3425/39905 [00:00<00:03, 11525.10 examples/s]
+Map:  12%|█▏        | 4767/39905 [00:00<00:02, 11954.54 examples/s]
+Map:  16%|█▌        | 6354/39905 [00:00<00:02, 11332.70 examples/s]
+Map:  19%|█▉        | 7732/39905 [00:00<00:02, 11574.58 examples/s]
+Map:  23%|██▎       | 9148/39905 [00:00<00:02, 10757.98 examples/s]
+Map:  27%|██▋       | 10928/39905 [00:00<00:02, 11146.18 examples/s]
+Map:  32%|███▏      | 12714/39905 [00:01<00:02, 10994.80 examples/s]
+Map:  35%|███▍      | 13835/39905 [00:01<00:02, 11043.92 examples/s]
+Map:  38%|███▊      | 15196/39905 [00:01<00:02, 10379.70 examples/s]
+Map:  42%|████▏     | 16877/39905 [00:01<00:02, 10644.47 examples/s]
+Map:  46%|████▌     | 18258/39905 [00:01<00:02, 10187.92 examples/s]
+Map:  50%|████▉     | 19920/39905 [00:01<00:01, 10464.06 examples/s]
+Map:  53%|█████▎    | 21260/39905 [00:01<00:01, 9990.38 examples/s] 
+Map:  57%|█████▋    | 22627/39905 [00:02<00:02, 7663.33 examples/s]
+Map:  59%|█████▉    | 23667/39905 [00:02<00:01, 8125.01 examples/s]
+Map:  62%|██████▏   | 24654/39905 [00:02<00:01, 8483.62 examples/s]
+Map:  64%|██████▍   | 25659/39905 [00:02<00:01, 8804.69 examples/s]
+Map:  67%|██████▋   | 26633/39905 [00:02<00:01, 9032.59 examples/s]
+Map:  69%|██████▉   | 27607/39905 [00:02<00:01, 9045.05 examples/s]
+Map:  72%|███████▏  | 28623/39905 [00:02<00:01, 9078.27 examples/s]
+Map:  74%|███████▍  | 29593/39905 [00:02<00:01, 9141.78 examples/s]
+Map:  77%|███████▋  | 30594/39905 [00:03<00:01, 9055.10 examples/s]
+Map:  79%|███████▉  | 31612/39905 [00:03<00:00, 9138.91 examples/s]
+Map:  82%|████████▏ | 32856/39905 [00:03<00:01, 6056.67 examples/s]
+Map:  85%|████████▍ | 33764/39905 [00:03<00:00, 6639.13 examples/s]
+Map:  87%|████████▋ | 34607/39905 [00:03<00:00, 7024.28 examples/s]
+Map:  89%|████████▉ | 35662/39905 [00:03<00:00, 7730.78 examples/s]
+Map:  92%|█████████▏| 36685/39905 [00:03<00:00, 8350.76 examples/s]
+Map:  94%|█████████▍| 37641/39905 [00:04<00:00, 8639.98 examples/s]
+Map:  97%|█████████▋| 38634/39905 [00:04<00:00, 8885.21 examples/s]
+Map:  99%|█████████▉| 39622/39905 [00:04<00:00, 9026.23 examples/s]
+Map: 100%|██████████| 39905/39905 [00:04<00:00, 9042.98 examples/s]
+Map:   0%|          | 0/10042 [00:00<?, ? examples/s]
+Map:  10%|█         | 1017/10042 [00:00<00:00, 10074.34 examples/s]
+Map:  21%|██        | 2125/10042 [00:00<00:00, 10662.16 examples/s]
+Map:  32%|███▏      | 3227/10042 [00:00<00:00, 10820.14 examples/s]
+Map:  48%|████▊     | 4856/10042 [00:00<00:00, 10837.33 examples/s]
+Map:  61%|██████▏   | 6170/10042 [00:00<00:00, 9974.76 examples/s] 
+Map:  78%|███████▊  | 7810/10042 [00:00<00:00, 10326.80 examples/s]
+Map:  91%|█████████ | 9146/10042 [00:00<00:00, 9831.36 examples/s] 
+Map: 100%|██████████| 10042/10042 [00:00<00:00, 10072.73 examples/s]
+Generating train split:   0%|          | 0/16113 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 16113/16113 [00:00<00:00, 681512.01 examples/s]
+Generating validation split:   0%|          | 0/1838 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 1838/1838 [00:00<00:00, 432756.86 examples/s]
+Generating test split:   0%|          | 0/3084 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 3084/3084 [00:00<00:00, 713983.19 examples/s]
+Generating train split:   0%|          | 0/40398 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 40398/40398 [00:00<00:00, 1649659.66 examples/s]
+Generating test split:   0%|          | 0/1767 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 1767/1767 [00:00<00:00, 589886.59 examples/s]
+Generating validation split:   0%|          | 0/1267 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 1267/1267 [00:00<00:00, 449250.42 examples/s]
+Overwriting default num_fewshot of arc_easy from None to 0
+Overwriting default num_fewshot of arc_challenge from None to 0
+Overwriting default num_fewshot of hellaswag from None to 0
+Overwriting default num_fewshot of piqa from None to 0
+Overwriting default num_fewshot of winogrande from None to 0
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Overwriting default num_fewshot of arc_easy from None to 0
+Overwriting default num_fewshot of arc_challenge from None to 0
+Overwriting default num_fewshot of hellaswag from None to 0
+Overwriting default num_fewshot of piqa from None to 0
+Overwriting default num_fewshot of winogrande from None to 0
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Overwriting default num_fewshot of arc_easy from None to 0
+Overwriting default num_fewshot of arc_challenge from None to 0
+Overwriting default num_fewshot of hellaswag from None to 0
+Overwriting default num_fewshot of piqa from None to 0
+Overwriting default num_fewshot of winogrande from None to 0
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Overwriting default num_fewshot of arc_easy from None to 0
+Overwriting default num_fewshot of arc_challenge from None to 0
+Overwriting default num_fewshot of hellaswag from None to 0
+Overwriting default num_fewshot of piqa from None to 0
+Overwriting default num_fewshot of winogrande from None to 0
+# Stage 2: one-shot expert removal and merging, 64 -> 40 experts in every layer (no healing)
+Pre-registered in PRUNING_PLAN.md (amendment 2026-10-10, stage 2 definitions).
+## Dev (WikiText validation) for all variants
+| Family | Variant | Operator | Dev ΔNLL |
+|---|---|---|---:|
+| tn | tn_prune **(family best)** | prune | +0.3991 |
+| tn | tn_merge | merge | +0.9334 |
+| tn_whitened | tn_w_prune **(family best)** | prune | +0.6792 |
+| tn_whitened | tn_w_merge | merge | +1.5846 |
+| cheap | frequency **(family best)** | prune | -0.0179 |
+| cheap | reap | prune | +0.3042 |
+| cheap | output_similarity | merge | +2.1876 |
+| random | random_prune_0 | prune | +0.5344 |
+| random | random_prune_1 | prune | +0.7597 |
+| random | random_prune_2 | prune | +0.5928 |
+| random | random_merge_0 | merge | +0.8767 |
+| random | random_merge_1 | merge | +0.9332 |
+| random | random_merge_2 | merge | +1.0445 |
+Median of the 6 random variants: +0.8182.
+## Test
+| Model | wikitext_test ΔNLL | c4 ΔNLL | Downstream mean (Δ pts) |
+|---|---:|---:|---:|
+| base | +0.0000 | +0.0000 | 65.12 (+0.00) |
+| tn_prune | +0.3596 | -0.6433 | 56.93 (-8.19) |
+| tn_w_prune | +0.6482 | -0.5220 | 58.60 (-6.52) |
+| frequency | +0.0252 | +0.1033 | 63.59 (-1.53) |
+- **tn (tn_prune) vs cheap (frequency): tie**. NLL difference (test): wikitext_test +0.3344 [+0.2794, +0.3824]; c4 -0.7466 [-0.7872, -0.7039].
+- **tn_whitened (tn_w_prune) vs cheap (frequency): tie**. NLL difference (test): wikitext_test +0.6230 [+0.5630, +0.6721]; c4 -0.6253 [-0.6703, -0.5804].
+## Pre-registered decision
+TN vs cheap: **tie**. TN-whitened vs cheap: **tie**.
+Expert-level variants for stage 3: **tn_prune, frequency**.
+A loss also follows when the TN family best is worse on dev than the median random variant. TN-whitened can replace TN only with a win.
